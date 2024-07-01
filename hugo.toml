@@ -1,0 +1,46 @@
+baseURL = 'https://frvillegas.github.io'
+languageCode = 'en-us'
+title = 'Math Life'
+theme = 'ananke'
+pluralizelisttitles = false
+
+SectionPagesMenu = "main"
+Paginate = 10 # this is set low for demonstrating with dummy content. Set to a higher number
+
+
+[params]
+  text_color = ""
+  author = "Fernando Rodriguez Villegas"
+  favicon = ""
+  site_logo = ""
+  TIMEZONE = "Europe/Rome"
+  date_format = "January 2, 2006"
+  description = ""
+  background_color_class = "bg-black"
+  recent_posts_number = 3
+  linkedin = "https://www.linkedin.com/in/fernando-rodriguez-villegas-0b39601aa/"
+  instagram = "https://www.instagram.com/frvillegas/"
+  math = true
+  toc = true
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 10
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact"
+  weight = 20
+
+
+[[menu.main]]
+  name = "Newsletter"
+  url = "/newsletter"
+  weight = 30
+

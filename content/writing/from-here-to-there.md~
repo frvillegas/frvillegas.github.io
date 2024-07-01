@@ -1,0 +1,74 @@
++++
+date = 2019-10-04T10:00:09+02:00
+title = 'From here to there'
+draft = false
+omit_header_text = true
++++
+
+One of the odd perks of getting old is that one can look back to the
+distant past and wonder with cold detachment just who the hell we
+were.
+
+As a kid I was obsessed with cryptography and secret messages. I even
+halfheartedly tried to create a language that only my friends and I
+would understand. I wanted to build a robot. I also wanted to live in
+a desert island and made endless plans in my head on how I would run
+my life on it. Perhaps nothing of this is too surprising in a restless
+kid, reader of Jules Verne (“La isla misteriosa/The mysterious
+island”, “Viaje al centro de la Tierra/Voyage to the center of the
+Earth”).
+
+So how did I get from there to becoming a researcher in pure
+mathematics? Not along a straight line for sure.
+
+I started engineering at the Universidad de Buenos Aires, aiming for
+electronics, the robot thing. I found myself not caring about the
+specific answer to any exercise but was fascinated instead by the
+solution process. In a basic physics class the lecturer casually
+mentioned the exponential, even the cosine, of a matrix. What?
+
+In the vaulted, vast, inspiring space of the Engineering central
+library (Paseo Colón!) I discovered a book that described the “dual
+numbers”. Just imagine this grotesque incarnation of the complex
+numbers: you add to the reals a quantity whose square is zero! How
+amazing, how beautiful.
+
+I got a TI-99 programmable calculator, like all my classmates. We
+carried it around hanging from our belts looking like some kind of
+geeky cowboys. I spent hours playing with the built-in functions for
+matrices. Computing, for example, the limiting value of the inverse
+of x – A for x near an eigenvalue of A. You could program the
+calculator using at most 50 steps. What a triumph to realize two
+steps of your code could be combined to gain an extra line. It warped
+my programming style for years.
+
+In the hall of that imposing building, at a booth of the university
+publishing house EUDEBA, I bought Kelley’s book “General Topology”,
+convinced by its preface that the only requirement was a knowledge of
+the real numbers. I couldn’t read past the first page.
+
+About then I decided to switch to a degree in math, in the second year
+of University; didn’t have any idea of what I was doing, didn’t know
+you could make a living doing mathematics.
+
+In my second year of high school in Buenos Aires, mathematics meant
+solving problems about triangles using a slide rule or a log table. The
+teacher would bring to class a huge slide rule he would hang from the
+top of the blackboard and start sliding away. That year I devised an
+encryption scheme involving permutations of the five vowels:
+a,e,i,o,u. I kept some notes I wrote then on this scheme, written in
+the standardized three-holed sheets (hojas de carpeta Rivadavia!) we
+had for all our high-school work. I never actually ever used the
+encryption scheme.
+
+Screenshot 2019-10-04 at 22.45.50
+
+The all-male group marooned on the desert island is rescued at the
+very end of “The mysterious island” by the cryptic Captain Nemo, the
+main character of another Jules Verne book, with his
+submarine. Anachronistically apparently but a fabulous coup de theatre
+that impressed me immensely nevertheless.
+
+I look at the stuff in these notes on permutations now, more than 45
+years later, and don’t really understand any of it. But it sure looks
+like mathematics.
