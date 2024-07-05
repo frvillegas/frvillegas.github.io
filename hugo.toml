@@ -7,6 +7,15 @@ pluralizelisttitles = false
 SectionPagesMenu = "main"
 Paginate = 10 # this is set low for demonstrating with dummy content. Set to a higher number
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
 
 [params]
   text_color = ""
@@ -22,6 +31,18 @@ Paginate = 10 # this is set low for demonstrating with dummy content. Set to a h
   instagram = "https://www.instagram.com/frvillegas/"
   math = true
   toc = true
+
+
+[params.giscus]
+    repo = "frvillegas/frvillegas.github.io"
+    repoId = "...."
+    category = "Comments"
+    categoryID = "...."
+    mapping = "pathname"
+    reactions = true
+    inputPosition = "top"
+    theme = "preferred-color-scheme"
+
 
 [taxonomies]
 category = "categories"
