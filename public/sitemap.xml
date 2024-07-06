@@ -5,13 +5,31 @@
     <loc>http://localhost:1313/writing/jonathan-swift/</loc>
     <lastmod>2024-06-24T10:00:09+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/history/</loc>
+    <lastmod>2024-06-24T10:00:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/language/</loc>
+    <lastmod>2024-06-24T10:00:09+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2024-06-24T10:00:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-06-24T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writing/</loc>
     <lastmod>2024-06-24T10:00:09+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/argentina/</loc>
+    <lastmod>2019-12-31T12:36:09+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/writing/figs/</loc>
+    <lastmod>2019-12-31T12:36:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/nature/</loc>
+    <lastmod>2019-12-31T12:36:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/personal/</loc>
     <lastmod>2019-12-31T12:36:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writing/from-here-to-there/</loc>
@@ -29,13 +47,16 @@
     <loc>http://localhost:1313/math/2017-03-05-math-sample/</loc>
     <lastmod>2017-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2017-03-05T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/italy/</loc>
+    <lastmod>2014-11-06T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writing/what-i-miss/</loc>
     <lastmod>2014-11-06T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writing/taxi-rides/</loc>
+    <lastmod>2011-06-01T10:00:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/us/</loc>
     <lastmod>2011-06-01T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writing/back-and-short/</loc>

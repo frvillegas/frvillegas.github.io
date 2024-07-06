@@ -4,6 +4,7 @@ title = 'Figs'
 draft = false
 omit_header_text = true
 featured_image = false
+tags = ['Personal', 'Nature', 'Argentina']
 +++
 
 Let’s talk figs.

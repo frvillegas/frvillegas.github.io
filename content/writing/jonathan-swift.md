@@ -5,6 +5,7 @@ draft = false
 omit_header_text = true
 featured_image = false
 author = 'Fernando Rodriguez Villegas'
+tags = ['History', 'Language']
 +++
 
 

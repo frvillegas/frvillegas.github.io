@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Italy on Math Life</title>
+    <link>http://localhost:1313/tags/italy/</link>
+    <description>Recent content in Italy on Math Life</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Nov 2014 10:00:09 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/italy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What I miss</title>
+      <link>http://localhost:1313/writing/what-i-miss/</link>
+      <pubDate>Thu, 06 Nov 2014 10:00:09 +0200</pubDate>
+      <guid>http://localhost:1313/writing/what-i-miss/</guid>
+      <description>Like a teenager keeping a journal I note in shame that my last post here is from 2012. Since then I have moved to Trieste, Italy, taking a job at the ICTP: Abdus Salam International Centre for Theoretical Physics.&#xA;Horculas en el migo. And so it is.&#xA;Looking back, it is clear that growing up in Buenos Aires shaped my view of the world, what to expect from the day to day of life.</description>
+    </item>
+  </channel>
+</rss>

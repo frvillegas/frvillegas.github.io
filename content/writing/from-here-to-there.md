@@ -4,6 +4,7 @@ title = 'From here to there'
 draft = false
 omit_header_text = true
 featured_image = false
+tags = ['Personal', 'Argentina']
 +++
 
 One of the odd perks of getting old is that one can look back to the
