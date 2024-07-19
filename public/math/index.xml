@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Math on Math Life</title>
-    <link>http://localhost:1313/math/</link>
+    <link>https://frvillegas.github.io/math/</link>
     <description>Recent content in Math on Math Life</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/math/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frvillegas.github.io/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Math Research Articles</title>
-      <link>http://localhost:1313/math/bibliography/</link>
+      <link>https://frvillegas.github.io/math/bibliography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/math/bibliography/</guid>
+      <guid>https://frvillegas.github.io/math/bibliography/</guid>
       <description>Rodriguez Villegas, F. (1984). (in Spanish). Quaternionic extensions. In: Proceedings of the IV Coloquio Latinoamericano De Algebra, Mendoza, Argentina.&#xA;Rodriguez Villegas, F. (1986). Quaternionic extensions and rotations. Notas De La Sociedad Matemática De Chile, 5(1), 201–202.&#xA;Rodriguez Villegas, F. (1987). (Unpublished). Relations between quadratic forms and certain Galois extensions. Rodriguez Villegas, F. (1991). On the square root of special values of certain L-series. Invent. Math., 106, 549–573.&#xA;Rodriguez Villegas, F.</description>
     </item>
   </channel>
