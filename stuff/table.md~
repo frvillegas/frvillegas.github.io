@@ -1,8 +1,0 @@
-+++
-date = 2024-07-17T10:00:09+02:00
-title = ''
-draft = false
-omit_header_text = true
-+++
-
-{{< csvtable "test.csv" >}}

@@ -1,6 +1,0 @@
-[[menu.main]]
-      weight = 1
-      parent = "Math"
-      name = "Public Lectures"
-      identifier = ""
-      url = "/math/public-lectures/"

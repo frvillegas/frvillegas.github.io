@@ -1,4 +1,0 @@
-[[menu.main]]
-  name = "Contact"
-  url = "/contact"
-  weight = 20
