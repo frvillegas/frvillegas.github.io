@@ -5,6 +5,7 @@ draft = false
 omit_header_text = true
 featured_image = false
 tags = ['Personal', 'Argentina']
+categories = ['Writing']
 +++
 
 One of the odd perks of getting old is that one can look back to the

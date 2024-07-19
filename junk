@@ -1,0 +1,9 @@
+    {{- if gt $n 2 }}
+    {{- range first 1 .author}}
+    {{- index . "non-dropping-particle" }}{{- .family }}, {{ .given }}{{- end }} et al.
+    {{- end -}}
+    {{- else -}}
+
+{{- $json_filepath := path.Join "data" (print .Page.Params.bib ".json") }}
+
+    <a href="{{ .URL }}" title="{{ .title }}" target="_blank">{{ .URL }}</a>.

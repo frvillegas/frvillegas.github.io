@@ -1,0 +1,15 @@
+---
+title: "Public Lectures"
+omit_header_text: true
+description: ""
+
+menus:
+  main:
+  - params:
+      class: center
+    parent: math
+    pre: <i class="fa-solid fa-code"></i>
+    weight: 20
+---
+
+

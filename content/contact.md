@@ -1,8 +1,8 @@
 ---
 title: Contact
-featured_image: '/images/siteimages/frv.jpeg'
+featured_image: ""
 omit_header_text: true
-description: ""
+description: "Contact"
 type: page
 menu: main
 

@@ -5,6 +5,7 @@ draft = false
 omit_header_text = true
 featured_image = false
 tags = ['Personal', 'US']
+categories = ['Writing']
 +++
 
 I am not sure if it is an Austin phenomenon or not but I have had a

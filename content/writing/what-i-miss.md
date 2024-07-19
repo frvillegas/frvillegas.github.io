@@ -5,6 +5,7 @@ draft = false
 omit_header_text = true
 featured_image = false
 tags = ['Personal', 'Italy']
+categories = ['Writing']
 +++
 
 Like a teenager keeping a journal I note in shame that my last post

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Argentina on Math Life</title>
-    <link>https://frvillegas.github.io/tags/argentina/</link>
+    <link>http://localhost:1313/tags/argentina/</link>
     <description>Recent content in Argentina on Math Life</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 31 Dec 2019 12:36:09 +0200</lastBuildDate>
-    <atom:link href="https://frvillegas.github.io/tags/argentina/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/argentina/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Figs</title>
-      <link>https://frvillegas.github.io/writing/figs/</link>
+      <link>http://localhost:1313/writing/figs/</link>
       <pubDate>Tue, 31 Dec 2019 12:36:09 +0200</pubDate>
-      <guid>https://frvillegas.github.io/writing/figs/</guid>
+      <guid>http://localhost:1313/writing/figs/</guid>
       <description>Let’s talk figs.&#xA;There was a fig tree near the main house “Villa Isaura” in Carlos Paz, Cordoba where I spent many a holiday as a kid. I remember breaking off leaves to see and feel the white sticky substance that came out. It was a somewhat mysterious and out of the way tree, with strange gnarly branches and big dark green leaves, a huge contrast to the tall, straight and ubiquitous eucalyptus trees that lined up so many sidewalks of my Buenos Aires childhood.</description>
     </item>
     <item>
       <title>From here to there</title>
-      <link>https://frvillegas.github.io/writing/from-here-to-there/</link>
+      <link>http://localhost:1313/writing/from-here-to-there/</link>
       <pubDate>Fri, 04 Oct 2019 10:00:09 +0200</pubDate>
-      <guid>https://frvillegas.github.io/writing/from-here-to-there/</guid>
+      <guid>http://localhost:1313/writing/from-here-to-there/</guid>
       <description>One of the odd perks of getting old is that one can look back to the distant past and wonder with cold detachment just who the hell we were.&#xA;As a kid I was obsessed with cryptography and secret messages. I even halfheartedly tried to create a language that only my friends and I would understand. I wanted to build a robot. I also wanted to live in a desert island and made endless plans in my head on how I would run my life on it.</description>
     </item>
   </channel>

@@ -2,6 +2,7 @@
 title: "Writing"
 omit_header_text: true
 description: ""
+showtoc: true
 cascade:
   featured_image: '/images/siteimages/math-life.jpg'
 ---

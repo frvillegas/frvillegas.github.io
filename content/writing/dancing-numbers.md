@@ -5,6 +5,7 @@ draft = false
 omit_header_text = true
 featured_image = false
 tags = ['Personal', 'US']
+categories = ['Writing']
 +++
 
 I can’t resist one last post before I go off into the webless

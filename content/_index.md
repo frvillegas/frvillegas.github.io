@@ -2,8 +2,10 @@
 title: "Math Life"
 omit_header_text: true
 description: ""
+identifier: "main"
 theme_version: '2.8.2'
 cascade:
   featured_image: '/images/siteimages/math-life.jpg'
 ---
 Fernando Rodriguez Villegas
+

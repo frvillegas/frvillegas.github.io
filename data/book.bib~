@@ -1,0 +1,11 @@
+@book{experimental_number_theory_2007,
+  author    = {F. {Rodriguez Villegas}},
+  title     = {Experimental Number Theory},
+  series    = {Oxford Graduate Texts in Mathematics},
+  volume    = {13},
+  publisher = {Oxford University Press},
+  address   = {Oxford},
+  year      = {2007},
+  pages     = {xvi+214},
+  isbn      = {978-0-19-922730-3}
+}

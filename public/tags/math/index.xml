@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Math on Math Life</title>
-    <link>https://frvillegas.github.io/tags/math/</link>
+    <link>http://localhost:1313/tags/math/</link>
     <description>Recent content in Math on Math Life</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Mar 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://frvillegas.github.io/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Dec 2019 12:36:09 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Math Sample</title>
-      <link>https://frvillegas.github.io/math/2017-03-05-math-sample/</link>
-      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>https://frvillegas.github.io/math/2017-03-05-math-sample/</guid>
-      <description>&lt;p&gt;KaTeX can be used to generate complex math formulas server-side.&lt;/p&gt;&#xA;$$&#xA;\phi = \frac{(1+\sqrt{5})}{2} = 1.6180339887\cdots&#xA;$$&#xA;&lt;p&gt;Additional details can be found on &lt;a href=&#34;https://github.com/Khan/KaTeX&#34;&gt;GitHub&lt;/a&gt; or on the &lt;a href=&#34;http://tiddlywiki.com/plugins/tiddlywiki/katex/&#34;&gt;Wiki&lt;/a&gt;.&lt;/p&gt;</description>
+      <title>The Mathematics of the Football</title>
+      <link>http://localhost:1313/math/public-lectures/math-football/</link>
+      <pubDate>Tue, 31 Dec 2019 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/public-lectures/math-football/</guid>
+      <description> </description>
     </item>
     <item>
-      <title>Math Sample</title>
-      <link>https://frvillegas.github.io/writing/2017-03-05-math-sample/</link>
-      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>https://frvillegas.github.io/writing/2017-03-05-math-sample/</guid>
-      <description>&lt;p&gt;KaTeX can be used to generate complex math formulas server-side.&lt;/p&gt;&#xA;$$&#xA;\phi = \frac{(1+\sqrt{5})}{2} = 1.6180339887\cdots&#xA;$$&#xA;&lt;p&gt;Additional details can be found on &lt;a href=&#34;https://github.com/Khan/KaTeX&#34;&gt;GitHub&lt;/a&gt; or on the &lt;a href=&#34;http://tiddlywiki.com/plugins/tiddlywiki/katex/&#34;&gt;Wiki&lt;/a&gt;.&lt;/p&gt;</description>
+      <title>July 2024</title>
+      <link>http://localhost:1313/newsletter/archive/july-2024/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/newsletter/archive/july-2024/</guid>
+      <description>Dear All,&#xA;This is the first of what I hope is a long-running monthly newsletter with (mostly mathematical) updates from yours truly.&#xA;Now that I have retired from ICTP, I am working on the launch of an independent website with all my stuff. Please check it out.&#xA;https://frvillegas.github.io/&#xA;I also opened a zulip site that I hope will be useful for discussions on various mathematical projects organized by topics. You can access it here:</description>
     </item>
   </channel>
 </rss>

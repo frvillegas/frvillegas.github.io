@@ -5,6 +5,7 @@ draft = false
 omit_header_text = true
 featured_image = false
 tags = ['Personal', 'US']
+categories = ['Writing']
 +++
 
 I’ve lived in the US now for over 22 years. I have encountered two

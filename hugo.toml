@@ -14,14 +14,14 @@ Paginate = 10 # this is set low for demonstrating with dummy content. Set to a h
         enable = true
         [markup.goldmark.extensions.passthrough.delimiters]
           block = [['\[', '\]'], ['$$', '$$']]
-          inline = [['\(', '\)']]
+#          inline = [['\(', '\)']]
 
 
 [params]
+#  mainSections = ['articles', 'math', 'photography', 'writing']
   text_color = ""
   author = "Fernando Rodriguez Villegas"
   favicon = ""
-  site_logo = ""
   TIMEZONE = "Europe/Rome"
   date_format = "January 2, 2006"
   description = ""
@@ -32,8 +32,11 @@ Paginate = 10 # this is set low for demonstrating with dummy content. Set to a h
   math = true
   toc = true
   commentoEnable = true
-
-
+  ShowToc = true
+  site_logo = "images/logo.png"
+  gh_url = "https://api.github.com/users"
+  gh_user = "frvillegas"
+  
 [taxonomies]
 category = "categories"
 tag = "tags"
@@ -45,13 +48,8 @@ series = "series"
   weight = 10
 
 [[menu.main]]
-  name = "Contact"
-  url = "/contact"
-  weight = 20
-
-
-[[menu.main]]
-  name = "Newsletter"
-  url = "/newsletter"
+  name = "CV"
+  url = "/cv"
   weight = 30
+
 

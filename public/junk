@@ -1,4 +1,7 @@
-  <label for="bd-email">Enter your email</label>
+#{{< download url="./file.txt" />}}
+
+
+<label for="bd-email">Enter your email</label>
   <input type="email" name="email" id="bd-email" />
   
   <input type="submit" value="Subscribe" />
