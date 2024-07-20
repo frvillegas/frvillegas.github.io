@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Benasque on Math Life</title>
+    <link>http://localhost:1313/tags/benasque/</link>
+    <description>Recent content in Benasque on Math Life</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Jul 2024 12:36:09 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/benasque/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HGM</title>
+      <link>http://localhost:1313/math/hgm/hgm/</link>
+      <pubDate>Fri, 19 Jul 2024 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/hgm/hgm/</guid>
+      <description>This project got started at an amazing workshop held in Benasque, Spain (in the mountains, a few hours drive from Barcelona) in 2009. The plan of the workshop was to explore ways to compute exotic L-functions, not arising from elliptic curves or usual modular forms. It was something B. Conrey was pushing to achieve in the early stages of what later became the LMFDB database and which, incidentally, now has a beta section on HGM&amp;rsquo;s.</description>
+    </item>
+    <item>
+      <title>Benasque</title>
+      <link>http://localhost:1313/writing/benasque/</link>
+      <pubDate>Wed, 25 Jul 2007 10:00:09 +0200</pubDate>
+      <guid>http://localhost:1313/writing/benasque/</guid>
+      <description>While I wait for my brain strings to settle after a long summer shuttling about I make a quick core dump before it’s all gone.&#xA;I spent two weeks in Benasque, Spain for the workshop P-adic analysis, Periods and Physics . We ended up being a very small group of participants, unfortunate in a way but the result was a very charming workshop. And what a place! Benasque is in a valley in the Spanish Pyrenees not far from the border with France, a small mountain town where you walk everywhere, surrounded by amazing mountains full of unbelievably beautiful hikes.</description>
+    </item>
+  </channel>
+</rss>

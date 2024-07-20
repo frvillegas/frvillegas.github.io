@@ -2,94 +2,136 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Math Life</title>
-    <link>https://frvillegas.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Math Life</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Jul 2024 10:00:09 +0200</lastBuildDate>
-    <atom:link href="https://frvillegas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Jul 2024 12:36:09 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Trieste</title>
-      <link>https://frvillegas.github.io/tags/trieste/</link>
+      <title>Benasque</title>
+      <link>http://localhost:1313/tags/benasque/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frvillegas.github.io/tags/trieste/</guid>
+      <guid>http://localhost:1313/tags/benasque/</guid>
       <description></description>
     </item>
     <item>
-      <title>History</title>
-      <link>https://frvillegas.github.io/tags/history/</link>
+      <title>HGM</title>
+      <link>http://localhost:1313/tags/hgm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frvillegas.github.io/tags/history/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Language</title>
-      <link>https://frvillegas.github.io/tags/language/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frvillegas.github.io/tags/language/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Barcelona</title>
-      <link>https://frvillegas.github.io/tags/barcelona/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frvillegas.github.io/tags/barcelona/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Argentina</title>
-      <link>https://frvillegas.github.io/tags/argentina/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frvillegas.github.io/tags/argentina/</guid>
+      <guid>http://localhost:1313/tags/hgm/</guid>
       <description></description>
     </item>
     <item>
       <title>Math</title>
-      <link>https://frvillegas.github.io/tags/math/</link>
+      <link>http://localhost:1313/tags/math/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frvillegas.github.io/tags/math/</guid>
+      <guid>http://localhost:1313/tags/math/</guid>
       <description></description>
     </item>
     <item>
-      <title>Nature</title>
-      <link>https://frvillegas.github.io/tags/nature/</link>
+      <title>History</title>
+      <link>http://localhost:1313/tags/history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frvillegas.github.io/tags/nature/</guid>
+      <guid>http://localhost:1313/tags/history/</guid>
       <description></description>
     </item>
     <item>
-      <title>Personal</title>
-      <link>https://frvillegas.github.io/tags/personal/</link>
+      <title>Trieste</title>
+      <link>http://localhost:1313/tags/trieste/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frvillegas.github.io/tags/personal/</guid>
+      <guid>http://localhost:1313/tags/trieste/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Language</title>
+      <link>http://localhost:1313/tags/language/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/language/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Barcelona</title>
+      <link>http://localhost:1313/tags/barcelona/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/barcelona/</guid>
       <description></description>
     </item>
     <item>
       <title>Public Lecture</title>
-      <link>https://frvillegas.github.io/tags/public-lecture/</link>
+      <link>http://localhost:1313/tags/public-lecture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frvillegas.github.io/tags/public-lecture/</guid>
+      <guid>http://localhost:1313/tags/public-lecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Argentina</title>
+      <link>http://localhost:1313/tags/argentina/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/argentina/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal</title>
+      <link>http://localhost:1313/tags/personal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/personal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Example</title>
+      <link>http://localhost:1313/tags/example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/example/</guid>
       <description></description>
     </item>
     <item>
       <title>Italy</title>
-      <link>https://frvillegas.github.io/tags/italy/</link>
+      <link>http://localhost:1313/tags/italy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frvillegas.github.io/tags/italy/</guid>
+      <guid>http://localhost:1313/tags/italy/</guid>
       <description></description>
     </item>
     <item>
       <title>US</title>
-      <link>https://frvillegas.github.io/tags/us/</link>
+      <link>http://localhost:1313/tags/us/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frvillegas.github.io/tags/us/</guid>
+      <guid>http://localhost:1313/tags/us/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture Notes</title>
+      <link>http://localhost:1313/tags/lecture-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/lecture-notes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Puzzles</title>
+      <link>http://localhost:1313/tags/puzzles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/puzzles/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spanish</title>
+      <link>http://localhost:1313/tags/spanish/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/spanish/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Manuscripts</title>
+      <link>http://localhost:1313/tags/manuscripts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/manuscripts/</guid>
       <description></description>
     </item>
     <item>
       <title>Newsletter</title>
-      <link>https://frvillegas.github.io/tags/newsletter/</link>
+      <link>http://localhost:1313/tags/newsletter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frvillegas.github.io/tags/newsletter/</guid>
+      <guid>http://localhost:1313/tags/newsletter/</guid>
       <description></description>
     </item>
   </channel>

@@ -3,9 +3,6 @@ date = 2019-12-31T12:36:09+02:00
 title = 'Figs'
 draft = false
 omit_header_text = true
-featured_image = false
-tags = ['Personal', 'Nature', 'Argentina']
-categories = ['Writing']
 +++
 
 Let’s talk figs.

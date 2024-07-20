@@ -1,0 +1,30 @@
+---
+title: "HGM"
+omit_header_text: true
+description: ""
+no_summary: true
+---
+
+HGM stands for *Hypergeometric Motives*.
+
+This project got started at an amazing workshop held in Benasque,
+Spain (in the mountains, a few hours drive from Barcelona) in 2009.
+
+There we started to work in a small group (S. Baig, H. Cohen,
+Ph. Candelas, X. de la Ossa, M. Watkins and myself) on computing
+L-functions coming from families of varieties whose periods are given
+by classical hypergeometric series. The famous quintic family of
+threefolds of mirror symmetry being the quintessential example.
+
+I kept the wiki [pages](/pdf/hgm/Benasque09_p-adic-L-Functions-Wiki.pdf)
+that my (at the time) Ph.D. student S. Baig wrote recording the daily
+progress (my memory is that Henri and Sal working together would
+announce a speed increase by a non-trivial factor every day). 
+
+This Benasque meeting counts among the most exciting and succesful
+collaborations at a workshop that I have experienced.
+
+I late wrote an [account](/pdf/hgm/benasque09.pdf) of what we did.
+
+
+

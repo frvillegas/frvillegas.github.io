@@ -2,130 +2,186 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Math Life</title>
-    <link>https://frvillegas.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Math Life</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Jul 2024 10:00:09 +0200</lastBuildDate>
-    <atom:link href="https://frvillegas.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Jul 2024 12:36:09 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HGM</title>
+      <link>http://localhost:1313/math/hgm/hgm/</link>
+      <pubDate>Fri, 19 Jul 2024 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/hgm/hgm/</guid>
+      <description>This project got started at an amazing workshop held in Benasque, Spain (in the mountains, a few hours drive from Barcelona) in 2009. (I wrote this post in my blog after returning from another workshop there on p-adic analysis in 2007.)&#xA;The plan of the 2009 workshop was to explore ways to compute exotic L-functions, not arising from elliptic curves or usual modular forms. It was something B. Conrey was pushing to achieve in the early stages of what later became the LMFDB database and which, incidentally, now has a beta section on HGM&amp;rsquo;s.</description>
+    </item>
+    <item>
+      <title>Hamilton and the Discovery of Quaternions</title>
+      <link>http://localhost:1313/writing/hamilton/</link>
+      <pubDate>Fri, 19 Jul 2024 10:00:09 +0200</pubDate>
+      <guid>http://localhost:1313/writing/hamilton/</guid>
+      <description>Towards the end of my Ph.D. years at The Ohio State University a bunch of graduate students thought of publishing our own magazine. We struggled to come up with a good name for the magazine so after a lot of back and forth we settled on &amp;ldquo;The Empy Set&amp;rdquo;. The OSU graduate advisor found this too nihilistic and wanted us to pick a different name. We nevertheless wrote what inevitably ended up being the only issue of &amp;ldquo;The Empty Set&amp;rdquo; and circulated it among the department.</description>
+    </item>
     <item>
       <title>Saxes</title>
-      <link>https://frvillegas.github.io/photography/saxes/</link>
+      <link>http://localhost:1313/photography/saxes/</link>
       <pubDate>Sat, 06 Jul 2024 10:00:09 +0200</pubDate>
-      <guid>https://frvillegas.github.io/photography/saxes/</guid>
+      <guid>http://localhost:1313/photography/saxes/</guid>
       <description>Walking to the riva after getting gelato at Marco. Maybe these musicians were part of the ensemble playing on the temporary stage on Piazza Unita related to the Pope&amp;rsquo;s visit to Trieste. Enjoying the sun and the ocean breeze during a break.&#xA;View this post on Instagram </description>
     </item>
     <item>
       <title>A Large Language Model in the 1700s?</title>
-      <link>https://frvillegas.github.io/writing/jonathan-swift/</link>
+      <link>http://localhost:1313/writing/jonathan-swift/</link>
       <pubDate>Mon, 24 Jun 2024 10:00:09 +0200</pubDate>
-      <guid>https://frvillegas.github.io/writing/jonathan-swift/</guid>
+      <guid>http://localhost:1313/writing/jonathan-swift/</guid>
       <description>I listened to a fascinating podcast in the &amp;ldquo;Past, Present, Future&amp;rdquo; series by David Runciman on the 1726 satire &amp;ldquo;Gulliver&amp;rsquo;s Travels&amp;rdquo; by Jonathan Swift. Runciman gives an excellent summary of the various journeys that Gulliver undertakes in this book; journeys to far away lands were he encounters fantastic creatures and their world: tiny people, giants, talking horses, and the like.&#xA;In one of these journeys Gulliver finds academics stubbornly determined to strip language of all ambiguity.</description>
     </item>
     <item>
       <title>Something about cheese</title>
-      <link>https://frvillegas.github.io/photography/something-about-cheese/</link>
+      <link>http://localhost:1313/photography/something-about-cheese/</link>
       <pubDate>Sat, 15 Jun 2024 10:00:09 +0200</pubDate>
-      <guid>https://frvillegas.github.io/photography/something-about-cheese/</guid>
+      <guid>http://localhost:1313/photography/something-about-cheese/</guid>
       <description>I love this picture.&#xA;Early in the morning in the Barrio Gotico of Barcelona. As I walked by I couldn&amp;rsquo;t help hearing part of the conversation. The young woman seemed to be asking in good but accented Spanish where she could find a particular kind of cheese. I imagine she thought the old ladies were locals that would know.&#xA;View this post on Instagram </description>
     </item>
     <item>
       <title>Figs</title>
-      <link>https://frvillegas.github.io/writing/figs/</link>
+      <link>http://localhost:1313/writing/figs/</link>
       <pubDate>Tue, 31 Dec 2019 12:36:09 +0200</pubDate>
-      <guid>https://frvillegas.github.io/writing/figs/</guid>
+      <guid>http://localhost:1313/writing/figs/</guid>
       <description>Let’s talk figs.&#xA;There was a fig tree near the main house “Villa Isaura” in Carlos Paz, Cordoba where I spent many a holiday as a kid. I remember breaking off leaves to see and feel the white sticky substance that came out. It was a somewhat mysterious and out of the way tree, with strange gnarly branches and big dark green leaves, a huge contrast to the tall, straight and ubiquitous eucalyptus trees that lined up so many sidewalks of my Buenos Aires childhood.</description>
     </item>
     <item>
       <title>The Mathematics of the Football</title>
-      <link>https://frvillegas.github.io/math/public-lectures/math-football/</link>
+      <link>http://localhost:1313/math/public-lectures/math-football/</link>
       <pubDate>Tue, 31 Dec 2019 12:36:09 +0200</pubDate>
-      <guid>https://frvillegas.github.io/math/public-lectures/math-football/</guid>
+      <guid>http://localhost:1313/math/public-lectures/math-football/</guid>
       <description> </description>
     </item>
     <item>
       <title>From here to there</title>
-      <link>https://frvillegas.github.io/writing/from-here-to-there/</link>
+      <link>http://localhost:1313/writing/from-here-to-there/</link>
       <pubDate>Fri, 04 Oct 2019 10:00:09 +0200</pubDate>
-      <guid>https://frvillegas.github.io/writing/from-here-to-there/</guid>
+      <guid>http://localhost:1313/writing/from-here-to-there/</guid>
       <description>One of the odd perks of getting old is that one can look back to the distant past and wonder with cold detachment just who the hell we were.&#xA;As a kid I was obsessed with cryptography and secret messages. I even halfheartedly tried to create a language that only my friends and I would understand. I wanted to build a robot. I also wanted to live in a desert island and made endless plans in my head on how I would run my life on it.</description>
     </item>
     <item>
+      <title>Math Sample</title>
+      <link>http://localhost:1313/math/2017-03-05-math-sample/</link>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/math/2017-03-05-math-sample/</guid>
+      <description>&lt;div class=&#34;has-mathjax&#34;&gt;&#xA;&#xA;\[a \ne 0\]&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Inline shortcode &lt;span class=&#34;has-mathjax&#34;&gt;\(a \ne 0\)&lt;/span&gt; with Mathjax.&lt;/p&gt;&#xA;&lt;p&gt;KaTeX can be used to generate complex math formulas server-side.&lt;/p&gt;&#xA;$$&#xA;\phi = \frac{(1+\sqrt{5})}{2} = 1.6180339887\cdots&#xA;$$&#xA;&lt;p&gt;Additional details can be found on &lt;a href=&#34;https://github.com/Khan/KaTeX&#34;&gt;GitHub&lt;/a&gt; or on the &lt;a href=&#34;http://tiddlywiki.com/plugins/tiddlywiki/katex/&#34;&gt;Wiki&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>What I miss</title>
-      <link>https://frvillegas.github.io/writing/what-i-miss/</link>
+      <link>http://localhost:1313/writing/what-i-miss/</link>
       <pubDate>Thu, 06 Nov 2014 10:00:09 +0200</pubDate>
-      <guid>https://frvillegas.github.io/writing/what-i-miss/</guid>
+      <guid>http://localhost:1313/writing/what-i-miss/</guid>
       <description>Like a teenager keeping a journal I note in shame that my last post here is from 2012. Since then I have moved to Trieste, Italy, taking a job at the ICTP: Abdus Salam International Centre for Theoretical Physics.&#xA;Horculas en el migo. And so it is.&#xA;Looking back, it is clear that growing up in Buenos Aires shaped my view of the world, what to expect from the day to day of life.</description>
     </item>
     <item>
       <title>Taxi rides</title>
-      <link>https://frvillegas.github.io/writing/taxi-rides/</link>
+      <link>http://localhost:1313/writing/taxi-rides/</link>
       <pubDate>Wed, 01 Jun 2011 10:00:09 +0200</pubDate>
-      <guid>https://frvillegas.github.io/writing/taxi-rides/</guid>
+      <guid>http://localhost:1313/writing/taxi-rides/</guid>
       <description>I am not sure if it is an Austin phenomenon or not but I have had a few interesting taxi rides back and forth to the airport over the years.&#xA;I’ll leave aside the late night taxi ride where the driver, a young woman, told a few off-color jokes (“you are not a prude man, are you?”); including one that I am pretty sure was popular when I was in primary school.</description>
     </item>
     <item>
       <title>Back and short</title>
-      <link>https://frvillegas.github.io/writing/back-and-short/</link>
+      <link>http://localhost:1313/writing/back-and-short/</link>
       <pubDate>Thu, 08 Jan 2009 10:00:09 +0200</pubDate>
-      <guid>https://frvillegas.github.io/writing/back-and-short/</guid>
+      <guid>http://localhost:1313/writing/back-and-short/</guid>
       <description>I’ve lived in the US now for over 22 years. I have encountered two dollar bills exactly three times (I kept them all). The first time was around Harvard Square as change in a store. It was so strange.&#xA;I’ve seen a few dollar coins too. Usually all of them at once unfortunately. At least 15 years ago, if you bought a NJ transit train ticket in a machine at the station and paid with a 20 dollar bill the change came clanking down in a stream of dollar coins.</description>
     </item>
     <item>
       <title>Test</title>
-      <link>https://frvillegas.github.io/cooking/test/</link>
+      <link>http://localhost:1313/cooking/test/</link>
       <pubDate>Thu, 08 Jan 2009 10:00:09 +0200</pubDate>
-      <guid>https://frvillegas.github.io/cooking/test/</guid>
+      <guid>http://localhost:1313/cooking/test/</guid>
       <description></description>
     </item>
     <item>
-      <title>Test</title>
-      <link>https://frvillegas.github.io/math/public-lectures/test/</link>
-      <pubDate>Thu, 08 Jan 2009 10:00:09 +0200</pubDate>
-      <guid>https://frvillegas.github.io/math/public-lectures/test/</guid>
-      <description></description>
+      <title>Benasque</title>
+      <link>http://localhost:1313/writing/benasque/</link>
+      <pubDate>Wed, 25 Jul 2007 10:00:09 +0200</pubDate>
+      <guid>http://localhost:1313/writing/benasque/</guid>
+      <description>While I wait for my brain strings to settle after a long summer shuttling about I make a quick core dump before it’s all gone.&#xA;I spent two weeks in Benasque, Spain for the workshop P-adic analysis, Periods and Physics . We ended up being a very small group of participants, unfortunate in a way but the result was a very charming workshop. And what a place! Benasque is in a valley in the Spanish Pyrenees not far from the border with France, a small mountain town where you walk everywhere, surrounded by amazing mountains full of unbelievably beautiful hikes.</description>
     </item>
     <item>
       <title>Dancing Numbers</title>
-      <link>https://frvillegas.github.io/writing/dancing-numbers/</link>
+      <link>http://localhost:1313/writing/dancing-numbers/</link>
       <pubDate>Fri, 15 Jun 2007 10:00:09 +0200</pubDate>
-      <guid>https://frvillegas.github.io/writing/dancing-numbers/</guid>
+      <guid>http://localhost:1313/writing/dancing-numbers/</guid>
       <description>I can’t resist one last post before I go off into the webless wilderness of the Atlantic coast. I wasn’t sure what to expect with this blogging idea but I was more than taken aback by how fast the blog’s existence seems to have spread. It’s exciting.&#xA;Over the years I’ve read articles about Twyla Tharp, the american dancer and coreographer. Somehow, I always found great affinity to her ideas. A few months ago, in a New York Times article, she described how she sometimes went for days without dealing with numbers (hid all the clocks in her house, for example) to give the intuitive side of her brain more prominence.</description>
     </item>
     <item>
+      <title>Math, Puzzles and Computers</title>
+      <link>http://localhost:1313/math/lecture-notes/math-puzzles-and-computers/</link>
+      <pubDate>Thu, 18 Jan 2007 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/lecture-notes/math-puzzles-and-computers/</guid>
+      <description>These are the actual lecture notes for the Spring 2007 version of an undergraduate course at UT Austin with the above name that I developed. My personal goal was to use puzzles as an excuse to explain some basic mathematical concepts to scientific minded students.</description>
+    </item>
+    <item>
+      <title>Complex Analysis</title>
+      <link>http://localhost:1313/math/lecture-notes/cpl-analysis/</link>
+      <pubDate>Wed, 18 Jan 2006 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/lecture-notes/cpl-analysis/</guid>
+      <description>These are notes for a graduate course in Complex Analysis at UT Austin in 2006.</description>
+    </item>
+    <item>
+      <title>K-theory and L-functions</title>
+      <link>http://localhost:1313/math/lecture-notes/k-theory-l-fctns/</link>
+      <pubDate>Mon, 01 Apr 2002 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/lecture-notes/k-theory-l-fctns/</guid>
+      <description>These are notes (taken by M. Lalín) for a course on K-theory and L-functions I gave at Harvard University in the Spring of 2002. Notes for the first few lectures were taken by S. Valverde.</description>
+    </item>
+    <item>
+      <title>La Función Zeta de Hasse-Weil</title>
+      <link>http://localhost:1313/math/lecture-notes/weil-zeta-merida/</link>
+      <pubDate>Mon, 07 Jun 1999 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/lecture-notes/weil-zeta-merida/</guid>
+      <description>These are notes for a course in Spanish on the Hasse-Weil zeta function given en Mérida, Venezuela in 1999.</description>
+    </item>
+    <item>
+      <title>Bernoulli Polynomials</title>
+      <link>http://localhost:1313/math/manuscripts/bernoulli/</link>
+      <pubDate>Wed, 07 Jun 1989 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/manuscripts/bernoulli/</guid>
+      <description>These are notes on approaching Bernoulli polynomials as eigenvalues of certain operators acting on polynomials. It is my re-interpretation of work of E. H. Lehmer. I wrote this at the end of my Ph.D. studies around 1989.</description>
+    </item>
+    <item>
       <title>About</title>
-      <link>https://frvillegas.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frvillegas.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>I am mathematician mainly interested in Number Theory and all of its ramifications.&#xA;I was born in Buenos Aires, Argentina and worked in various countries over the years. I recently retired from ICTP in Italy.&#xA;This site contains my work and thoughts on the many subject that interest me.&#xA;Fernando Rodriguez Villegas </description>
     </item>
     <item>
       <title>Contact</title>
-      <link>https://frvillegas.github.io/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frvillegas.github.io/contact/</guid>
-      <description>If you would like to contact me please use the form below.&#xA;Your Name Email Address An email address is required. Message </description>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>If you would like to contact me please use the form below.&#xA;Your Name Email Address An email address is required. Message Fernando Rodriguez Villegas </description>
     </item>
     <item>
       <title>CV</title>
-      <link>https://frvillegas.github.io/cv/</link>
+      <link>http://localhost:1313/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frvillegas.github.io/cv/</guid>
+      <guid>http://localhost:1313/cv/</guid>
       <description>Fernando Rodriguez Villegas</description>
     </item>
     <item>
       <title>July 2024</title>
-      <link>https://frvillegas.github.io/newsletter/archive/july-2024/</link>
+      <link>http://localhost:1313/newsletter/archive/july-2024/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frvillegas.github.io/newsletter/archive/july-2024/</guid>
+      <guid>http://localhost:1313/newsletter/archive/july-2024/</guid>
       <description>Dear All,&#xA;This is the first of what I hope is a long-running monthly newsletter with (mostly mathematical) updates from yours truly.&#xA;Now that I have retired from ICTP, I am working on the launch of an independent website with all my stuff. Please check it out.&#xA;https://frvillegas.github.io/&#xA;I also opened a zulip site that I hope will be useful for discussions on various mathematical projects organized by topics. You can access it here:</description>
     </item>
     <item>
-      <title>Math Research Articles</title>
-      <link>https://frvillegas.github.io/math/bibliography/</link>
+      <title>Research Articles</title>
+      <link>http://localhost:1313/math/math-articles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frvillegas.github.io/math/bibliography/</guid>
-      <description>Rodriguez Villegas, F. (1984). (in Spanish). Quaternionic extensions. In: Proceedings of the IV Coloquio Latinoamericano De Algebra, Mendoza, Argentina.&#xA;Rodriguez Villegas, F. (1986). Quaternionic extensions and rotations. Notas De La Sociedad Matemática De Chile, 5(1), 201–202.&#xA;Rodriguez Villegas, F. (1987). (Unpublished). Relations between quadratic forms and certain Galois extensions. Rodriguez Villegas, F. (1991). On the square root of special values of certain L-series. Invent. Math., 106, 549–573.&#xA;Rodriguez Villegas, F.</description>
+      <guid>http://localhost:1313/math/math-articles/</guid>
+      <description>Rodriguez Villegas, F. (1984). (in Spanish). Quaternionic extensions. In: Proceedings of the IV Coloquio Latinoamericano De Algebra, Mendoza, Argentina.&#xA;Rodriguez Villegas, F. (1986). Quaternionic extensions and rotations. Notas De La Sociedad Matemática De Chile, 5(1), 201–202.&#xA;Rodriguez Villegas, F. (1987). (Unpublished). Relations between quadratic forms and certain Galois extensions. Rodriguez Villegas, F. (1990). (Ph.D. Thesis–The Ohio State University). On the Square Root of Special Values of Certain L-Series. ProQuest LLC, Ann Arbor, MI.</description>
     </item>
   </channel>
 </rss>

@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>History on Math Life</title>
-    <link>https://frvillegas.github.io/tags/history/</link>
+    <link>http://localhost:1313/tags/history/</link>
     <description>Recent content in History on Math Life</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Jun 2024 10:00:09 +0200</lastBuildDate>
-    <atom:link href="https://frvillegas.github.io/tags/history/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Jul 2024 10:00:09 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/history/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hamilton and the Discovery of Quaternions</title>
+      <link>http://localhost:1313/writing/hamilton/</link>
+      <pubDate>Fri, 19 Jul 2024 10:00:09 +0200</pubDate>
+      <guid>http://localhost:1313/writing/hamilton/</guid>
+      <description>Towards the end of my Ph.D. years at The Ohio State University a bunch of graduate students thought of publishing our own magazine. We struggled to come up with a good name for the magazine so after a lot of back and forth we settled on &amp;ldquo;The Empy Set&amp;rdquo;. The OSU graduate advisor found this too nihilistic and wanted us to pick a different name. We nevertheless wrote what inevitably ended up being the only issue of &amp;ldquo;The Empty Set&amp;rdquo; and circulated it among the department.</description>
+    </item>
     <item>
       <title>A Large Language Model in the 1700s?</title>
-      <link>https://frvillegas.github.io/writing/jonathan-swift/</link>
+      <link>http://localhost:1313/writing/jonathan-swift/</link>
       <pubDate>Mon, 24 Jun 2024 10:00:09 +0200</pubDate>
-      <guid>https://frvillegas.github.io/writing/jonathan-swift/</guid>
+      <guid>http://localhost:1313/writing/jonathan-swift/</guid>
       <description>I listened to a fascinating podcast in the &amp;ldquo;Past, Present, Future&amp;rdquo; series by David Runciman on the 1726 satire &amp;ldquo;Gulliver&amp;rsquo;s Travels&amp;rdquo; by Jonathan Swift. Runciman gives an excellent summary of the various journeys that Gulliver undertakes in this book; journeys to far away lands were he encounters fantastic creatures and their world: tiny people, giants, talking horses, and the like.&#xA;In one of these journeys Gulliver finds academics stubbornly determined to strip language of all ambiguity.</description>
     </item>
   </channel>

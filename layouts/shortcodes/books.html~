@@ -1,9 +1,0 @@
-{{ range $category, $books := .Site.Data.books }}
-  <p>{{ $category | title }}</p>
-  <ul>
-    {{ range $books }}
-      <li>{{ .title }} ({{ .isbn }})</li>
-    {{ end }}
-  </ul>
-{{ end }}
-

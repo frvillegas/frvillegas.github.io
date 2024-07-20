@@ -62,6 +62,28 @@
     "type": "manuscript"
   },
   {
+    "URL": "/pdf/frv-thesis-osu-1990.pdf",
+    "author": [
+      {
+        "family": "Rodriguez Villegas",
+        "given": "F."
+      }
+    ],
+    "id": "frv-thesis",
+    "issued": {
+      "date-parts": [
+        [
+          1990
+        ]
+      ]
+    },
+    "note": "(Ph.D. Thesis–The Ohio State University)",
+    "page": "46",
+    "publisher": "ProQuest LLC, Ann Arbor, MI",
+    "title": "On the square root of special values of certain L-series",
+    "type": "book"
+  },
+  {
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -633,10 +655,6 @@
       {
         "family": "Pacetti",
         "given": "A."
-      },
-      {
-        "dropping-particle": "appendix by",
-        "family": "B. Gross"
       }
     ],
     "container-title": "Math. Comp.",
@@ -648,6 +666,7 @@
         ]
       ]
     },
+    "note": "(With an appendix by Gross, B.)",
     "page": "1545-1557",
     "title": "Computing weight 2 modular forms of level p^2",
     "type": "article-journal",
@@ -816,10 +835,6 @@
       {
         "family": "Hausel",
         "given": "T."
-      },
-      {
-        "dropping-particle": "appendix by",
-        "family": "N. Katz"
       }
     ],
     "container-title": "Invent. Math.",
@@ -831,6 +846,7 @@
         ]
       ]
     },
+    "note": "(With an appendix by Katz, N.)",
     "page": "555-624",
     "title": "Mixed Hodge polynomials of character varieties",
     "type": "article-journal",
@@ -1156,7 +1172,7 @@
     ],
     "container-title": "Math. Z.",
     "id": "torus_orbits_kac_polynomials_2018",
-    "issue": "1-2",
+    "issue": "1",
     "issued": {
       "date-parts": [
         [
@@ -1217,7 +1233,7 @@
         ]
       ]
     },
-    "page": "1-34",
+    "page": "34",
     "title": "Goursat rigid local systems of rank four",
     "type": "article-journal",
     "volume": "5"
@@ -1497,7 +1513,7 @@
         ]
       ]
     },
-    "page": "1-2",
+    "page": "1",
     "title": "Preface [special issue in honor of Don Zagier]",
     "type": "article-journal",
     "volume": "19"
@@ -1527,7 +1543,7 @@
         ]
       ]
     },
-    "page": "1-50",
+    "page": "50",
     "title": "Locally free representations of quivers over commutative Frobenius algebras",
     "type": "article-journal",
     "volume": "30"

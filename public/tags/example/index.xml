@@ -9,11 +9,11 @@
     <lastBuildDate>Sun, 05 Mar 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/example/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
-      <link>http://localhost:1313/math/biblio/</link>
+      <title>Math Sample</title>
+      <link>http://localhost:1313/math/2017-03-05-math-sample/</link>
       <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/math/biblio/</guid>
-      <description> &amp;lt;li&amp;gt;The Hunchback of Notre Dame (978-0140443530)&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Les Misérables (978-0451419439)&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;The Ancien Régime and the Revolution (978-0141441641)&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Interpreting the French Revolution (978-0521280495)&amp;lt;/li&amp;gt; </description>
+      <guid>http://localhost:1313/math/2017-03-05-math-sample/</guid>
+      <description>&lt;div class=&#34;has-mathjax&#34;&gt;&#xA;&#xA;\[a \ne 0\]&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Inline shortcode &lt;span class=&#34;has-mathjax&#34;&gt;\(a \ne 0\)&lt;/span&gt; with Mathjax.&lt;/p&gt;&#xA;&lt;p&gt;KaTeX can be used to generate complex math formulas server-side.&lt;/p&gt;&#xA;$$&#xA;\phi = \frac{(1+\sqrt{5})}{2} = 1.6180339887\cdots&#xA;$$&#xA;&lt;p&gt;Additional details can be found on &lt;a href=&#34;https://github.com/Khan/KaTeX&#34;&gt;GitHub&lt;/a&gt; or on the &lt;a href=&#34;http://tiddlywiki.com/plugins/tiddlywiki/katex/&#34;&gt;Wiki&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

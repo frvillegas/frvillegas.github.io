@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Photography on Math Life</title>
-    <link>https://frvillegas.github.io/categories/photography/</link>
+    <link>http://localhost:1313/categories/photography/</link>
     <description>Recent content in Photography on Math Life</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Jul 2024 10:00:09 +0200</lastBuildDate>
-    <atom:link href="https://frvillegas.github.io/categories/photography/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/photography/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Saxes</title>
-      <link>https://frvillegas.github.io/photography/saxes/</link>
+      <link>http://localhost:1313/photography/saxes/</link>
       <pubDate>Sat, 06 Jul 2024 10:00:09 +0200</pubDate>
-      <guid>https://frvillegas.github.io/photography/saxes/</guid>
+      <guid>http://localhost:1313/photography/saxes/</guid>
       <description>Walking to the riva after getting gelato at Marco. Maybe these musicians were part of the ensemble playing on the temporary stage on Piazza Unita related to the Pope&amp;rsquo;s visit to Trieste. Enjoying the sun and the ocean breeze during a break.&#xA;View this post on Instagram </description>
     </item>
     <item>
       <title>Something about cheese</title>
-      <link>https://frvillegas.github.io/photography/something-about-cheese/</link>
+      <link>http://localhost:1313/photography/something-about-cheese/</link>
       <pubDate>Sat, 15 Jun 2024 10:00:09 +0200</pubDate>
-      <guid>https://frvillegas.github.io/photography/something-about-cheese/</guid>
+      <guid>http://localhost:1313/photography/something-about-cheese/</guid>
       <description>I love this picture.&#xA;Early in the morning in the Barrio Gotico of Barcelona. As I walked by I couldn&amp;rsquo;t help hearing part of the conversation. The young woman seemed to be asking in good but accented Spanish where she could find a particular kind of cheese. I imagine she thought the old ladies were locals that would know.&#xA;View this post on Instagram </description>
     </item>
   </channel>

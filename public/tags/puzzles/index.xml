@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Puzzles on Math Life</title>
+    <link>http://localhost:1313/tags/puzzles/</link>
+    <description>Recent content in Puzzles on Math Life</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Jan 2007 12:36:09 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/puzzles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Math, Puzzles and Computers</title>
+      <link>http://localhost:1313/math/lecture-notes/math-puzzles-and-computers/</link>
+      <pubDate>Thu, 18 Jan 2007 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/lecture-notes/math-puzzles-and-computers/</guid>
+      <description>These are the actual lecture notes for the Spring 2007 version of an undergraduate course at UT Austin with the above name that I developed. My personal goal was to use puzzles as an excuse to explain some basic mathematical concepts to scientific minded students.</description>
+    </item>
+  </channel>
+</rss>
