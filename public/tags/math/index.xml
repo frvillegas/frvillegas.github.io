@@ -13,14 +13,14 @@
       <link>http://localhost:1313/math/hgm/hgm/</link>
       <pubDate>Fri, 19 Jul 2024 12:36:09 +0200</pubDate>
       <guid>http://localhost:1313/math/hgm/hgm/</guid>
-      <description>This project got started at an amazing workshop held in Benasque, Spain (in the mountains, a few hours drive from Barcelona) in 2009. The plan of the workshop was to explore ways to compute exotic L-functions, not arising from elliptic curves or usual modular forms. It was something B. Conrey was pushing to achieve in the early stages of what later became the LMFDB database and which, incidentally, now has a beta section on HGM&amp;rsquo;s.</description>
+      <description>This project got started at an amazing workshop held in Benasque, Spain (in the mountains, a few hours drive from Barcelona) in 2009. (I wrote this post in my blog after returning from another workshop there on p-adic analysis in 2007.)&#xA;The plan of the 2009 workshop was to explore ways to compute exotic L-functions, not arising from elliptic curves or usual modular forms. It was something B. Conrey was pushing to achieve in the early stages of what later became the LMFDB database and which, incidentally, now has a beta section on HGM&amp;rsquo;s.</description>
     </item>
     <item>
       <title>Hamilton and the Discovery of Quaternions</title>
       <link>http://localhost:1313/writing/hamilton/</link>
       <pubDate>Fri, 19 Jul 2024 10:00:09 +0200</pubDate>
       <guid>http://localhost:1313/writing/hamilton/</guid>
-      <description>Towards the end of my Ph.D. years at The Ohio State University a bunch of graduate students thought of publishing our own magazine. We struggled to come up with a good name for the magazine so after a lot of back and forth we settled on &amp;ldquo;The Empy Set&amp;rdquo;. The OSU graduate advisor found this too nihilistic and wanted us to pick a different name. We nevertheless wrote what inevitably ended up being the only issue of &amp;ldquo;The Empty Set&amp;rdquo; and circulated it among the department.</description>
+      <description>Towards the end of my Ph.D. years at The Ohio State University together with a bunch of graduate students we thought of publishing our own magazine. We struggled to come up with a good name for the magazine so after a lot of back and forth we settled on &amp;ldquo;The Empy Set&amp;rdquo;. The OSU graduate advisor found this too nihilistic and wanted us to pick a different name. We nevertheless wrote what inevitably ended up being the only issue of &amp;ldquo;The Empty Set&amp;rdquo; and circulated it among the department.</description>
     </item>
     <item>
       <title>The Mathematics of the Football</title>
@@ -34,7 +34,7 @@
       <link>http://localhost:1313/math/2017-03-05-math-sample/</link>
       <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/math/2017-03-05-math-sample/</guid>
-      <description>&lt;div class=&#34;has-mathjax&#34;&gt;&#xA;&#xA;\[a \ne 0\]&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Inline shortcode &lt;span class=&#34;has-mathjax&#34;&gt;\(a \ne 0\)&lt;/span&gt; with Mathjax.&lt;/p&gt;&#xA;&lt;p&gt;KaTeX can be used to generate complex math formulas server-side.&lt;/p&gt;&#xA;$$&#xA;\phi = \frac{(1+\sqrt{5})}{2} = 1.6180339887\cdots&#xA;$$&#xA;&lt;p&gt;Additional details can be found on &lt;a href=&#34;https://github.com/Khan/KaTeX&#34;&gt;GitHub&lt;/a&gt; or on the &lt;a href=&#34;http://tiddlywiki.com/plugins/tiddlywiki/katex/&#34;&gt;Wiki&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;KaTeX can be used to generate complex math formulas server-side.&lt;/p&gt;&#xA;$$&#xA;\phi = \frac{(1+\sqrt{5})}{2} = 1.6180339887\cdots&#xA;$$&#xA;&lt;p&gt;Additional details can be found on &lt;a href=&#34;https://github.com/Khan/KaTeX&#34;&gt;GitHub&lt;/a&gt; or on the &lt;a href=&#34;http://tiddlywiki.com/plugins/tiddlywiki/katex/&#34;&gt;Wiki&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Benasque</title>

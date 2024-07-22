@@ -20,7 +20,7 @@
       <link>http://localhost:1313/writing/hamilton/</link>
       <pubDate>Fri, 19 Jul 2024 10:00:09 +0200</pubDate>
       <guid>http://localhost:1313/writing/hamilton/</guid>
-      <description>Towards the end of my Ph.D. years at The Ohio State University a bunch of graduate students thought of publishing our own magazine. We struggled to come up with a good name for the magazine so after a lot of back and forth we settled on &amp;ldquo;The Empy Set&amp;rdquo;. The OSU graduate advisor found this too nihilistic and wanted us to pick a different name. We nevertheless wrote what inevitably ended up being the only issue of &amp;ldquo;The Empty Set&amp;rdquo; and circulated it among the department.</description>
+      <description>Towards the end of my Ph.D. years at The Ohio State University together with a bunch of graduate students we thought of publishing our own magazine. We struggled to come up with a good name for the magazine so after a lot of back and forth we settled on &amp;ldquo;The Empy Set&amp;rdquo;. The OSU graduate advisor found this too nihilistic and wanted us to pick a different name. We nevertheless wrote what inevitably ended up being the only issue of &amp;ldquo;The Empty Set&amp;rdquo; and circulated it among the department.</description>
     </item>
     <item>
       <title>Saxes</title>
@@ -63,13 +63,6 @@
       <pubDate>Fri, 04 Oct 2019 10:00:09 +0200</pubDate>
       <guid>http://localhost:1313/writing/from-here-to-there/</guid>
       <description>One of the odd perks of getting old is that one can look back to the distant past and wonder with cold detachment just who the hell we were.&#xA;As a kid I was obsessed with cryptography and secret messages. I even halfheartedly tried to create a language that only my friends and I would understand. I wanted to build a robot. I also wanted to live in a desert island and made endless plans in my head on how I would run my life on it.</description>
-    </item>
-    <item>
-      <title>Math Sample</title>
-      <link>http://localhost:1313/math/2017-03-05-math-sample/</link>
-      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/math/2017-03-05-math-sample/</guid>
-      <description>&lt;div class=&#34;has-mathjax&#34;&gt;&#xA;&#xA;\[a \ne 0\]&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Inline shortcode &lt;span class=&#34;has-mathjax&#34;&gt;\(a \ne 0\)&lt;/span&gt; with Mathjax.&lt;/p&gt;&#xA;&lt;p&gt;KaTeX can be used to generate complex math formulas server-side.&lt;/p&gt;&#xA;$$&#xA;\phi = \frac{(1+\sqrt{5})}{2} = 1.6180339887\cdots&#xA;$$&#xA;&lt;p&gt;Additional details can be found on &lt;a href=&#34;https://github.com/Khan/KaTeX&#34;&gt;GitHub&lt;/a&gt; or on the &lt;a href=&#34;http://tiddlywiki.com/plugins/tiddlywiki/katex/&#34;&gt;Wiki&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What I miss</title>
@@ -118,7 +111,7 @@
       <link>http://localhost:1313/math/lecture-notes/math-puzzles-and-computers/</link>
       <pubDate>Thu, 18 Jan 2007 12:36:09 +0200</pubDate>
       <guid>http://localhost:1313/math/lecture-notes/math-puzzles-and-computers/</guid>
-      <description>These are the actual lecture notes for the Spring 2007 version of an undergraduate course at UT Austin with the above name that I developed. My personal goal was to use puzzles as an excuse to explain some basic mathematical concepts to scientific minded students.</description>
+      <description>These are the actual lecture notes for the Spring 2007 version of an undergraduate course at UT Austin that I developed. My personal goal was to use puzzles as an excuse to explain some basic mathematical concepts to scientific minded students.</description>
     </item>
     <item>
       <title>Complex Analysis</title>
@@ -181,7 +174,7 @@
       <link>http://localhost:1313/math/math-articles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/math/math-articles/</guid>
-      <description>Rodriguez Villegas, F. (1984). (in Spanish). Quaternionic extensions. In: Proceedings of the IV Coloquio Latinoamericano De Algebra, Mendoza, Argentina.&#xA;Rodriguez Villegas, F. (1986). Quaternionic extensions and rotations. Notas De La Sociedad Matemática De Chile, 5(1), 201–202.&#xA;Rodriguez Villegas, F. (1987). (Unpublished). Relations between quadratic forms and certain Galois extensions. Rodriguez Villegas, F. (1990). (Ph.D. Thesis–The Ohio State University). On the Square Root of Special Values of Certain L-Series. ProQuest LLC, Ann Arbor, MI.</description>
+      <description>Below you can access all my math research articles. Most of them are published but some are not.&#xA;Bibliography Rodriguez Villegas, F. (1984). (in Spanish). Quaternionic extensions. In: Proceedings of the IV Coloquio Latinoamericano De Algebra, Mendoza, Argentina.&#xA;Rodriguez Villegas, F. (1986). Quaternionic extensions and rotations. Notas De La Sociedad Matemática De Chile, 5(1), 201–202.&#xA;Rodriguez Villegas, F. (1987). (Unpublished). Relations between quadratic forms and certain Galois extensions. Rodriguez Villegas, F.</description>
     </item>
   </channel>
 </rss>

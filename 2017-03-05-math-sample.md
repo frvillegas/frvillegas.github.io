@@ -3,15 +3,10 @@ title: Math Sample
 subtitle: Using KaTeX
 date: 2017-03-05
 tags: ["example", "math"]
-no_summary: true
 ---
 
-
 {{< mathjax/block >}}
-\[a \ne 0\]
 {{< /mathjax/block >}}
-
-Inline shortcode {{< mathjax/inline >}}\(a \ne 0\){{< /mathjax/inline>}} with Mathjax.
 
 KaTeX can be used to generate complex math formulas server-side. 
 
