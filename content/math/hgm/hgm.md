@@ -5,12 +5,18 @@ draft = false
 omit_header_text = true
 featured_image = false
 tags = ['Math', 'HGM', 'Benasque']
+categories = ['Math']
 +++
 
-This project got started at an amazing workshop held in Benasque,
-Spain (in the mountains, a few hours drive from Barcelona) in 2009. (I
+This project got started at an fabulous
+[workshop](https://www.benasque.org/2009numbers/) held in Benasque,
+Spain (in the mountains, a few hours drive from Barcelona) in 2009. I
 wrote this [post]({{<relref "/writing/benasque" >}}) in my blog after
-returning from another workshop there on p-adic analysis  in 2007.)
+returning from another workshop there on p-adic analysis in 2007. In
+my own notes I added:
+
+*The place is truly amazing. Mountains falling over you as you walk
+ down the street.*  
 
 The plan of the 2009 workshop was to explore ways to compute *exotic*
 L-functions, not arising from elliptic curves or usual modular
@@ -54,7 +60,8 @@ increase by a non-trivial factor every day).
 This Benasque meeting counts among the most exciting and succesful
 collaborations at a workshop that I have ever experienced.
 
-I late wrote an [account](/pdf/hgm/benasque09.pdf) of what we did.
+I late wrote a bit more detailed [account](/pdf/hgm/benasque09.pdf) of
+what we did.
 
 
 

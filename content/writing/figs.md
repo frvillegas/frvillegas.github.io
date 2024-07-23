@@ -3,6 +3,8 @@ date = 2019-12-31T12:36:09+02:00
 title = 'Figs'
 draft = false
 omit_header_text = true
+
+featured_image = '/images/Monkey-figs-kalila-wa-dimna.png'
 +++
 
 Let’s talk figs.
@@ -51,3 +53,9 @@ in. They have added a whole lot of new of apartments to rent out but
 overall it all seemed the same. The araucaria tree was still standing
 just outside the house, tall and majestic, a faithful witness. I think
 the fig tree is gone.
+
+----
+
+More on [figs](https://eatlikeasultan.com/spotlight-on-figs/)
+
+

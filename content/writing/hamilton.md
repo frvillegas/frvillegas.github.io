@@ -3,18 +3,18 @@ date = 2024-07-19T10:00:09+02:00
 title = 'Hamilton and the Discovery of Quaternions'
 draft = false
 omit_header_text = true
-featured_image = false
+featured_image = '/images/plaque.jpg'
 tags = ['Math', 'History']
 categories = ['Writing']
 +++
 
 Towards the end of my Ph.D. years at The Ohio State University
 together with a bunch of graduate students we thought of publishing
-our own magazine. We struggled to come up with a good name for the
-magazine so after a lot of back and forth we settled on "The Empy
-Set". The OSU graduate advisor found this too nihilistic and wanted us
-to pick a different name. We nevertheless wrote what inevitably ended
-up being the only issue of "The Empty Set" and circulated it among the
+our own magazine. We struggled to come up with a good name for it so
+after a lot of back and forth we settled on "The Empy Set". The OSU
+graduate advisor found this too nihilistic and wanted us to pick a
+different name. We nevertheless wrote what inevitably ended up being
+the only issue of "The Empty Set" and circulated it among the
 department.
 
 The following article on the discovery of the quaternions by Hamilton

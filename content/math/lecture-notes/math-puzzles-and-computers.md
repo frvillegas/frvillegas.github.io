@@ -5,6 +5,7 @@ draft = false
 omit_header_text = true
 featured_image = false
 tags = ['Math', 'Lecture Notes', 'Puzzles']
+categories = ['Math']
 +++
 
 These are the actual lecture

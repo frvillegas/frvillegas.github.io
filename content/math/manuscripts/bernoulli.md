@@ -5,6 +5,7 @@ draft = false
 omit_header_text = true
 featured_image = false
 tags = ['Math', 'Manuscripts']
+categories = ['Math']
 +++
 
 These are [notes](/pdf/bernoulli.pdf) on approaching Bernoulli

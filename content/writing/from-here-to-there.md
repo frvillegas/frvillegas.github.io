@@ -64,7 +64,7 @@ the standardized three-holed sheets (hojas de carpeta Rivadavia!) we
 had for all our high-school work. I never actually ever used the
 encryption scheme.
 
-Screenshot 2019-10-04 at 22.45.50
+{{< figure src="/images/frv-early-years.webp" >}}
 
 The all-male group marooned on the desert island is rescued at the
 very end of “The mysterious island” by the cryptic Captain Nemo, the

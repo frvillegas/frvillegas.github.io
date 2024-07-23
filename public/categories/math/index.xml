@@ -6,14 +6,14 @@
     <description>Recent content in Math on Math Life</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jul 2024 12:36:09 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bibliography</title>
-      <link>http://localhost:1313/math/frv-bibliography/</link>
-      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/math/frv-bibliography/</guid>
-      <description>Math Articles Rodriguez Villegas, F. (1984). Quaternionic extensions. In: Proceedings of the IV Coloquio Latinoamericano De Algebra, Mendoza, Argentina.&#xA;Rodriguez Villegas, F. (1986). Quaternionic extensions and rotations. Notas De La Sociedad Matemática De Chile, 5(1).&#xA;Rodriguez Villegas, F. (1987). Relations between quadratic forms and certain galois extensions. Rodriguez Villegas, F. (1991). On the square root of special values of certain L-series. Invent. Math., 106, 549–573.&#xA;Rodriguez Villegas, F. and Zagier, D.</description>
+      <title>HGM</title>
+      <link>http://localhost:1313/math/hgm/hgm/</link>
+      <pubDate>Fri, 19 Jul 2024 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/hgm/hgm/</guid>
+      <description>This project got started at an fabulous workshop held in Benasque, Spain (in the mountains, a few hours drive from Barcelona) in 2009. I wrote this post in my blog after returning from another workshop there on p-adic analysis in 2007. In my own notes I added:&#xA;The place is truly amazing. Mountains falling over you as you walk down the street.&#xA;The plan of the 2009 workshop was to explore ways to compute exotic L-functions, not arising from elliptic curves or usual modular forms.</description>
     </item>
   </channel>
 </rss>

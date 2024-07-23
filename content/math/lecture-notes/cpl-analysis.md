@@ -5,6 +5,7 @@ draft = false
 omit_header_text = true
 featured_image = false
 tags = ['Math', 'Lecture Notes']
+categories = ['Math']
 +++
 
 These are [notes](/pdf/CA/cplx-analysis-2006.pdf) for a graduate course

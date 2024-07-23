@@ -14,4 +14,5 @@ around. In 2017, at the repeated suggestion of my daughters, I got an
 every Sunday as a way to document what I found interesting or worth
 remembering, particularly during my travels.
 
- I will post below a selection of pictures I took with some commentary.
+ I will post below a selection of pictures I took, with some
+ commentary.
