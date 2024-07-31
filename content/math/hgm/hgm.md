@@ -3,7 +3,7 @@ date = 2024-07-19T12:36:09+02:00
 title = 'HGM'
 draft = false
 omit_header_text = true
-featured_image = false
+#featured_image = false
 tags = ['Math', 'HGM', 'Benasque']
 categories = ['Math']
 +++
@@ -60,8 +60,13 @@ increase by a non-trivial factor every day).
 This Benasque meeting counts among the most exciting and succesful
 collaborations at a workshop that I have ever experienced.
 
-I late wrote a bit more detailed [account](/pdf/hgm/benasque09.pdf) of
-what we did.
+I later wrote a bit more detailed [account](/pdf/hgm/benasque09.pdf) of
+what we did. Together with D. Roberts we wrote a terse but update
+[summary](https://arxiv.org/pdf/2109.00027) on HGM's.
+
+Code to compute with HGM's has now been implemented in MAGMA, Sage and
+PARI. 
+
 
 
 

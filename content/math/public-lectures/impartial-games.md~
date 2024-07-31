@@ -1,0 +1,16 @@
++++
+date = 2014-09-25T12:36:09+02:00
+title = 'Impartial Games'
+draft = false
+omit_header_text = true
+featured_image = false
+tags = ['Puzzles', 'Public Lecture', 'BNS']
+categories = ['Math']
++++
+
+I gave a the kick-off Basic Notions talk at ICTP in 2014 on *Impartial
+Games* (one of the topics of the course [Math, Puzzles and Computers]({{< relref "../lecture-notes/math-puzzles-and-computers" >}} "")). 
+
+{{< youtube mZZzAfQ0LkY >}}
+
+

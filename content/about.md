@@ -1,7 +1,7 @@
 ---
 title: "About"
 omit_header_text: true
-type: page
+description: ""
 menu: main
 ---
 

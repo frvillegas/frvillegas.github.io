@@ -6,7 +6,8 @@
     
     <title>K-theory and L-functions | Math Life</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="These are notes (taken by M. Lalín) for a course on K-theory and L-functions I gave at Harvard University in the Spring of 2002. Notes for the first few lectures were taken by S. Valverde.">
+    <meta name="description" content="These are notes (taken by M. Lalín) for a course on $K$-theory and $L$-functions I gave at Harvard University in the Spring of 2002. Notes for the first few lectures were taken by S. Valverde.
+The main goal of the course was to explain how to frame conceptually the numerical examples of D. Boyd relating the Mahler measure of certain two variable polynomials $A(x,y)$ and $L(E,2)$ for $E$ the elliptic curve defined by the zeros of $A$.">
     <meta name="generator" content="Hugo 0.128.0">
     
     
@@ -39,7 +40,8 @@
     <meta property="og:url" content="http://localhost:1313/math/lecture-notes/k-theory-l-fctns/">
   <meta property="og:site_name" content="Math Life">
   <meta property="og:title" content="K-theory and L-functions">
-  <meta property="og:description" content="These are notes (taken by M. Lalín) for a course on K-theory and L-functions I gave at Harvard University in the Spring of 2002. Notes for the first few lectures were taken by S. Valverde.">
+  <meta property="og:description" content="These are notes (taken by M. Lalín) for a course on $K$-theory and $L$-functions I gave at Harvard University in the Spring of 2002. Notes for the first few lectures were taken by S. Valverde.
+The main goal of the course was to explain how to frame conceptually the numerical examples of D. Boyd relating the Mahler measure of certain two variable polynomials $A(x,y)$ and $L(E,2)$ for $E$ the elliptic curve defined by the zeros of $A$.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="math">
@@ -49,16 +51,28 @@
     <meta property="article:tag" content="Lecture Notes">
 
   <meta itemprop="name" content="K-theory and L-functions">
-  <meta itemprop="description" content="These are notes (taken by M. Lalín) for a course on K-theory and L-functions I gave at Harvard University in the Spring of 2002. Notes for the first few lectures were taken by S. Valverde.">
+  <meta itemprop="description" content="These are notes (taken by M. Lalín) for a course on $K$-theory and $L$-functions I gave at Harvard University in the Spring of 2002. Notes for the first few lectures were taken by S. Valverde.
+The main goal of the course was to explain how to frame conceptually the numerical examples of D. Boyd relating the Mahler measure of certain two variable polynomials $A(x,y)$ and $L(E,2)$ for $E$ the elliptic curve defined by the zeros of $A$.">
   <meta itemprop="datePublished" content="2002-04-01T12:36:09+02:00">
   <meta itemprop="dateModified" content="2002-04-01T12:36:09+02:00">
-  <meta itemprop="wordCount" content="35">
+  <meta itemprop="wordCount" content="113">
   <meta itemprop="keywords" content="Math,Lecture Notes">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="K-theory and L-functions">
-  <meta name="twitter:description" content="These are notes (taken by M. Lalín) for a course on K-theory and L-functions I gave at Harvard University in the Spring of 2002. Notes for the first few lectures were taken by S. Valverde.">
+  <meta name="twitter:description" content="These are notes (taken by M. Lalín) for a course on $K$-theory and $L$-functions I gave at Harvard University in the Spring of 2002. Notes for the first few lectures were taken by S. Valverde.
+The main goal of the course was to explain how to frame conceptually the numerical examples of D. Boyd relating the Mahler measure of certain two variable polynomials $A(x,y)$ and $L(E,2)$ for $E$ the elliptic curve defined by the zeros of $A$.">
 
-	
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)'], ['$', '$']]   
+    }
+  };
+</script>
+
+
   </head>
 
   <body class="ma0 avenir bg-near-white">
@@ -67,8 +81,9 @@
    
   
 
-  <header>
-    <div class="bg-black">
+  
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/images/milnor-K-theory.jpg');">
+    <div class="bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
     <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
@@ -165,6 +180,9 @@
   </div>
 </nav>
 
+      <div class="tc-l pv4 ph3 ph4-ns">
+        
+      </div>
     </div>
   </header>
 
@@ -226,9 +244,22 @@
    </li>
   
 </ul><p>These are <a href="/pdf/KL/KL.pdf">notes</a> (taken by M. Lalín) for a course on
-K-theory and L-functions I gave at Harvard University in the Spring of
+$K$-theory and $L$-functions I gave at Harvard University in the Spring of
 2002. <a href="/pdf/KL/KL-1.pdf">Notes</a> for the first few lectures were taken
 by S. Valverde.</p>
+<p>The main goal of the course was to explain how to frame
+conceptually the numerical examples of D. Boyd relating the Mahler
+measure of certain two variable polynomials $A(x,y)$ and $L(E,2)$
+for $E$ the elliptic curve defined by the zeros of $A$.
+This amounts to a refinement of the original work of Deninger, who was
+asked to explain Smyth&rsquo;s identity of 1981
+</p>
+$$
+m(1+x+y)=L'(\chi_{-3},-1).
+$$
+<p>
+In the introductory part of the course we followed J. Milnor&rsquo;s
+algebraic $K$-theory.</p>
 <ul class="pa0">
   
    <li class="list di">
@@ -272,7 +303,7 @@ by S. Valverde.</p>
     <ul class="pa0 list">
 	   
 	     <li  class="mb2">
-          <a href="/math/lecture-notes/weil-zeta-merida/">La Función Zeta de Hasse-Weil</a>
+          <a href="/math/lecture-notes/weil-zeta-merida/">La Función Zeta de Hasse-Weil (in Spanish)</a>
         </li>
 	    
 	     <li  class="mb2">

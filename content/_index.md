@@ -5,7 +5,7 @@ description: ""
 identifier: "main"
 theme_version: '2.8.2'
 cascade:
-  featured_image: '/images/siteimages/math-life.jpg'
+   featured_image: '/images/siteimages/math-life.jpg'
 ---
 Fernando Rodriguez Villegas
 

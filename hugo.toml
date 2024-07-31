@@ -18,7 +18,6 @@ Paginate = 10 # this is set low for demonstrating with dummy content. Set to a h
 
 
 [params]
-#  mainSections = ['articles', 'math', 'photography', 'writing']
   text_color = ""
   author = "Fernando Rodriguez Villegas"
   favicon = ""

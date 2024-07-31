@@ -2,6 +2,8 @@
 title: "Public Lectures"
 omit_header_text: true
 description: ""
-no_summary: true
----
+layout: "main-list"
+type: "list-page"
 
+---
+Recorded public lectures given at various venues over the years.

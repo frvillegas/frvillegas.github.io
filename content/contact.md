@@ -1,11 +1,8 @@
 ---
 title: Contact
-featured_image: ""
-omit_header_text: true
-description: "Contact"
 type: page
 menu: main
-
+omit_header_text: true
 ---
 
 If you would like to contact me please use the form below.

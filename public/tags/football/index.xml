@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Football on Math Life</title>
+    <link>http://localhost:1313/tags/football/</link>
+    <description>Recent content in Football on Math Life</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 May 2024 12:36:09 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/football/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Mathematics of the Football</title>
+      <link>http://localhost:1313/math/public-lectures/math-football/</link>
+      <pubDate>Mon, 20 May 2024 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/public-lectures/math-football/</guid>
+      <description>I gave some version of this lecture on the Mathematics of the football/soccer ball several times, in different places and in various languages.&#xA;Florence 20/05/2024 Gonit Sora (online) 14/06/2021 </description>
+    </item>
+  </channel>
+</rss>

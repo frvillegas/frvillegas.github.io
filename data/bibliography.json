@@ -21,6 +21,7 @@
     "type": "paper-conference"
   },
   {
+    "URL": "/pdf/frv-gal-rotations.pdf",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -37,6 +38,7 @@
         ]
       ]
     },
+    "note": "(In Spanish)",
     "page": "201-202",
     "title": "Quaternionic extensions and rotations",
     "type": "article-journal",
@@ -100,7 +102,7 @@
       ]
     },
     "page": "549-573",
-    "title": "On the square root of special values of certain L-series",
+    "title": "On the square root of special values of certain $L$-series",
     "type": "article-journal",
     "volume": "106"
   },
@@ -137,7 +139,7 @@
     "page": "81-99",
     "publisher": "Clarendon Press",
     "publisher-place": "Oxford",
-    "title": "Square roots of central values of Hecke L-series",
+    "title": "Square roots of central values of Hecke $L$-series",
     "type": "chapter"
   },
   {
@@ -157,7 +159,7 @@
       ]
     },
     "page": "431-440",
-    "title": "Square root formulas for central values of Hecke L-series II",
+    "title": "Square root formulas for central values of Hecke $L$-series II",
     "type": "article-journal",
     "volume": "72"
   },
@@ -668,7 +670,7 @@
     },
     "note": "(With an appendix by Gross, B.)",
     "page": "1545-1557",
-    "title": "Computing weight 2 modular forms of level p^2",
+    "title": "Computing weight $2$ modular forms of level $p^2$",
     "type": "article-journal",
     "volume": "251"
   },
@@ -965,7 +967,7 @@
       ]
     },
     "page": "2496-2533",
-    "title": "On the \\mathcal{A}-hypergeometric systems associated to a bivariate rational function",
+    "title": "On the $\\mathcal{A}$-hypergeometric systems associated to a bivariate rational function",
     "type": "article-journal"
   },
   {
@@ -985,7 +987,7 @@
       ]
     },
     "note": "(Unpublished)",
-    "title": "A refinement of the A-polynomial of quivers",
+    "title": "A refinement of the $A$-polynomial of quivers",
     "type": "manuscript"
   },
   {
@@ -1010,7 +1012,7 @@
       ]
     },
     "page": "300-307",
-    "title": "On the divisibility of \\# \\text{Hom}(\\Gamma,G) by |G|",
+    "title": "On the divisibility of $\\# \\text{Hom}(\\Gamma,G)$ by $|G|$",
     "type": "article-journal",
     "volume": "350"
   },
@@ -1309,7 +1311,7 @@
         ]
       ]
     },
-    "note": "(Appendix)",
+    "note": "(Appendix by Rodriguez Villegas, F.)",
     "page": "119-165",
     "title": "A case of the Rodriguez Villegas conjecture",
     "type": "article-journal",
@@ -1436,7 +1438,7 @@
       ]
     },
     "page": "1323-1339",
-    "title": "The tutte polynomial and toric Nakajima quiver varieties",
+    "title": "The Tutte polynomial and toric Nakajima quiver varieties",
     "type": "article-journal",
     "volume": "152"
   },
@@ -1465,7 +1467,7 @@
       ]
     },
     "note": "(to appear in the Collino volume \"Perspectives on four decades: 1980 - 2020\")",
-    "title": "A prym hypergeometric",
+    "title": "A Prym hypergeometric",
     "type": "manuscript"
   },
   {
@@ -1519,6 +1521,37 @@
     "volume": "19"
   },
   {
+    "URL": "/pdf/frv-dieulefait-pacetti-repns-gal.pdf",
+    "author": [
+      {
+        "family": "Rodriguez Villegas",
+        "given": "F."
+      },
+      {
+        "family": "Dieulefait",
+        "given": "L."
+      },
+      {
+        "family": "Pacetti",
+        "given": "A."
+      }
+    ],
+    "container-title": "Publ. Mat. Urug.",
+    "id": "galois_representations_2023",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "note": "(in Spanish)",
+    "page": "105-161",
+    "title": "Representaciones de Galois",
+    "type": "article-journal",
+    "volume": "18"
+  },
+  {
     "URL": "https://arxiv.org/pdf/1810.01818v1",
     "author": [
       {
@@ -1568,7 +1601,7 @@
         ]
       ]
     },
-    "title": "Hypergeometric local systems over \\mathbb{Q} with Hodge vector (1,1,1,1)",
+    "title": "Hypergeometric local systems over $\\mathbb{Q}$ with Hodge vector $(1,1,1,1)$",
     "type": "manuscript"
   },
   {

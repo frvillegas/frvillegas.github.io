@@ -1,9 +1,9 @@
 +++
 date = 1999-06-07T12:36:09+02:00
-title = 'La Función Zeta de Hasse-Weil'
+title = 'La Función Zeta de Hasse-Weil (in Spanish)'
 draft = false
 omit_header_text = true
-featured_image = false
+featured_image = '/images/deligne-stamp_retouched.gif'
 tags = ['Math', 'Lecture Notes', 'Spanish']
 categories = ['Math']
 +++

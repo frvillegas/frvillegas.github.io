@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BNS on Math Life</title>
+    <link>http://localhost:1313/tags/bns/</link>
+    <description>Recent content in BNS on Math Life</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Nov 2018 12:36:09 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/bns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blet</title>
+      <link>http://localhost:1313/math/public-lectures/blet/</link>
+      <pubDate>Tue, 06 Nov 2018 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/public-lectures/blet/</guid>
+      <description>In 2018 I was invited by my former ICTP Diploma student M. Saskia to give a mini-course at the University of Vienna. I also gave a general talk about the puzzle Blet. Later in the year I have a Basic Notions Seminar on the puzzle at ICTP.&#xA;As an experiment I got the transcript of the talk from youtube and then ran it through ChatGPT. After some light editing here is the result.</description>
+    </item>
+    <item>
+      <title>Impartial Games</title>
+      <link>http://localhost:1313/math/public-lectures/impartial-games/</link>
+      <pubDate>Thu, 25 Sep 2014 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/public-lectures/impartial-games/</guid>
+      <description>I gave a the kick-off Basic Notions talk at ICTP in 2014 on Impartial Games (one of the topics of the course Math, Puzzles and Computers).</description>
+    </item>
+  </channel>
+</rss>

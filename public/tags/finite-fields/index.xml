@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Finite Fields on Math Life</title>
+    <link>http://localhost:1313/tags/finite-fields/</link>
+    <description>Recent content in Finite Fields on Math Life</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 May 2023 12:36:09 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/finite-fields/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Counting quiver representations over finite fields</title>
+      <link>http://localhost:1313/math/lecture-notes/quivers/</link>
+      <pubDate>Tue, 23 May 2023 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/lecture-notes/quivers/</guid>
+      <description>These are notes (taken by E. Vitale) of a summer school held at the University of Bologna in the week of 22-26 May, 2023 as part of the program Quiver Representations, Quiver Varieties and Combinatorics.&#xA;This is the announcement for the course.&#xA;Counting representations of quivers over finite fields In these lectures I will present the calculation of the title in the case of the star-shaped quivers related to character varieties based on my joint work with E.</description>
+    </item>
+  </channel>
+</rss>

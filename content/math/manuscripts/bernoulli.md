@@ -10,5 +10,7 @@ categories = ['Math']
 
 These are [notes](/pdf/bernoulli.pdf) on approaching Bernoulli
 polynomials as eigenvalues of certain operators acting on
-polynomials. It is my re-interpretation of work of E. H. Lehmer. I
-wrote this at the end of my Ph.D. studies around 1989.
+polynomials. It is my re-interpretation of work of E. H. Lehmer.  (*A
+new approach to Bernoulli polynomials*, Amer. Math. Monthly 95(1988),
+905-911.) I wrote this note at the end of my Ph.D. studies around
+1989. 

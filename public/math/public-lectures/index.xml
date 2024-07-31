@@ -6,14 +6,28 @@
     <description>Recent content in Public Lectures on Math Life</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Dec 2019 12:36:09 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 20 May 2024 12:36:09 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/math/public-lectures/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Mathematics of the Football</title>
       <link>http://localhost:1313/math/public-lectures/math-football/</link>
-      <pubDate>Tue, 31 Dec 2019 12:36:09 +0200</pubDate>
+      <pubDate>Mon, 20 May 2024 12:36:09 +0200</pubDate>
       <guid>http://localhost:1313/math/public-lectures/math-football/</guid>
-      <description> </description>
+      <description>I gave some version of this lecture on the Mathematics of the football/soccer ball several times, in different places and in various languages.&#xA;Florence 20/05/2024 Gonit Sora (online) 14/06/2021 How to build something spherical out of pieces all of roughly the same shape? This problem concerns the structure of balls for many games, special molecules, domes and viruses. In this talk we will discuss some of the geometry that these structures share and how the constraints imposed by physical space lead to similar solutions.</description>
+    </item>
+    <item>
+      <title>Blet</title>
+      <link>http://localhost:1313/math/public-lectures/blet/</link>
+      <pubDate>Tue, 06 Nov 2018 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/public-lectures/blet/</guid>
+      <description>In 2018 I was invited by my former ICTP Diploma student M. Saskia to give a mini-course at the University of Vienna. I also gave a general talk about the puzzle Blet. Later in the year I have a Basic Notions Seminar on the puzzle at ICTP.&#xA;As an experiment I got the transcript of the talk from youtube and then ran it through ChatGPT. After some light editing here is the result.</description>
+    </item>
+    <item>
+      <title>Impartial Games</title>
+      <link>http://localhost:1313/math/public-lectures/impartial-games/</link>
+      <pubDate>Thu, 25 Sep 2014 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/public-lectures/impartial-games/</guid>
+      <description>I gave a the kick-off Basic Notions talk at ICTP in 2014 on Impartial Games (one of the topics of the course Math, Puzzles and Computers).&#xA;I expected students in the class to connect to puzzles and eventually to the corresponding mathematics through a chilhood experience. It is certainly what happened to me while preparing the lectures.&#xA;I have a somewhat vague but powerful memory of being introduced to the standard version of the game of Nim at an early age.</description>
     </item>
   </channel>
 </rss>

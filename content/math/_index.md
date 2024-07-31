@@ -1,13 +1,10 @@
 ---
 title: "Math"
+#featured_image: '/images/siteimages/math-life.jpg'
 omit_header_text: true
 description: ""
-
-menu:
-  main:
-    name: "math"
-    pageRef: "/math/"
-    weight: 2
+#layout: "main-list"
+type: "list-page"
 ---
 
 This section contains all things related to Mathematics.
@@ -17,4 +14,4 @@ acknowledge its source.
 
 [![projectchat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://frvmath.zulipchat.com) 
 
-{{< figure src="/images/2006-frv-drawing.jpg" title="Fernando Rodriguez Villegas" link= "/contact">}}
+

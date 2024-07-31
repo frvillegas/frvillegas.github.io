@@ -57,6 +57,7 @@
     "prym_hypergeometric_2022"
     "e_series_character_varieties_2023"
     "preface_don_zagier_2023"
+    "galois_representations_2023"
     "locally_free_representations_quivers_2024"
     "hypergeometric_local_systems_2024"
     "k2_families_elliptic_curves_2024"

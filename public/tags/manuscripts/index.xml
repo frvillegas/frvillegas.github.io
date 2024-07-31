@@ -13,7 +13,14 @@
       <link>http://localhost:1313/math/manuscripts/bernoulli/</link>
       <pubDate>Wed, 07 Jun 1989 12:36:09 +0200</pubDate>
       <guid>http://localhost:1313/math/manuscripts/bernoulli/</guid>
-      <description>These are notes on approaching Bernoulli polynomials as eigenvalues of certain operators acting on polynomials. It is my re-interpretation of work of E. H. Lehmer. I wrote this at the end of my Ph.D. studies around 1989.</description>
+      <description>These are notes on approaching Bernoulli polynomials as eigenvalues of certain operators acting on polynomials. It is my re-interpretation of work of E. H. Lehmer. (A new approach to Bernoulli polynomials, Amer. Math. Monthly 95(1988), 905-911.) I wrote this note at the end of my Ph.D. studies around 1989.</description>
+    </item>
+    <item>
+      <title>Addition Law on Degenerate Cubics</title>
+      <link>http://localhost:1313/math/manuscripts/degenerate-cubics/</link>
+      <pubDate>Tue, 01 Jan 1985 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/manuscripts/degenerate-cubics/</guid>
+      <description>These are unpublished notes in Spanish, written in 1985 when I was finishing my undergraduate degree in Buenos Aires, on defining a group law on degenerate cubics. More precisely, on cubics consisting of a smooth conic and a line. Depending on the number of intersection points of the conic and the line over the given ground field (0,1, or 2 points) you get the circle, the additive or the multiplicative group respectively.</description>
     </item>
   </channel>
 </rss>

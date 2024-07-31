@@ -6,31 +6,38 @@
     <description>Recent content in Lecture Notes on Math Life</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jan 2007 12:36:09 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 23 May 2023 12:36:09 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Counting quiver representations over finite fields</title>
+      <link>http://localhost:1313/math/lecture-notes/quivers/</link>
+      <pubDate>Tue, 23 May 2023 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/lecture-notes/quivers/</guid>
+      <description>These are notes (taken by E. Vitale) of a summer school held at the University of Bologna in the week of 22-26 May, 2023 as part of the program Quiver Representations, Quiver Varieties and Combinatorics.&#xA;This is the announcement for the course.&#xA;Counting representations of quivers over finite fields In these lectures I will present the calculation of the title in the case of the star-shaped quivers related to character varieties based on my joint work with E.</description>
+    </item>
     <item>
       <title>Math, Puzzles and Computers</title>
       <link>http://localhost:1313/math/lecture-notes/math-puzzles-and-computers/</link>
       <pubDate>Thu, 18 Jan 2007 12:36:09 +0200</pubDate>
       <guid>http://localhost:1313/math/lecture-notes/math-puzzles-and-computers/</guid>
-      <description>These are the actual lecture notes for the Spring 2007 version of an undergraduate course at UT Austin that I developed. My personal goal was to use puzzles as an excuse to explain some basic mathematical concepts to scientific minded students.</description>
+      <description>In the early 2000&amp;rsquo;s while monkeying around with lattice polygons, I came up with a puzzle that looked interesting. I named it Blet after my daughter Malena saying one day out of the blue: Blet, suena como un tomat. (To this day nobody can really figure out what she meant by it.)&#xA;I discussed the puzzle with my then colleagues at UT, Austin, Felipe Voloch and Lorenzo Sadun, and together worked out pretty much the whole thing and published the results.</description>
     </item>
     <item>
       <title>Complex Analysis</title>
-      <link>http://localhost:1313/math/lecture-notes/cpl-analysis/</link>
+      <link>http://localhost:1313/math/lecture-notes/cplx-analysis/</link>
       <pubDate>Wed, 18 Jan 2006 12:36:09 +0200</pubDate>
-      <guid>http://localhost:1313/math/lecture-notes/cpl-analysis/</guid>
-      <description>These are notes for a graduate course in Complex Analysis at UT Austin in 2006.</description>
+      <guid>http://localhost:1313/math/lecture-notes/cplx-analysis/</guid>
+      <description>These are notes of a graduate course in Complex Analysis at UT Austin in 2006. Pretty standard stuff for a first course in Complex Analysis.&#xA;The history of the proof of Cauchy&amp;rsquo;s theorem has its twists and turns. I always liked Goursat&amp;rsquo;s proof that does not require continuity of first partial derivatives.</description>
     </item>
     <item>
       <title>K-theory and L-functions</title>
       <link>http://localhost:1313/math/lecture-notes/k-theory-l-fctns/</link>
       <pubDate>Mon, 01 Apr 2002 12:36:09 +0200</pubDate>
       <guid>http://localhost:1313/math/lecture-notes/k-theory-l-fctns/</guid>
-      <description>These are notes (taken by M. Lalín) for a course on K-theory and L-functions I gave at Harvard University in the Spring of 2002. Notes for the first few lectures were taken by S. Valverde.</description>
+      <description>These are notes (taken by M. Lalín) for a course on $K$-theory and $L$-functions I gave at Harvard University in the Spring of 2002. Notes for the first few lectures were taken by S. Valverde.&#xA;The main goal of the course was to explain how to frame conceptually the numerical examples of D. Boyd relating the Mahler measure of certain two variable polynomials $A(x,y)$ and $L(E,2)$ for $E$ the elliptic curve defined by the zeros of $A$.</description>
     </item>
     <item>
-      <title>La Función Zeta de Hasse-Weil</title>
+      <title>La Función Zeta de Hasse-Weil (in Spanish)</title>
       <link>http://localhost:1313/math/lecture-notes/weil-zeta-merida/</link>
       <pubDate>Mon, 07 Jun 1999 12:36:09 +0200</pubDate>
       <guid>http://localhost:1313/math/lecture-notes/weil-zeta-merida/</guid>
