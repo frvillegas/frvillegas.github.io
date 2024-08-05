@@ -4,12 +4,11 @@ title = 'Blet'
 draft = false
 omit_header_text = true
 featured_image = '/images/BletPic.gif'
-tags = ['Puzzles', 'Public Lecture', 'BNS']
+tags = ['Puzzles', 'Public Lecture', 'Lattice Polygons', 'BNS']
 categories = ['Math']
 +++
 
-In 2018 I was invited by my former ICTP Diploma student M. Saskia to
-give a mini-course at the University of Vienna. I also gave a general
+In 2018 I was invited by my former ICTP Diploma student [Manjil P. Saikia](https://manjilsaikia.in/) to give a mini-course at the University of Vienna. I also gave a general
 talk  about the puzzle [Blet](/pdf/2018-blet.pdf). Later in the year I
 have a Basic Notions Seminar on the puzzle at ICTP.
 

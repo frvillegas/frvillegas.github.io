@@ -4,7 +4,7 @@ title = 'Math, Puzzles and Computers'
 draft = false
 omit_header_text = true
 featured_image = '/images/20141123_pythagorus_opt.jpg'
-tags = ['Lecture Notes', 'Puzzles']
+tags = ['Lecture Notes', 'Puzzles', 'Lattice Polygons']
 categories = ['Math']
 +++
 

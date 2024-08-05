@@ -58,6 +58,13 @@
       <description></description>
     </item>
     <item>
+      <title>Football</title>
+      <link>http://localhost:1313/tags/football/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/football/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Public Lecture</title>
       <link>http://localhost:1313/tags/public-lecture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -104,6 +111,13 @@
       <link>http://localhost:1313/tags/bns/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/bns/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lattice Polygons</title>
+      <link>http://localhost:1313/tags/lattice-polygons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/lattice-polygons/</guid>
       <description></description>
     </item>
     <item>

@@ -1,5 +1,6 @@
 ---
 title: "Math"
+#featured_image: "/images/Gauss-10-mark.jpg"
 #featured_image: '/images/siteimages/math-life.jpg'
 omit_header_text: true
 description: ""

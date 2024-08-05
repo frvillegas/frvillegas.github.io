@@ -3,12 +3,13 @@ date = 2024-07-19T12:36:09+02:00
 title = 'HGM'
 draft = false
 omit_header_text = true
+featured_image= "/images/Gauss-10-mark.jpg"
 #featured_image = false
 tags = ['Math', 'HGM', 'Benasque']
 categories = ['Math']
 +++
 
-This project got started at an fabulous
+This project got started at a fabulous
 [workshop](https://www.benasque.org/2009numbers/) held in Benasque,
 Spain (in the mountains, a few hours drive from Barcelona) in 2009. I
 wrote this [post]({{<relref "/writing/benasque" >}}) in my blog after
@@ -68,6 +69,17 @@ Code to compute with HGM's has now been implemented in MAGMA, Sage and
 PARI. 
 
 
+I gave a talk at the wonderful
+[meeting](https://mathcentre.in.ua/en/events/numbers-in-the-universe)
+on *Numbers in the Universe* at the brand new ICMU (*International Centre
+for Mathematics in Ukraine*) in 2007. The topic was
 
+>## An update on hypergeometric motives
 
+>In a paper published in 1900 Landau gave the following example of an
+integral factorial ratio (4m)!(4n)!/m!n!(2m+n)!(m+2n)! In this talk,
+using Landau's observation as a running example, we will explore how
+(multivariable) hypergeometric series connect differential equations
+to geometry and arithmetic. 
 
+{{< youtube 3XMwmzS2Cu4 >}}

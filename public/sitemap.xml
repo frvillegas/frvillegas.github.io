@@ -68,6 +68,9 @@
     <loc>http://localhost:1313/photography/something-about-cheese/</loc>
     <lastmod>2024-06-15T10:00:09+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/football/</loc>
+    <lastmod>2024-05-20T12:36:09+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/public-lecture/</loc>
     <lastmod>2024-05-20T12:36:09+02:00</lastmod>
   </url><url>
@@ -110,8 +113,14 @@
     <loc>http://localhost:1313/tags/bns/</loc>
     <lastmod>2018-11-06T12:36:09+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/lattice-polygons/</loc>
+    <lastmod>2018-11-06T12:36:09+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/puzzles/</loc>
     <lastmod>2018-11-06T12:36:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/math/public-lectures/2015-liceo/</loc>
+    <lastmod>2015-01-04T12:36:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/italy/</loc>
     <lastmod>2014-11-06T10:00:09+02:00</lastmod>
@@ -139,6 +148,9 @@
   </url><url>
     <loc>http://localhost:1313/math/lecture-notes/math-puzzles-and-computers/</loc>
     <lastmod>2007-01-18T12:36:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/math/public-lectures/smmg/</loc>
+    <lastmod>2007-01-04T12:36:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/math/lecture-notes/cplx-analysis/</loc>
     <lastmod>2006-01-18T12:36:09+02:00</lastmod>
