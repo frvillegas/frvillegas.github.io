@@ -1,0 +1,108 @@
++++
+date = 2024-08-09T10:00:09+02:00
+title = 'On Randomness'
+draft = false
+omit_header_text = true
+featured_image = '/images/plaque.jpg'
+tags = ['Randomness', 'History']
+categories = ['Writing']
++++
+
+Iperborea is an italian publishing house founded by Emilia Lodigiani
+in 1987 which aims to bring to Italian readers the literature of
+northern Europe. Their books have a distinctive format and texture of
+their covers making them instantly recognizable while browsing in a
+bookstore. Not all of their titles are easy to find in English in
+Italy so they are a good way to connect to Scandinavian culture while
+also practicing my Italian. I read about the incredible Lake Nyos
+disaster in Cameroon for example, in [Il Enigma del Lago
+Rosso](https://iperborea.com/titolo/426/lenigma-del-lago-rosso/) by
+Frank Westerman (translated from the Dutch); there is also an English
+translation: [Choke
+Valley](https://www.frankwesterman.nl/books/choke-valley).
+
+I picked up *Orden som formade Sverige* by Elisabeth Åsbrink in
+Italian at the Minerva bookstore in Trieste.  The literal translation
+of the title is *The words that shaped Sweden* and has actually been
+translated to English as *Made in Sweden: Made in Sweden: 25 ideas
+that created a country* but I am reading it in Italian (*Made in
+Sweden: le parole che hanno fatto la Svezia*).
+
+The book consists of short chapters discussing some event of the
+history of Sweden, centered around language or culture in some way,
+ordered chronolgically.  I found the style, pace and perspective in
+each topic fascinating.
+
+There is the amazing story mentioned in passing (in Chapter I) of
+runes inscribed in a marble sculpture of a lion once in the port of
+Piraeus in Greece and now in the Arsenal in Venice. The text was
+carved in the 11th century and is now so weathered down that reading
+it is a huge challenge. Various reconstructions exist but whatever the
+precise meaning it is clear that it is basically just like a modern
+grafitti of the sort *X and his pals were here*, written by a bunch of
+early Swedes far from home and with time to kill. I will come back to
+runes in another post as they were important to me as a [kid]({{<
+relref from-here-to-there >}}) via *Voyage to the Centre of the Earth*
+of J. Verne .
+
+But the main story for this post is in Chapter 6 about the Kalmar
+Union. This is a major event in the history of Scandinavia of the late
+1300's where the kingdoms of Denmark, Norway and Sweden were joined
+under a single monarch. Erik Gustaf Geijer an early 1800's Swedish
+writer, historian, composer famously said that the Kalmar Union was
+*an event that looks like an idea*.
+
+I was struck by this because it sounds exactly what Darwin would say
+about life. Life is a random event that looks intentional, like
+someone, a conscious being, intended it, wanted it. Randomness that
+looks like volition.
+
+But then again this is hard for us humans. Our brain evolved to look
+for patterns and extract meaning. A piece of marble in form of a lion
+with carved symbols that look like a message from an unknown language
+cannot just be random.
+
+It is hard for us to understand what random means. A common exercise
+in a lecture on probability is to divide the class in two and ask one
+group to toss a coin 100 times recording the outcome and the other to
+write down a made-up sequence of such tosses. Typically, it is later
+easy to figure out which sequence came from the actual coin flips: the
+one that includes strings of six heads in a row.
+
+[Benford's Law](https://en.wikipedia.org/wiki/Benford's_law) is the
+observation that in large data sets of unstructured numbers the
+distribution of their first digits among 1,2,...,9 is not actually
+uniform but logarithmic. So the proportion of numbers in the set with
+a given first digit is roughly like this
+
+
+
+| Digit | Prob|
+| :---------------- | :------: | ----: |
+
+| 1 |	30.1% |
+
+| 2 |	17.6% |	
+
+| 3 |	12.5% |	
+
+| 4 |	9.7% |	
+
+| 5 |	7.9% |	
+
+| 6 |	6.7% |	
+
+| 7 |	5.8% |	
+
+| 8 |	5.1% |	
+
+| 9 |	4.6% |
+
+
+{{< bootstrap-table table_class="table table-responsive table-hover" thead_class="table-info" caption="Table: Demonstration" >}}  
+| Letters | | Numbers | | Symbols  |  
+|:-----:|:--:|:-----|-|-----|  
+| A |  | 0   | | * |  
+| B |  | 1 | | $ |  
+| C |  | 2 | | % |   
+{{</bootstrap-table>}}

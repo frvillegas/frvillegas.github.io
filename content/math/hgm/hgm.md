@@ -62,7 +62,7 @@ This Benasque meeting counts among the most exciting and succesful
 collaborations at a workshop that I have ever experienced.
 
 I later wrote a bit more detailed [account](/pdf/hgm/benasque09.pdf) of
-what we did. Together with D. Roberts we wrote a terse but update
+what we did. Together with D. Roberts we wrote a terse but updated
 [summary](https://arxiv.org/pdf/2109.00027) on HGM's.
 
 Code to compute with HGM's has now been implemented in MAGMA, Sage and
