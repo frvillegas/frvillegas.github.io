@@ -3,7 +3,7 @@ date: 2024-08-09T10:00:09+02:00
 title: "On Randomness"
 draft: false
 omit_header_text: true
-featured_image: "/images/plaque.jpg"
+featured_image: "/images/file-size.jpg"
 tags: ["Randomness", "History"]
 categories: ["Writing"]
 ---
@@ -24,13 +24,13 @@ Valley](https://www.frankwesterman.nl/books/choke-valley).
 I picked up *Orden som formade Sverige* by Elisabeth Åsbrink in
 Italian at the Minerva bookstore in Trieste.  The literal translation
 of the title is *The words that shaped Sweden* and has actually been
-translated to English as *Made in Sweden: Made in Sweden: 25 ideas
-that created a country* but I am reading it in Italian (*Made in
-Sweden: le parole che hanno fatto la Svezia*).
+translated to English as *Made in Sweden: 25 ideas that created a
+country* but I am reading it in Italian (*Made in Sweden: le parole
+che hanno fatto la Svezia*).
 
 The book consists of short chapters discussing some event of the
 history of Sweden, centered around language or culture in some way,
-ordered chronolgically.  I found the style, pace and perspective in
+ordered chronologically.  I found the style, pace and perspective in
 each topic fascinating.
 
 There is the amazing story mentioned in passing (in Chapter 1) of

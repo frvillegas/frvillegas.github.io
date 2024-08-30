@@ -8,9 +8,12 @@ tags = ['Puzzles', 'Public Lecture', 'Lattice Polygons', 'BNS']
 categories = ['Math']
 +++
 
-In 2018 I was invited by my former ICTP Diploma student [Manjil P. Saikia](https://manjilsaikia.in/) to give a mini-course at the University of Vienna. I also gave a general
-talk  about the puzzle [Blet](/pdf/2018-blet.pdf). Later in the year I
-have a Basic Notions Seminar on the puzzle at ICTP.
+In 2018 I was invited by my former ICTP Diploma student [Manjil
+P. Saikia](https://manjilsaikia.in/) to give a mini-course at the
+University of Vienna. I also gave then a general talk about the puzzle
+[Blet](/pdf/2018-blet.pdf). Later in the year I gave a [Basic Notions
+Seminar](https://www.youtube.com/playlist?list=PLLq_gUfXAnknYZ7B6oTI9zT4i0tMhUzZK)
+on the puzzle at ICTP.
 
 As an experiment I got the transcript of the talk from youtube and
 then ran it through ChatGPT. After some light editing here is the

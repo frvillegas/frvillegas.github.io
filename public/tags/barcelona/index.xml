@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/photography/something-about-cheese/</guid>
       <description>I love this picture.&#xA;Early in the morning in the Barrio Gotico of Barcelona. As I walked by I couldn&amp;rsquo;t help hearing part of the conversation. The young woman seemed to be asking in good but accented Spanish where she could find a particular kind of cheese. I imagine she thought the old ladies were locals that would know.&#xA;View this post on Instagram </description>
     </item>
+    <item>
+      <title>HGM: Some hyperelliptic curves</title>
+      <link>http://localhost:1313/math/research-talks/hgm-hyperell/</link>
+      <pubDate>Thu, 13 Jul 2017 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/research-talks/hgm-hyperell/</guid>
+      <description>These are notes of a talk a gave in a workshop on the arithmetic of curves held in Barcelona in 2017.</description>
+    </item>
   </channel>
 </rss>

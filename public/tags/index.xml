@@ -114,6 +114,27 @@
       <description></description>
     </item>
     <item>
+      <title>ETH</title>
+      <link>http://localhost:1313/tags/eth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/eth/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research Talk</title>
+      <link>http://localhost:1313/tags/research-talk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/research-talk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zurich</title>
+      <link>http://localhost:1313/tags/zurich/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/zurich/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>BNS</title>
       <link>http://localhost:1313/tags/bns/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -135,6 +156,34 @@
       <description></description>
     </item>
     <item>
+      <title>Bristol</title>
+      <link>http://localhost:1313/tags/bristol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bristol/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Riemann Hypothesis</title>
+      <link>http://localhost:1313/tags/riemann-hypothesis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/riemann-hypothesis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Beeger Lecture</title>
+      <link>http://localhost:1313/tags/beeger-lecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/beeger-lecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dutch Mathematical Congress</title>
+      <link>http://localhost:1313/tags/dutch-mathematical-congress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/dutch-mathematical-congress/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Italy</title>
       <link>http://localhost:1313/tags/italy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -146,6 +195,34 @@
       <link>http://localhost:1313/tags/us/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/us/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Character Varieties</title>
+      <link>http://localhost:1313/tags/character-varieties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/character-varieties/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Minessota</title>
+      <link>http://localhost:1313/tags/minessota/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/minessota/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tate</title>
+      <link>http://localhost:1313/tags/tate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tate/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BSD</title>
+      <link>http://localhost:1313/tags/bsd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bsd/</guid>
       <description></description>
     </item>
     <item>

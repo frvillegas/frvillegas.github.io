@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beeger Lecture on Math Life</title>
+    <link>http://localhost:1313/tags/beeger-lecture/</link>
+    <description>Recent content in Beeger Lecture on Math Life</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Apr 2018 12:36:09 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/beeger-lecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hypergeometric Motives</title>
+      <link>http://localhost:1313/math/research-talks/beeger-lecture/</link>
+      <pubDate>Wed, 04 Apr 2018 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/research-talks/beeger-lecture/</guid>
+      <description>These are the slides of my Beeger Lecture at the 2018 Dutch Mathematical Congress.</description>
+    </item>
+  </channel>
+</rss>

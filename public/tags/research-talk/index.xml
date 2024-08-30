@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research Talk on Math Life</title>
+    <link>http://localhost:1313/tags/research-talk/</link>
+    <description>Recent content in Research Talk on Math Life</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Jun 2019 12:36:09 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/research-talk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mixed Hodge Numbers and Factorial Ratios</title>
+      <link>http://localhost:1313/math/research-talks/duke-conf/</link>
+      <pubDate>Mon, 17 Jun 2019 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/research-talks/duke-conf/</guid>
+      <description>These are the slides of my talk at Bill Duke&amp;rsquo;s birthday conference held at ETH in Zurich. I later wrote an extended abstract of this talk. It includes a proof of the calculation of the mixed Hodge numbers of a hypergeometric motive. The original conjecture on Hodge numbers of is a paper of Corti and Golyshev. A proof was given by Fedorov.</description>
+    </item>
+    <item>
+      <title>Hypergeometric Motives</title>
+      <link>http://localhost:1313/math/research-talks/2018-rh/</link>
+      <pubDate>Sun, 17 Jun 2018 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/research-talks/2018-rh/</guid>
+      <description>These are the slides of my talk at the 2018 conference &amp;ldquo;Perspectives on the Riemann Hypothesis&amp;rdquo; held in Bristol.</description>
+    </item>
+    <item>
+      <title>Hypergeometric Motives</title>
+      <link>http://localhost:1313/math/research-talks/beeger-lecture/</link>
+      <pubDate>Wed, 04 Apr 2018 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/research-talks/beeger-lecture/</guid>
+      <description>These are the slides of my Beeger Lecture at the 2018 Dutch Mathematical Congress.</description>
+    </item>
+    <item>
+      <title>HGM: Some hyperelliptic curves</title>
+      <link>http://localhost:1313/math/research-talks/hgm-hyperell/</link>
+      <pubDate>Thu, 13 Jul 2017 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/research-talks/hgm-hyperell/</guid>
+      <description>These are notes of a talk a gave in a workshop on the arithmetic of curves held in Barcelona in 2017.</description>
+    </item>
+    <item>
+      <title>Character Varieties</title>
+      <link>http://localhost:1313/math/research-talks/tate-abel/</link>
+      <pubDate>Tue, 04 Jan 2011 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/research-talks/tate-abel/</guid>
+      <description>These are the slides of my talk at the first Abel conference in honor of John Tate at the University of Minessota in 2011. It is a summary of my work with T. Hausel and E. Letellier.</description>
+    </item>
+    <item>
+      <title>Explicit Elliptic Units</title>
+      <link>http://localhost:1313/math/research-talks/expl-ell-uts/</link>
+      <pubDate>Sat, 07 Jun 1997 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/research-talks/expl-ell-uts/</guid>
+      <description>These are the slides of a talk I gave some time in 1997 on my joint work with Farshid Hajir on defining explicit elliptic units; basically trying, and to some degree succeeding, to tame the 24-th roots of unity that arise from the transformation formula of Dedekind&amp;rsquo;s eta function.</description>
+    </item>
+  </channel>
+</rss>

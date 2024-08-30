@@ -20,7 +20,7 @@
       <link>http://localhost:1313/math/public-lectures/blet/</link>
       <pubDate>Tue, 06 Nov 2018 12:36:09 +0200</pubDate>
       <guid>http://localhost:1313/math/public-lectures/blet/</guid>
-      <description>In 2018 I was invited by my former ICTP Diploma student Manjil P. Saikia to give a mini-course at the University of Vienna. I also gave a general talk about the puzzle Blet. Later in the year I have a Basic Notions Seminar on the puzzle at ICTP.&#xA;As an experiment I got the transcript of the talk from youtube and then ran it through ChatGPT. After some light editing here is the result.</description>
+      <description>In 2018 I was invited by my former ICTP Diploma student Manjil P. Saikia to give a mini-course at the University of Vienna. I also gave then a general talk about the puzzle Blet. Later in the year I gave a Basic Notions Seminar on the puzzle at ICTP.&#xA;As an experiment I got the transcript of the talk from youtube and then ran it through ChatGPT. After some light editing here is the result.</description>
     </item>
     <item>
       <title>Liceo</title>
@@ -42,6 +42,13 @@
       <pubDate>Thu, 04 Jan 2007 12:36:09 +0200</pubDate>
       <guid>http://localhost:1313/math/public-lectures/smmg/</guid>
       <description>At UT Austin there is a wonderful program of lectures for high-school students on some Saturday mornings. I gave a number of the talks there including one about lattice polygons and the number 12.</description>
+    </item>
+    <item>
+      <title>The Millennium Problems: BSD</title>
+      <link>http://localhost:1313/math/public-lectures/millenial-bsd/</link>
+      <pubDate>Wed, 21 Feb 2001 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/public-lectures/millenial-bsd/</guid>
+      <description>Part of the 2001 University of Texas Lectures on the Clay Institute Millennium Problems.&#xA;On the Birch-Swinnerton&amp;ndash;Dyer Conjecture</description>
     </item>
   </channel>
 </rss>
