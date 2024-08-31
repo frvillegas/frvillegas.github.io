@@ -16,14 +16,14 @@
       <description>These are the slides of my talk at Bill Duke&amp;rsquo;s birthday conference held at ETH in Zurich. I later wrote an extended abstract of this talk. It includes a proof of the calculation of the mixed Hodge numbers of a hypergeometric motive. The original conjecture on Hodge numbers of is a paper of Corti and Golyshev. A proof was given by Fedorov.</description>
     </item>
     <item>
-      <title>Hypergeometric Motives</title>
+      <title>Hypergeometric Motives II</title>
       <link>http://localhost:1313/math/research-talks/2018-rh/</link>
       <pubDate>Sun, 17 Jun 2018 12:36:09 +0200</pubDate>
       <guid>http://localhost:1313/math/research-talks/2018-rh/</guid>
       <description>These are the slides of my talk at the 2018 conference &amp;ldquo;Perspectives on the Riemann Hypothesis&amp;rdquo; held in Bristol.</description>
     </item>
     <item>
-      <title>Hypergeometric Motives</title>
+      <title>Hypergeometric Motives I</title>
       <link>http://localhost:1313/math/research-talks/beeger-lecture/</link>
       <pubDate>Wed, 04 Apr 2018 12:36:09 +0200</pubDate>
       <guid>http://localhost:1313/math/research-talks/beeger-lecture/</guid>
@@ -37,11 +37,25 @@
       <description>These are notes of a talk a gave in a workshop on the arithmetic of curves held in Barcelona in 2017.</description>
     </item>
     <item>
-      <title>Character Varieties</title>
+      <title>Character Varieties II</title>
       <link>http://localhost:1313/math/research-talks/tate-abel/</link>
       <pubDate>Tue, 04 Jan 2011 12:36:09 +0200</pubDate>
       <guid>http://localhost:1313/math/research-talks/tate-abel/</guid>
       <description>These are the slides of my talk at the first Abel conference in honor of John Tate at the University of Minessota in 2011. It is a summary of my work with T. Hausel and E. Letellier.</description>
+    </item>
+    <item>
+      <title>Character Varieties I</title>
+      <link>http://localhost:1313/math/research-talks/char-var/</link>
+      <pubDate>Tue, 20 Jun 2006 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/research-talks/char-var/</guid>
+      <description>These are slides of a talk of the late 2000&amp;rsquo;s (don&amp;rsquo;t remember where) on my early work with T. Hausel on character varieties. It has some details on the combinatorics involved in computing the key quantity $C_\tau$.</description>
+    </item>
+    <item>
+      <title>Mahler Measure</title>
+      <link>http://localhost:1313/math/research-talks/mahler-measure/</link>
+      <pubDate>Fri, 01 May 1998 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/research-talks/mahler-measure/</guid>
+      <description>These are the slides of my talk at the 1998 Pacific Northwest Number Theory Meeting.</description>
     </item>
     <item>
       <title>Explicit Elliptic Units</title>
@@ -49,6 +63,13 @@
       <pubDate>Sat, 07 Jun 1997 12:36:09 +0200</pubDate>
       <guid>http://localhost:1313/math/research-talks/expl-ell-uts/</guid>
       <description>These are the slides of a talk I gave some time in 1997 on my joint work with Farshid Hajir on defining explicit elliptic units; basically trying, and to some degree succeeding, to tame the 24-th roots of unity that arise from the transformation formula of Dedekind&amp;rsquo;s eta function.</description>
+    </item>
+    <item>
+      <title>Thesis</title>
+      <link>http://localhost:1313/math/research-talks/thesis/</link>
+      <pubDate>Mon, 20 Feb 1989 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/research-talks/thesis/</guid>
+      <description>These are the notes of one my first research talks in the US, at OSU in the Spring of 1989. It is on my thesis (original, published versions).</description>
     </item>
   </channel>
 </rss>

@@ -1,11 +1,11 @@
 +++
 date = 2011-01-04T12:36:09+02:00
-title = 'Character Varieties'
+title = 'Character Varieties II'
 draft = false
 omit_header_text = true
 featured_image = '/images/char-var-tate-abel.png'
 #256px-Double_torus_illustration.png
-tags = ['Character Varieties', 'Research Talk', 'Tate', 'Minessota']
+tags = ['Character Varieties', 'Research Talk', 'Tate', 'Minnesota']
 categories = ['Math']
 +++
 

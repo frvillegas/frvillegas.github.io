@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thesis on Math Life</title>
+    <link>http://localhost:1313/tags/thesis/</link>
+    <description>Recent content in Thesis on Math Life</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Feb 1989 12:36:09 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/thesis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thesis</title>
+      <link>http://localhost:1313/math/research-talks/thesis/</link>
+      <pubDate>Mon, 20 Feb 1989 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/research-talks/thesis/</guid>
+      <description>These are the notes of one my first research talks in the US, at OSU in the Spring of 1989. It is on my thesis (original, published versions).</description>
+    </item>
+  </channel>
+</rss>

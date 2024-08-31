@@ -6,8 +6,15 @@
     <description>Recent content in Math on Math Life</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Aug 2024 12:36:09 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Experimental Number Theory</title>
+      <link>http://localhost:1313/math/book/</link>
+      <pubDate>Sat, 31 Aug 2024 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/book/</guid>
+      <description>This book, published in 2007, is a discussion of various mathematical experiments in Number Theory using the computer. The main computational tool used is the sophisticated package PARI-GP. Maybe the best way to describe the book in more detail is to just quote its preface.&#xA;Preface -------- There is a long and distinguished tradition in mathematics, perhaps even more pronounced in number theory, whereas a chance discovery of a pattern or identity between numbers arising from unrelated calculations leads to the development of whole new fields (this is precisely how Gauss phrases it in a diary entry).</description>
+    </item>
     <item>
       <title>Research Articles</title>
       <link>http://localhost:1313/math/math-articles/</link>

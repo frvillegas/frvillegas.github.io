@@ -5,12 +5,12 @@ description: ""
 type: page
 menu: main
 ---
-Fernando Rodriguez Villegas
+[Fernando Rodriguez Villegas](/pdf/frv-cv-24.pdf)
 
 # Education
 
 - 1985
-Licenciatura en Ciencias Matem\'aticas. Universidad de Buenos Aires.
+Licenciatura en Ciencias Matemáticas. Universidad de Buenos Aires.
 
 - 1990
 Ph.D. Mathematics.  The Ohio State University (Advisors: W. Sinnott and
@@ -61,9 +61,9 @@ theory. Institut Henri Poincaré, Paris, visitor.
 
 # Books
 
- *Experimental Number Theory* Oxford Graduate Texts in Mathematics,
- 13. Oxford University Press, Oxford, 2007. xvi+214 pp. ISBN:
- 978-0-19-922730-3
+ [Experimental Number Theory]({{< relref "/math/book" >}} "") Oxford
+ Graduate Texts in Mathematics,  13. Oxford University Press, Oxford,
+ 2007. xvi+214 pp. ISBN:  978-0-19-922730-3
 
 # Selected Invited Lectures
 
@@ -94,7 +94,7 @@ Academy of Sciences, Beijing,  China.
 Janeiro, Brazil.  
 
 - April 2018. Beeger Lecture, *Hypergeometric Motives*,
-Netherlands Mathematical Congress, The Netherlands. 
+Dutch Mathematical Congress, The Netherlands. 
 
 - April 2018.  Maxson Lectures, *Hypergeometric Functions and L-series*,
 *Combinatorics and Geometry*, Texas A&M University, Texas, USA. 

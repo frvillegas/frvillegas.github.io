@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Austin on Math Life</title>
+    <link>http://localhost:1313/tags/austin/</link>
+    <description>Recent content in Austin on Math Life</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Nov 2007 12:36:09 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/austin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Puzzlemania</title>
+      <link>http://localhost:1313/math/public-lectures/puzzles/</link>
+      <pubDate>Wed, 07 Nov 2007 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/public-lectures/puzzles/</guid>
+      <description>These are the slides of a talk I gave in the UT Odyssey public lecture series in 2007. It was a partly historical talk on the way certain puzzles seem to grab the public&amp;rsquo;s attention and become an obsession for a period of time, Rubik&amp;rsquo;s cube being a classic example of the recent past. Another wildly popular puzzle was the Famous Trick Donkeys 1858 puzzle by Sam Lloyd.&#xA;The original links on the slides don&amp;rsquo;t seem to work anymore.</description>
+    </item>
+  </channel>
+</rss>

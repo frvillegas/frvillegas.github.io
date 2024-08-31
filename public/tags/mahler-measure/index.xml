@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mahler Measure on Math Life</title>
+    <link>http://localhost:1313/tags/mahler-measure/</link>
+    <description>Recent content in Mahler Measure on Math Life</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 May 1998 12:36:09 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mahler-measure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mahler Measure</title>
+      <link>http://localhost:1313/math/research-talks/mahler-measure/</link>
+      <pubDate>Fri, 01 May 1998 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/research-talks/mahler-measure/</guid>
+      <description>These are the slides of my talk at the 1998 Pacific Northwest Number Theory Meeting.</description>
+    </item>
+  </channel>
+</rss>
