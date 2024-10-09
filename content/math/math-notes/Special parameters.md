@@ -10,7 +10,7 @@ lastMod: 2024-10-08
   + An old paper ([Über hypergeometrische Funktionen, deren letztes
   Element speziell
   ist](https://gdz.sub.uni-goettingen.de/download/pdf/PPN599415665_0044/LOG_0039.pdf))
-  by W. Heymann (from a talk by Wadym Zudilin) discusses the value of
+  by W. Heymann (from a talk by Wadim Zudilin) discusses the value of
   an ${}_2F_1$ at special $t$'s. He does $t=-1/3,1/4,1/5$ and related values and mentions Gauss for $t=1,-1,1/2$ and Kummer for $t=-1/8,1/9,8/9$.
 
   + For example we have this identity
