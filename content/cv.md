@@ -34,6 +34,7 @@ K. Rubin).
 - 2012-2013 Senior Research Scientist, ICTP.
 - 2014-2017 Head of the Mathematics Section, ICTP. 
 - 2018-2024 Senior Research Scientist, ICTP.
+- 2024-Present Emeritus Professor, ICTP
 
 #  Visiting Positions
 
@@ -102,6 +103,8 @@ Dutch Mathematical Congress, The Netherlands.
 - Nov 2018. Arf Lecture, *Combinatorics and Geometry*,  Middle East
   Technical University, Ankara, Turkey.
 
+- Oct 2024. *P=W workshop*, Clay Mathematical Institute, Oxford
+University, UK.
 # [Bibliography]({{< relref "math-articles" >}})
 
 

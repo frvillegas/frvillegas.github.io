@@ -22,5 +22,12 @@
       <guid>http://localhost:1313/photography/something-about-cheese/</guid>
       <description>I love this picture.&#xA;Early in the morning in the Barrio Gotico of Barcelona. As I walked by I couldn&amp;rsquo;t help hearing part of the conversation. The young woman seemed to be asking in good but accented Spanish where she could find a particular kind of cheese. I imagine she thought the old ladies were locals that would know.&#xA;View this post on Instagram </description>
     </item>
+    <item>
+      <title>Oxford</title>
+      <link>http://localhost:1313/photography/oxford/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photography/oxford/</guid>
+      <description>I was back in Oxford to give a talk at the workshop on The P=W Conjecture in Non Abelian Hodge Theory, part of the Clay Mathematical Institute conference of 2024.&#xA;I arrived a day early, on Saturday, and spent the day walking around town remembering the old days (2009-2010 when I visited for the year). There was some kind of graduation ceremony happening and though I don&amp;rsquo;t really like to take pictures of people I could not resist this one.</description>
+    </item>
   </channel>
 </rss>

@@ -6,8 +6,22 @@
     <description>Recent content in Tags on Math Life</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Aug 2024 10:00:09 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 08 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HGM</title>
+      <link>http://localhost:1313/tags/hgm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/hgm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Math</title>
+      <link>http://localhost:1313/tags/math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/math/</guid>
+      <description></description>
+    </item>
     <item>
       <title>History</title>
       <link>http://localhost:1313/tags/history/</link>
@@ -27,20 +41,6 @@
       <link>http://localhost:1313/tags/benasque/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/benasque/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>HGM</title>
-      <link>http://localhost:1313/tags/hgm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hgm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Math</title>
-      <link>http://localhost:1313/tags/math/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/math/</guid>
       <description></description>
     </item>
     <item>
@@ -205,10 +205,10 @@
       <description></description>
     </item>
     <item>
-      <title>Minessota</title>
-      <link>http://localhost:1313/tags/minessota/</link>
+      <title>Minnesota</title>
+      <link>http://localhost:1313/tags/minnesota/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/minessota/</guid>
+      <guid>http://localhost:1313/tags/minnesota/</guid>
       <description></description>
     </item>
     <item>
@@ -216,6 +216,13 @@
       <link>http://localhost:1313/tags/tate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/tate/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Austin</title>
+      <link>http://localhost:1313/tags/austin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/austin/</guid>
       <description></description>
     </item>
     <item>
@@ -233,6 +240,20 @@
       <description></description>
     </item>
     <item>
+      <title>Mahler Measure</title>
+      <link>http://localhost:1313/tags/mahler-measure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/mahler-measure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vancouver</title>
+      <link>http://localhost:1313/tags/vancouver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/vancouver/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Manuscripts</title>
       <link>http://localhost:1313/tags/manuscripts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -240,10 +261,31 @@
       <description></description>
     </item>
     <item>
+      <title>Hecke Characters</title>
+      <link>http://localhost:1313/tags/hecke-characters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/hecke-characters/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thesis</title>
+      <link>http://localhost:1313/tags/thesis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/thesis/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Newsletter</title>
       <link>http://localhost:1313/tags/newsletter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/newsletter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oxford</title>
+      <link>http://localhost:1313/tags/oxford/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/oxford/</guid>
       <description></description>
     </item>
   </channel>

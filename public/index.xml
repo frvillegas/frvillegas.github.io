@@ -6,8 +6,15 @@
     <description>Recent content on Math Life</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Aug 2024 12:36:09 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 08 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Special parameters</title>
+      <link>http://localhost:1313/math/math-notes/special-parameters/</link>
+      <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/math/math-notes/special-parameters/</guid>
+      <description>An old paper (Über hypergeometrische Funktionen, deren letztes Element speziell ist) by W. Heymann (from a talk by Wadym Zudilin) discusses the value of an ${}_2F_1$ at special $t$&amp;rsquo;s. He does $t=-1/3,1/4,1/5$ and related values and mentions Gauss for $t=1,-1,1/2$ and Kummer for $t=-1/8,1/9,8/9$.&#xA;For example we have this identity $$ F_h = F \left( -\frac{h}{2}, -\frac{h}{2} + \frac{1}{2}, h + \frac{3}{2}, -\frac{1}{3} \right) = \frac{2}{3} \cdot \left( \frac{8}{9} \right)^h \cdot \frac{\Gamma \left( \frac{1}{3} \right) \cdot \Gamma \left( h + \frac{3}{2} \right)}{\sqrt{\pi} \cdot \Gamma \left( h + \frac{4}{3} \right)} $$ If we take $h=1/2$ we get an HGM defined over $\mathbb Q$, we get the gamma vector $[-4,1,1,2]$ and corresponding Weierstrass model $$ y^2+xy=x^3+\frac t{64}x.</description>
+    </item>
     <item>
       <title>Experimental Number Theory</title>
       <link>http://localhost:1313/math/book/</link>
@@ -294,6 +301,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/newsletter/archive/july-2024/</guid>
       <description>Dear All,&#xA;This is the first of what I hope is a long-running monthly newsletter with (mostly mathematical) updates from yours truly.&#xA;Now that I have retired from ICTP, I am working on the launch of an independent website with all my stuff. Please check it out.&#xA;https://frvillegas.github.io/&#xA;I also opened a zulip site that I hope will be useful for discussions on various mathematical projects organized by topics. You can access it here:</description>
+    </item>
+    <item>
+      <title>Oxford</title>
+      <link>http://localhost:1313/photography/oxford/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photography/oxford/</guid>
+      <description>I was back in Oxford to give a talk at the workshop on The P=W Conjecture in Non Abelian Hodge Theory, part of the Clay Mathematical Institute conference of 2024.&#xA;I arrived a day early, on Saturday, and spent the day walking around town remembering the old days (2009-2010 when I visited for the year). There was some kind of graduation ceremony happening and though I don&amp;rsquo;t really like to take pictures of people I could not resist this one.</description>
     </item>
     <item>
       <title>Research Articles</title>

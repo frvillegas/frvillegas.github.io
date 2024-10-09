@@ -2,17 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/math/book/</loc>
-    <lastmod>2024-08-31T12:36:09+02:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hgm/</loc>
+    <lastmod>2024-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/math/</loc>
+    <lastmod>2024-10-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/math/</loc>
-    <lastmod>2024-08-31T12:36:09+02:00</lastmod>
+    <lastmod>2024-10-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-08-31T12:36:09+02:00</lastmod>
+    <lastmod>2024-10-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-08-09T10:00:09+02:00</lastmod>
+    <loc>http://localhost:1313/categories/math-notes/</loc>
+    <lastmod>2024-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/math/math-notes/</loc>
+    <lastmod>2024-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/math/math-notes/special-parameters/</loc>
+    <lastmod>2024-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/math/book/</loc>
+    <lastmod>2024-08-31T12:36:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/history/</loc>
     <lastmod>2024-08-09T10:00:09+02:00</lastmod>
@@ -21,9 +39,6 @@
     <lastmod>2024-08-09T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/randomness/</loc>
-    <lastmod>2024-08-09T10:00:09+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-08-09T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/writing/</loc>
@@ -35,16 +50,10 @@
     <loc>http://localhost:1313/tags/benasque/</loc>
     <lastmod>2024-07-19T12:36:09+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hgm/</loc>
-    <lastmod>2024-07-19T12:36:09+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/math/hgm/</loc>
     <lastmod>2024-07-19T12:36:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/math/hgm/hgm/</loc>
-    <lastmod>2024-07-19T12:36:09+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/math/</loc>
     <lastmod>2024-07-19T12:36:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/math/</loc>
@@ -279,11 +288,13 @@
   </url><url>
     <loc>http://localhost:1313/newsletter/archive/july-2024/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/minessota/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/newsletter/</loc>
   </url><url>
     <loc>http://localhost:1313/newsletter/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/oxford/</loc>
+  </url><url>
+    <loc>http://localhost:1313/photography/oxford/</loc>
   </url><url>
     <loc>http://localhost:1313/math/math-articles/</loc>
   </url><url>

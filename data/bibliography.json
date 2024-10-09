@@ -110,6 +110,7 @@
     "volume": "106"
   },
   {
+    "URL": "/pdf/frv-zagier-square-root-1.pdf",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -146,6 +147,7 @@
     "type": "chapter"
   },
   {
+    "URL": "/pdf/frv-duke-square-root-2.pdf",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -167,6 +169,7 @@
     "volume": "72"
   },
   {
+    "URL": "/pdf/frv-vstaudt.pdf",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -188,6 +191,7 @@
     "volume": "162"
   },
   {
+    "URL": "/pdf/frv-cm-theta.pdf",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -221,6 +225,7 @@
     "volume": "174"
   },
   {
+    "URL": "/pdf/frv-sum-2-cubes.pdf",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -281,6 +286,7 @@
     "volume": "90"
   },
   {
+    "URL": "/pdf/frv-hajir-sha.pdf",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -306,6 +312,7 @@
     "volume": "5"
   },
   {
+    "URL": "/pdf/mmm-ps.pdf",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -343,6 +350,7 @@
     "volume": "467"
   },
   {
+    "URL": "/pdf/frv-S0012-7094-99-09817-4",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -369,6 +377,7 @@
     "volume": "98"
   },
   {
+    "URL": "/pdf/frv-aa8835",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -394,6 +403,61 @@
     "volume": "88"
   },
   {
+    "URL": "pdf/frv-1047477112",
+    "author": [
+      {
+        "family": "Rodriguez Villegas",
+        "given": "F."
+      },
+      {
+        "family": "Voloch",
+        "given": "F. J."
+      }
+    ],
+    "container-title": "Experiment. Math.",
+    "id": "MR1685037",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          1999
+        ]
+      ]
+    },
+    "page": "57-62",
+    "title": "On certain plane curves with many integral points",
+    "type": "article-journal",
+    "volume": "8"
+  },
+  {
+    "URL": "/pdf/frv-1046889587",
+    "author": [
+      {
+        "family": "H. Cohen",
+        "given": "F. Rodriguez Villegas"
+      },
+      {
+        "family": "Zagier",
+        "given": "D."
+      }
+    ],
+    "container-title": "Experiment. Math.",
+    "id": "MR1758796",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "page": "3-12",
+    "title": "Convergence acceleration of alternating series",
+    "type": "article-journal",
+    "volume": "9"
+  },
+  {
+    "URL": "/pdf/frv-aa99-1-08",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -423,6 +487,7 @@
     "volume": "49"
   },
   {
+    "URL": "/pdf/frv-mahlers-measure-and-the-dilogarithm-i",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -448,6 +513,7 @@
     "volume": "54"
   },
   {
+    "URL": "/pdf/blet.pdf",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -479,6 +545,7 @@
     "volume": "109"
   },
   {
+    "URL": "https://arxiv.org/pdf/math/0612670",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -526,6 +593,7 @@
     "type": "chapter"
   },
   {
+    "URL": "/pdf/frv-hilbert-functions.pdf",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -547,6 +615,7 @@
     "volume": "130"
   },
   {
+    "URL": "/pdf/frv-new-fields",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -581,6 +650,37 @@
     "volume": "38"
   },
   {
+    "URL": "https://arxiv.org/pdf/hep-th/0012233",
+    "author": [
+      {
+        "family": "Rodriguez Villegas",
+        "given": "F."
+      },
+      {
+        "family": "Candelas",
+        "given": "P."
+      },
+      {
+        "dropping-particle": "de la",
+        "family": "Ossa",
+        "given": "X."
+      }
+    ],
+    "id": "cy_ff_I",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "note": "(Unpublished)",
+    "page": "1-76",
+    "title": "Calabi-Yau manifolds over finite fields. I",
+    "type": "manuscript"
+  },
+  {
+    "URL": "https://arxiv.org/pdf/hep-th/0402133",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -624,6 +724,7 @@
     "volume": "38"
   },
   {
+    "URL": "/pdf/frv-estimates-for-mahlers-measure-of-a-linear-form",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -653,6 +754,7 @@
     "volume": "136"
   },
   {
+    "URL": "/pdf/frv-s0025-5718-04-01709-0-1",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -679,6 +781,7 @@
     "volume": "251"
   },
   {
+    "URL": "/pdf/frv-et-al-jacobian-cubics.pdf",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -729,6 +832,7 @@
     "volume": ""
   },
   {
+    "URL": "/pdf/frv-colorings.pdf",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -750,6 +854,7 @@
     "type": "paper-conference"
   },
   {
+    "URL": "/pdf/frv-comp-central-values-1.pdf",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -782,6 +887,7 @@
     "volume": "341"
   },
   {
+    "URL": "/pdf/frv-comp-central-values.pdf",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -806,6 +912,7 @@
     "volume": "341"
   },
   {
+    "URL": "/pdf/frv-s00029-007-0037-5",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -832,7 +939,7 @@
     "volume": "13"
   },
   {
-    "URL": "hhtps://arxiv/pdf/0612668",
+    "URL": "https://arxiv.org/pdf/0612668",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -1055,6 +1162,7 @@
     "volume": "234"
   },
   {
+    "URL": "/pdf/frv-annals-v177-n3-p08-p",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -1137,6 +1245,7 @@
     "volume": "370"
   },
   {
+    "URL": "/pdf/frv-mca-2013-paper.pdf",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -1342,6 +1451,7 @@
     "type": "manuscript"
   },
   {
+    "URL": "/pdf/frv-diablo-de-los-numeros.pdf",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -1417,6 +1527,7 @@
     "volume": "69"
   },
   {
+    "URL": "/pdf/frv-the-tutte-polynomial-and-toric-nakajima-quiver-varieties",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -1475,6 +1586,7 @@
     "type": "manuscript"
   },
   {
+    "URL": "/pdf/",
     "author": [
       {
         "family": "Rodriguez Villegas",
@@ -1502,16 +1614,17 @@
   {
     "author": [
       {
-        "family": "Rodriguez Villegas",
-        "given": "F."
+        "family": "Ono",
+        "given": "Ken"
       },
       {
-        "family": "Ono",
-        "given": "K."
+        "family": "Rodriguez Villegas",
+        "given": "Fernando"
       }
     ],
     "container-title": "Pure Appl. Math. Q.",
-    "id": "preface_don_zagier_2023",
+    "id": "MR4570153",
+    "issue": "1",
     "issued": {
       "date-parts": [
         [
@@ -1519,8 +1632,8 @@
         ]
       ]
     },
-    "page": "1",
-    "title": "Preface [special issue in honor of Don Zagier]",
+    "page": "1-2",
+    "title": "Preface [Special issue in honor of Don Zagier]",
     "type": "article-journal",
     "volume": "19"
   },
