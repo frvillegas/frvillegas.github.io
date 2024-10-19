@@ -1,6 +1,7 @@
 +++
 title = 'Potatoes and Swiss chard'
 omit_header_text = true
+featured_image= '/images/blitva-11.jpg'
 tags = ['Croacia','Potatoes', 'Swiss chard']
 categories = ['Cooking']
 +++

@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Trieste on Math Life</title>
-    <link>http://localhost:1313/tags/trieste/</link>
-    <description>Recent content in Trieste on Math Life</description>
+    <title>Health on Math Life</title>
+    <link>http://localhost:1313/tags/health/</link>
+    <description>Recent content in Health on Math Life</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 18 Sep 2024 10:00:09 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/trieste/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/health/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Two nights at Cattinara (in Spanish)</title>
       <link>http://localhost:1313/writing/two-nights-at-cattinara/</link>
       <pubDate>Wed, 18 Sep 2024 10:00:09 +0200</pubDate>
       <guid>http://localhost:1313/writing/two-nights-at-cattinara/</guid>
       <description>En junio de 2023 al volver de un viaje a Viena y Amsterdam empecé con síntomas de un resfrío fuerte. Pero la fiebre no bajaba y después de unos días llamamos al servicio médico. Terminé yendo en ambulancia al pronto soccorso del Ospedale di Cattinara en Trieste. Tenía una fea pulmonía.&#xA;Mientras estuve en el hospital escribí las notas que siguen.&#xA;Me llama mucho la atención las jerarquías dentro del hospital marcadas por uniformes de varios colores.</description>
-    </item>
-    <item>
-      <title>Saxes</title>
-      <link>http://localhost:1313/photography/saxes/</link>
-      <pubDate>Sat, 06 Jul 2024 10:00:09 +0200</pubDate>
-      <guid>http://localhost:1313/photography/saxes/</guid>
-      <description>Walking to the riva after getting gelato at Marco. Maybe these musicians were part of the ensemble playing on the temporary stage on Piazza Unita related to the Pope&amp;rsquo;s visit to Trieste. Enjoying the sun and the ocean breeze during a break.&#xA;View this post on Instagram </description>
     </item>
   </channel>
 </rss>

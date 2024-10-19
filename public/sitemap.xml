@@ -29,6 +29,21 @@
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-10-08T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/health/</loc>
+    <lastmod>2024-09-18T10:00:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/trieste/</loc>
+    <lastmod>2024-09-18T10:00:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/writing/two-nights-at-cattinara/</loc>
+    <lastmod>2024-09-18T10:00:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/writing/</loc>
+    <lastmod>2024-09-18T10:00:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/writing/</loc>
+    <lastmod>2024-09-18T10:00:09+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/math/book/</loc>
     <lastmod>2024-08-31T12:36:09+02:00</lastmod>
   </url><url>
@@ -39,12 +54,6 @@
     <lastmod>2024-08-09T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/randomness/</loc>
-    <lastmod>2024-08-09T10:00:09+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/writing/</loc>
-    <lastmod>2024-08-09T10:00:09+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/writing/</loc>
     <lastmod>2024-08-09T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/benasque/</loc>
@@ -69,9 +78,6 @@
     <lastmod>2024-07-06T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/photography/saxes/</loc>
-    <lastmod>2024-07-06T10:00:09+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/trieste/</loc>
     <lastmod>2024-07-06T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writing/jonathan-swift/</loc>
