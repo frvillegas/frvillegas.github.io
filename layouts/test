@@ -1,0 +1,25 @@
+{{- $mainSections := .Site.Params.mainSections -}}
+{{- $section := where .Site.RegularPages "Section" "in" $mainSections -}}
+{{- $section_count := len $section -}}
+
+{{- $section_name := "" }}
+
+{{ range $mainSections }}
+{{- $section_name := . }}
+{{ end }}
+
+{{- if ge $section_count 1 -}}
+
+{{- with .Site.GetPage "section" $section_name }}
+      {{- range .Sections -}}
+      <div class="navbar-item has-dropdown is-hoverable">
+<a href="{{- .Permalink -}}" class="navbar-link">{{- .Title -}}</a>
+            <div class="navbar-dropdown">
+{{- range .Pages }}
+<a href="{{- .Permalink -}}" class="navbar-item">{{- .Title -}}</a>
+{{- end -}}
+</div>
+    </div>
+    {{- end -}}
+    {{- end -}}
+    {{- end -}}

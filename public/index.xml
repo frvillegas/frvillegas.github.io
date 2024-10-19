@@ -6,8 +6,15 @@
     <description>Recent content on Math Life</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Oct 2024 10:00:09 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Potatoes and Swiss chard</title>
+      <link>http://localhost:1313/cooking/potato-chard/</link>
+      <pubDate>Sat, 19 Oct 2024 10:00:09 +0200</pubDate>
+      <guid>http://localhost:1313/cooking/potato-chard/</guid>
+      <description>Many years ago after an invited seminar talk at ISTA in Vienna we went with my host Tamas Hausel and some of his group for dinner to a Croatian restaurant. I had fish I think and a side dish of potatoes and chard, which I really loved. I have been trying to reproduce it from memory ever since. I found out later (while on vacation in Lussinpicolo) that it is actually a standard traditional dish in Croacia known as blitva (which simply means chard).</description>
+    </item>
     <item>
       <title>Special parameters</title>
       <link>http://localhost:1313/math/math-notes/special-parameters/</link>
@@ -289,46 +296,11 @@
       <description>? heymantr1(p)=hgm(4/5,[-1/4,3/4],[1/2,1],p)&#xA;? forprime(p=7,500,if(p%20==1,print(p,&amp;quot; &amp;ldquo;,recognizep(heymantr1(p)))))&#xA;41 2 61 2 101 2 181 2 241 2 281 2 401 2 421 2 461 2&#xA;? quartchar(p)=pv=[1,3,7,9,11,13,17,19];cv=[1,I,-I,-1,-1,-I,I,1];cv[memb(p%20,pv)]&#xA;? forprime(p=7,100,print(p,&amp;rdquo; &amp;ldquo;,recognizep(heymantr1(p))*quartchar(p))) 7 0 11 2 13 0 17 0 19 2 23 0 29 2 31 2 37 0 41 2 43 0 47 0 53 0 59 2 61 2 67 0 71 2 73 0 79 2 83 0 89 2 97 0</description>
     </item>
     <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>I am mathematician mainly interested in Number Theory and all of its ramifications.&#xA;I was born in Buenos Aires, Argentina and worked in various countries over the years. I recently retired from ICTP in Italy.&#xA;This site contains my work and thoughts on the many subject that interest me.&#xA;Fernando Rodriguez Villegas </description>
-    </item>
-    <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
-      <description>If you would like to contact me please use the form below.&#xA;Your Name Email Address An email address is required. Message Fernando Rodriguez Villegas </description>
-    </item>
-    <item>
-      <title>CV</title>
-      <link>http://localhost:1313/cv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cv/</guid>
-      <description>Fernando Rodriguez Villegas&#xA;Education 1985 Licenciatura en Ciencias Matemáticas. Universidad de Buenos Aires.&#xA;1990 Ph.D. Mathematics. The Ohio State University (Advisors: W. Sinnott and K. Rubin).&#xA;Language Skills Spanish (native speaker) English (fluent) Italian (fluent) French (intermediate) Positions 1990-1991 Member of the Institute for Advanced Study, Princeton. 1991-1993 Princeton University, Instructor. 1993-1997 Princeton University, Assistant Professor. 1997-1999 University of Texas at Austin, Assistant Professor 1999-2005 University of Texas at Austin, Associate Professor.</description>
-    </item>
-    <item>
-      <title>July 2024</title>
-      <link>http://localhost:1313/newsletter/archive/july-2024/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/newsletter/archive/july-2024/</guid>
-      <description>Dear All,&#xA;This is the first of what I hope is a long-running monthly newsletter with (mostly mathematical) updates from yours truly.&#xA;Now that I have retired from ICTP, I am working on the launch of an independent website with all my stuff. Please check it out.&#xA;https://frvillegas.github.io/&#xA;I also opened a zulip site that I hope will be useful for discussions on various mathematical projects organized by topics. You can access it here:</description>
-    </item>
-    <item>
       <title>Oxford</title>
       <link>http://localhost:1313/photography/oxford/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/photography/oxford/</guid>
       <description>I was back in Oxford to give a talk at the workshop on The P=W Conjecture in Non Abelian Hodge Theory, part of the Clay Mathematical Institute conference of 2024.&#xA;I arrived a day early, on Saturday, and spent the day walking around town remembering the old days (2009-2010 when I visited for the year). There was some kind of graduation ceremony happening and though I don&amp;rsquo;t really like to take pictures of people I could not resist this one.</description>
-    </item>
-    <item>
-      <title>Potatoes and Swiss chard</title>
-      <link>http://localhost:1313/cooking/potato-chard/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cooking/potato-chard/</guid>
-      <description>Many years ago after an invited seminar talk at ISTA in Vienna we went with my host Tamas Hausel and some of his group for dinner to a Croatian restaurant. I had fish I think and a side dish of potatoes and chard, which I really loved. I have been trying to reproduce it from memory ever since. I found out later (while on vacation in Lussinpicolo) that it is actually a standard traditional dish in Croacia known as blitva (which simply means chard).</description>
     </item>
     <item>
       <title>Research Articles</title>

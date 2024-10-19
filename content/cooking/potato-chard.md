@@ -1,4 +1,5 @@
 +++
+date = 2024-10-19T10:00:09+02:00
 title = 'Potatoes and Swiss chard'
 omit_header_text = true
 featured_image= '/images/blitva-11.jpg'

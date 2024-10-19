@@ -1,0 +1,2 @@
+{{- $mainSections := .Site.Params.mainSections -}}
+{{- $section := where .Site.RegularPages "Section" "in" $mainSections -}}

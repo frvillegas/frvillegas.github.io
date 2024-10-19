@@ -18,6 +18,8 @@ Paginate = 10 # this is set low for demonstrating with dummy content. Set to a h
 
 
 [params]
+
+  mainSections = ['writing','math','cooking']
   text_color = ""
   author = "Fernando Rodriguez Villegas"
   favicon = ""
@@ -44,14 +46,5 @@ category = "categories"
 tag = "tags"
 series = "series"
 
-[[menu.main]]
-  name = "About"
-  url = "/about"
-  weight = 10
-
-[[menu.main]]
-  name = "CV"
-  url = "/cv"
-  weight = 30
 
 

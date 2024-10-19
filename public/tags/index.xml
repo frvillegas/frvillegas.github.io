@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Math Life</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Oct 2024 10:00:09 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Croacia</title>
+      <link>http://localhost:1313/tags/croacia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/croacia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Potatoes</title>
+      <link>http://localhost:1313/tags/potatoes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/potatoes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Swiss Chard</title>
+      <link>http://localhost:1313/tags/swiss-chard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/swiss-chard/</guid>
+      <description></description>
+    </item>
     <item>
       <title>HGM</title>
       <link>http://localhost:1313/tags/hgm/</link>
@@ -282,38 +303,10 @@
       <description></description>
     </item>
     <item>
-      <title>Croacia</title>
-      <link>http://localhost:1313/tags/croacia/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/croacia/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Newsletter</title>
-      <link>http://localhost:1313/tags/newsletter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/newsletter/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Oxford</title>
       <link>http://localhost:1313/tags/oxford/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/oxford/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Potatoes</title>
-      <link>http://localhost:1313/tags/potatoes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/potatoes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Swiss Chard</title>
-      <link>http://localhost:1313/tags/swiss-chard/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/swiss-chard/</guid>
       <description></description>
     </item>
   </channel>

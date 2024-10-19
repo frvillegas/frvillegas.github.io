@@ -57,12 +57,5 @@
       <guid>http://localhost:1313/math/manuscripts/bernoulli/</guid>
       <description>These are notes on approaching Bernoulli polynomials as eigenvalues of certain operators acting on polynomials. It is my re-interpretation of work of E. H. Lehmer. (A new approach to Bernoulli polynomials, Amer. Math. Monthly 95(1988), 905-911.) I wrote this note at the end of my Ph.D. studies around 1989.</description>
     </item>
-    <item>
-      <title>July 2024</title>
-      <link>http://localhost:1313/newsletter/archive/july-2024/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/newsletter/archive/july-2024/</guid>
-      <description>Dear All,&#xA;This is the first of what I hope is a long-running monthly newsletter with (mostly mathematical) updates from yours truly.&#xA;Now that I have retired from ICTP, I am working on the launch of an independent website with all my stuff. Please check it out.&#xA;https://frvillegas.github.io/&#xA;I also opened a zulip site that I hope will be useful for discussions on various mathematical projects organized by topics. You can access it here:</description>
-    </item>
   </channel>
 </rss>
