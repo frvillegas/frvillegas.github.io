@@ -2,7 +2,6 @@
 date: 2024-06-20T10:00:09+02:00
 title: Contact
 type: page
-menu: main
 omit_header_text: true
 ---
 
