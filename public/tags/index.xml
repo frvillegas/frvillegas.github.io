@@ -275,6 +275,13 @@
       <description></description>
     </item>
     <item>
+      <title>Croacia</title>
+      <link>http://localhost:1313/tags/croacia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/croacia/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Newsletter</title>
       <link>http://localhost:1313/tags/newsletter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -286,6 +293,20 @@
       <link>http://localhost:1313/tags/oxford/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/oxford/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Potatoes</title>
+      <link>http://localhost:1313/tags/potatoes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/potatoes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Swiss Chard</title>
+      <link>http://localhost:1313/tags/swiss-chard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/swiss-chard/</guid>
       <description></description>
     </item>
   </channel>

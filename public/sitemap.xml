@@ -278,11 +278,17 @@
     <loc>http://localhost:1313/math/manuscripts/degenerate-cubics/</loc>
     <lastmod>1985-01-01T12:36:09+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/math/math-notes/special-parameters-1/</loc>
+  </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
   </url><url>
+    <loc>http://localhost:1313/categories/cooking/</loc>
+  </url><url>
     <loc>http://localhost:1313/cooking/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/croacia/</loc>
   </url><url>
     <loc>http://localhost:1313/cv/</loc>
   </url><url>
@@ -296,8 +302,14 @@
   </url><url>
     <loc>http://localhost:1313/photography/oxford/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/potatoes/</loc>
+  </url><url>
+    <loc>http://localhost:1313/cooking/potato-chard/</loc>
+  </url><url>
     <loc>http://localhost:1313/math/math-articles/</loc>
   </url><url>
     <loc>http://localhost:1313/series/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/swiss-chard/</loc>
   </url>
 </urlset>

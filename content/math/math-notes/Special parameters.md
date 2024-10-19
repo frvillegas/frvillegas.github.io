@@ -61,8 +61,8 @@ ORDER_IS_SUBFIELD: special root
 
   + With GP
 ```
-? heymantr(p,h)=hgm(-1/3,[-h/2,-h/2+1/2],[h+3/2,1],p)
-? forprime(p=5,100,print(p,"  ",recognizep(heymantr(p,1/2)*kronecker(2,p))))
+? heymanntr(p,h)=hgm(-1/3,[-h/2,-h/2+1/2],[h+3/2,1],p)
+? forprime(p=5,100,print(p,"  ",recognizep(heymanntr(p,1/2)*kronecker(2,p))))
 5  0
 7  4
 11  0
@@ -216,8 +216,10 @@ twisted by the quadratic character of ${\mathbb Q}(\sqrt 3)$, times possibly a c
 
   + With GP
  ```
- ? forprime(p=7,100,print(p,"  ",recognizep(heymantr1(p))))
- 7  0
+? heymantr1(p)=hgm(4/5,[-1/4,1/4],[1/2,1],p)
+? forprime(p=7,100,print(p,"  ",recognizep(heymantr1(p))))
+
+  7  0
  11  -2
  13  0
  17  0

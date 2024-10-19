@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swiss Chard on Math Life</title>
+    <link>http://localhost:1313/tags/swiss-chard/</link>
+    <description>Recent content in Swiss Chard on Math Life</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/swiss-chard/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Potatoes and Swiss chard</title>
+      <link>http://localhost:1313/cooking/potato-chard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cooking/potato-chard/</guid>
+      <description>Many years ago after an invited seminar talk at ISTA in Vienna we went with my host Tamas Hausel and some of his group for dinner to a Croatian restaurant. I had fish I think and a side dish of potatoes and chard, which I really loved. I have been trying to reproduce the dish on memory ever since. I found out later (while on vacation in Lussinpicolo) that it is a standard traditional dish in Croacia known as blitva (which simply means chard).</description>
+    </item>
+  </channel>
+</rss>

@@ -20,7 +20,7 @@ department.
 The following article on the discovery of the quaternions by Hamilton
 was my main contribution to the magazine. I read Hamilton's letter to
 his son on the story in the preface to his collected works and found
-it fascinating. I still remember being really struck but how well it
+it fascinating. I still remember being really struck by how well it
 captured the way a mathematical problem can take over your self and
 how relevant insights can strike at random (*...an under-current
 thought was going through my mind...*).

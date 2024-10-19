@@ -31,7 +31,7 @@ che hanno fatto la Svezia*).
 The book consists of short chapters discussing some event of the
 history of Sweden, centered around language or culture in some way,
 ordered chronologically.  I found the style, pace and perspective in
-each topic fascinating.
+each topic captivating.
 
 There is the amazing story mentioned in passing (in Chapter 1) of
 runes inscribed in a marble sculpture of a lion once in the port of
