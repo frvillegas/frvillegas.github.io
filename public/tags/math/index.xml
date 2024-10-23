@@ -16,6 +16,13 @@
       <description>An old paper (Über hypergeometrische Funktionen, deren letztes Element speziell ist) by W. Heymann (from a talk by Wadim Zudilin) discusses the value of an ${}_2F_1$ at special $t$&amp;rsquo;s. He does $t=-1/3,1/4,1/5$ and related values and mentions Gauss for $t=1,-1,1/2$ and Kummer for $t=-1/8,1/9,8/9$.&#xA;For example we have this identity $$ F_h = F \left( -\frac{h}{2}, -\frac{h}{2} + \frac{1}{2}, h + \frac{3}{2}, -\frac{1}{3} \right) = \frac{2}{3} \cdot \left( \frac{8}{9} \right)^h \cdot \frac{\Gamma \left( \frac{1}{3} \right) \cdot \Gamma \left( h + \frac{3}{2} \right)}{\sqrt{\pi} \cdot \Gamma \left( h + \frac{4}{3} \right)} $$ If we take $h=1/2$ we get an HGM defined over $\mathbb Q$, we get the gamma vector $[-4,1,1,2]$ and corresponding Weierstrass model $$ y^2+xy=x^3+\frac t{64}x.</description>
     </item>
     <item>
+      <title>MFO</title>
+      <link>http://localhost:1313/photography/mfo/</link>
+      <pubDate>Thu, 05 Sep 2024 10:00:09 +0200</pubDate>
+      <guid>http://localhost:1313/photography/mfo/</guid>
+      <description>I have been going to Oberwolfach for a number of years now, twice for two weeks at a time in the Research in Pairs scheme. What an incredible place, a real gem.&#xA;MFO </description>
+    </item>
+    <item>
       <title>HGM</title>
       <link>http://localhost:1313/math/hgm/hgm/</link>
       <pubDate>Fri, 19 Jul 2024 12:36:09 +0200</pubDate>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oberwolfach on Math Life</title>
+    <link>http://localhost:1313/tags/oberwolfach/</link>
+    <description>Recent content in Oberwolfach on Math Life</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Sep 2024 10:00:09 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/oberwolfach/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MFO</title>
+      <link>http://localhost:1313/photography/mfo/</link>
+      <pubDate>Thu, 05 Sep 2024 10:00:09 +0200</pubDate>
+      <guid>http://localhost:1313/photography/mfo/</guid>
+      <description>I have been going to Oberwolfach for a number of years now, twice for two weeks at a time in the Research in Pairs scheme. What an incredible place, a real gem.&#xA;MFO </description>
+    </item>
+  </channel>
+</rss>

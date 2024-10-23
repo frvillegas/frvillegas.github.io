@@ -2,6 +2,7 @@
 title: "Cooking"
 omit_header_text: true
 description: ""
+summary-with-image: true
 theme_version: '2.8.2'
 ---
 

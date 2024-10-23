@@ -47,6 +47,18 @@
     <loc>http://localhost:1313/math/math-notes/special-parameters/</loc>
     <lastmod>2024-10-08T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/oxford/</loc>
+    <lastmod>2024-09-28T10:00:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/photography/oxford/</loc>
+    <lastmod>2024-09-28T10:00:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/photography/</loc>
+    <lastmod>2024-09-28T10:00:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/photography/</loc>
+    <lastmod>2024-09-28T10:00:09+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/health/</loc>
     <lastmod>2024-09-18T10:00:09+02:00</lastmod>
   </url><url>
@@ -61,6 +73,12 @@
   </url><url>
     <loc>http://localhost:1313/writing/</loc>
     <lastmod>2024-09-18T10:00:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/photography/mfo/</loc>
+    <lastmod>2024-09-05T10:00:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/oberwolfach/</loc>
+    <lastmod>2024-09-05T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/math/book/</loc>
     <lastmod>2024-08-31T12:36:09+02:00</lastmod>
@@ -88,12 +106,6 @@
   </url><url>
     <loc>http://localhost:1313/writing/hamilton/</loc>
     <lastmod>2024-07-19T10:00:09+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/photography/</loc>
-    <lastmod>2024-07-06T10:00:09+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/photography/</loc>
-    <lastmod>2024-07-06T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/photography/saxes/</loc>
     <lastmod>2024-07-06T10:00:09+02:00</lastmod>
@@ -142,6 +154,9 @@
   </url><url>
     <loc>http://localhost:1313/tags/quivers/</loc>
     <lastmod>2023-05-23T12:36:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/photography/boat/</loc>
+    <lastmod>2020-11-20T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writing/figs/</loc>
     <lastmod>2019-12-31T12:36:09+02:00</lastmod>
@@ -311,10 +326,6 @@
     <loc>http://localhost:1313/math/math-notes/special-parameters-1/</loc>
   </url><url>
     <loc>http://localhost:1313/cv/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/oxford/</loc>
-  </url><url>
-    <loc>http://localhost:1313/photography/oxford/</loc>
   </url><url>
     <loc>http://localhost:1313/math/math-articles/</loc>
   </url><url>

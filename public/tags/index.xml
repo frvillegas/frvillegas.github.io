@@ -44,6 +44,13 @@
       <description></description>
     </item>
     <item>
+      <title>Oxford</title>
+      <link>http://localhost:1313/tags/oxford/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/oxford/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Health</title>
       <link>http://localhost:1313/tags/health/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -55,6 +62,13 @@
       <link>http://localhost:1313/tags/trieste/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/trieste/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oberwolfach</title>
+      <link>http://localhost:1313/tags/oberwolfach/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/oberwolfach/</guid>
       <description></description>
     </item>
     <item>
@@ -300,13 +314,6 @@
       <link>http://localhost:1313/tags/thesis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/thesis/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Oxford</title>
-      <link>http://localhost:1313/tags/oxford/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/oxford/</guid>
       <description></description>
     </item>
   </channel>

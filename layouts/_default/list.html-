@@ -5,16 +5,8 @@
     </section>
     <section class="flex-ns flex-wrap justify-around mt5">
       {{ range .Pages }}
-      <div class="relative w-100 w-30-l mb4 bg-white">
-	{{ if $.Param "summary-with-image"}}
-	        <section class="w-100 mw8">
-            <div class="relative w-100 mb4">
-              {{ .Render "summary-with-image" }}
-            </div>
-        </section>
-	{{ else }}
-        {{ .Render "summary" }}
-	{{end}}
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          {{ .Render "summary" }}
         </div>
       {{ end }}
     </section>
