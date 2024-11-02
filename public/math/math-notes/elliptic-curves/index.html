@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Math Life</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="type:: [[project]] kind:: [[Math]] project:: [[HGM]] collaborators:: [[Martin Mereb]], [[Giulia Gugiatti]]
+- ![hgm-elliptic-surface-notes-Jan-2023.pdf](../assets/hgm-elliptic-surface-notes-Jan-2023_1726560542161_0.pdf) ![hgm-surfaces-08-24.pdf](../assets/hgm-surfaces-08-24_1726560408264_0.pdf) type:: [[note]] kind:: [[Math]] title:: Resultant of cyclotomic polynomials author:: [[Fernando Rodriguez Villegas]] with:: [[Martin Mereb]], [[Giulia Gugiatti]] project:: [[HGM]] tags:: [[Integral representations]] date:: [[Oct 23rd, 2024]] Discussion on elliptic surface paper with [[Martin Mereb]] and [[Giulia Gugiatti]]. Consider the integrality representation issue for higher rank? Cases with a [[Torelli]] type theorem. E.g. look at genus two curves.">
+    <meta name="generator" content="Hugo 0.128.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+      <meta name="author" content = "Fernando Rodriguez Villegas">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/math/math-notes/elliptic-curves/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/math/math-notes/elliptic-curves/">
+  <meta property="og:site_name" content="Math Life">
+  <meta property="og:title" content="Math Life">
+  <meta property="og:description" content="type:: [[project]] kind:: [[Math]] project:: [[HGM]] collaborators:: [[Martin Mereb]], [[Giulia Gugiatti]]
+- ![hgm-elliptic-surface-notes-Jan-2023.pdf](../assets/hgm-elliptic-surface-notes-Jan-2023_1726560542161_0.pdf) ![hgm-surfaces-08-24.pdf](../assets/hgm-surfaces-08-24_1726560408264_0.pdf) type:: [[note]] kind:: [[Math]] title:: Resultant of cyclotomic polynomials author:: [[Fernando Rodriguez Villegas]] with:: [[Martin Mereb]], [[Giulia Gugiatti]] project:: [[HGM]] tags:: [[Integral representations]] date:: [[Oct 23rd, 2024]] Discussion on elliptic surface paper with [[Martin Mereb]] and [[Giulia Gugiatti]]. Consider the integrality representation issue for higher rank? Cases with a [[Torelli]] type theorem. E.g. look at genus two curves.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="math">
+
+  <meta itemprop="name" content="Math Life">
+  <meta itemprop="description" content="type:: [[project]] kind:: [[Math]] project:: [[HGM]] collaborators:: [[Martin Mereb]], [[Giulia Gugiatti]]
+- ![hgm-elliptic-surface-notes-Jan-2023.pdf](../assets/hgm-elliptic-surface-notes-Jan-2023_1726560542161_0.pdf) ![hgm-surfaces-08-24.pdf](../assets/hgm-surfaces-08-24_1726560408264_0.pdf) type:: [[note]] kind:: [[Math]] title:: Resultant of cyclotomic polynomials author:: [[Fernando Rodriguez Villegas]] with:: [[Martin Mereb]], [[Giulia Gugiatti]] project:: [[HGM]] tags:: [[Integral representations]] date:: [[Oct 23rd, 2024]] Discussion on elliptic surface paper with [[Martin Mereb]] and [[Giulia Gugiatti]]. Consider the integrality representation issue for higher rank? Cases with a [[Torelli]] type theorem. E.g. look at genus two curves.">
+  <meta itemprop="wordCount" content="3693">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Math Life">
+  <meta name="twitter:description" content="type:: [[project]] kind:: [[Math]] project:: [[HGM]] collaborators:: [[Martin Mereb]], [[Giulia Gugiatti]]
+- ![hgm-elliptic-surface-notes-Jan-2023.pdf](../assets/hgm-elliptic-surface-notes-Jan-2023_1726560542161_0.pdf) ![hgm-surfaces-08-24.pdf](../assets/hgm-surfaces-08-24_1726560408264_0.pdf) type:: [[note]] kind:: [[Math]] title:: Resultant of cyclotomic polynomials author:: [[Fernando Rodriguez Villegas]] with:: [[Martin Mereb]], [[Giulia Gugiatti]] project:: [[HGM]] tags:: [[Integral representations]] date:: [[Oct 23rd, 2024]] Discussion on elliptic surface paper with [[Martin Mereb]] and [[Giulia Gugiatti]]. Consider the integrality representation issue for higher rank? Cases with a [[Torelli]] type theorem. E.g. look at genus two curves.">
+
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)'], ['$', '$']]   
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JZM0JL047K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JZM0JL047K');
+</script>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/images/siteimages/math-life.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        <img src="/images/logo.png" class="w100 mw5-ns" alt="Math Life" />
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/cooking/" title="Cooking page">
+              Cooking
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/cv/" title="CV page">
+              CV
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/math/" title="Math page">
+              Math
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/photography/" title="Photography page">
+              Photography
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/writing/" title="Writing page">
+              Writing
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+    
+    <a href="https://www.instagram.com/frvillegas/" target="_blank" rel="noopener" class="instagram ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Instagram link" aria-label="follow on Instagram——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.271,26.578v-0.006c0.502,0,1.005,0.01,1.508-0.002  c0.646-0.017,1.172-0.57,1.172-1.217c0-0.963,0-1.927,0-2.89c0-0.691-0.547-1.24-1.236-1.241c-0.961,0-1.922-0.001-2.883,0  c-0.688,0.001-1.236,0.552-1.236,1.243c-0.001,0.955-0.004,1.91,0.003,2.865c0.001,0.143,0.028,0.291,0.073,0.426  c0.173,0.508,0.639,0.82,1.209,0.823C41.344,26.579,41.808,26.578,42.271,26.578z M33,27.817c-3.384-0.002-6.135,2.721-6.182,6.089  c-0.049,3.46,2.72,6.201,6.04,6.272c3.454,0.074,6.248-2.686,6.321-6.043C39.254,30.675,36.462,27.815,33,27.817z M21.046,31.116  v0.082c0,4.515-0.001,9.03,0,13.545c0,0.649,0.562,1.208,1.212,1.208c7.16,0.001,14.319,0.001,21.479,0  c0.656,0,1.215-0.557,1.215-1.212c0.001-4.509,0-9.02,0-13.528v-0.094h-2.912c0.411,1.313,0.537,2.651,0.376,4.014  c-0.161,1.363-0.601,2.631-1.316,3.803s-1.644,2.145-2.779,2.918c-2.944,2.006-6.821,2.182-9.946,0.428  c-1.579-0.885-2.819-2.12-3.685-3.713c-1.289-2.373-1.495-4.865-0.739-7.451C22.983,31.116,22.021,31.116,21.046,31.116z   M45.205,49.255c0.159-0.026,0.318-0.049,0.475-0.083c1.246-0.265,2.264-1.304,2.508-2.557c0.025-0.137,0.045-0.273,0.067-0.409  V21.794c-0.021-0.133-0.04-0.268-0.065-0.401c-0.268-1.367-1.396-2.428-2.78-2.618c-0.058-0.007-0.113-0.02-0.17-0.03H20.761  c-0.147,0.027-0.296,0.047-0.441,0.08c-1.352,0.308-2.352,1.396-2.545,2.766c-0.008,0.057-0.02,0.114-0.029,0.171V46.24  c0.028,0.154,0.05,0.311,0.085,0.465c0.299,1.322,1.427,2.347,2.77,2.52c0.064,0.008,0.13,0.021,0.195,0.03H45.205z M33,64  C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://www.youtube.com/@FernandoRodriguez-Villegas" target="_blank" rel="noopener" class="youtube ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="YouTube link" aria-label="follow on YouTube——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.527,41.34c-0.278,0-0.478,0.078-0.6,0.244  c-0.121,0.156-0.18,0.424-0.18,0.796v0.896h1.543V42.38c0-0.372-0.062-0.64-0.185-0.796C42.989,41.418,42.792,41.34,42.527,41.34z   M36.509,41.309c0.234,0,0.417,0.076,0.544,0.23c0.123,0.155,0.185,0.383,0.185,0.682v4.584c0,0.286-0.053,0.487-0.153,0.611  c-0.1,0.127-0.256,0.189-0.47,0.189c-0.148,0-0.287-0.033-0.421-0.096c-0.135-0.062-0.274-0.171-0.415-0.313v-5.531  c0.119-0.122,0.239-0.213,0.36-0.271C36.26,41.335,36.383,41.309,36.509,41.309z M41.748,44.658v1.672  c0,0.468,0.057,0.792,0.17,0.974c0.118,0.181,0.313,0.269,0.592,0.269c0.289,0,0.491-0.076,0.606-0.229  c0.114-0.153,0.175-0.489,0.175-1.013v-0.405h1.795v0.456c0,0.911-0.217,1.596-0.657,2.059c-0.435,0.459-1.089,0.687-1.958,0.687  c-0.781,0-1.398-0.242-1.847-0.731c-0.448-0.486-0.676-1.157-0.676-2.014v-3.986c0-0.768,0.249-1.398,0.742-1.882  c0.493-0.484,1.128-0.727,1.911-0.727c0.799,0,1.413,0.225,1.843,0.674c0.429,0.448,0.642,1.093,0.642,1.935v2.264H41.748z   M38.623,48.495c-0.271,0.336-0.669,0.501-1.187,0.501c-0.343,0-0.646-0.062-0.912-0.192c-0.267-0.129-0.519-0.327-0.746-0.601  v0.681h-1.764V36.852h1.764v3.875c0.237-0.27,0.485-0.478,0.748-0.616c0.267-0.143,0.534-0.212,0.805-0.212  c0.554,0,0.975,0.189,1.265,0.565c0.294,0.379,0.438,0.933,0.438,1.66v4.926C39.034,47.678,38.897,48.159,38.623,48.495z   M30.958,48.884v-0.976c-0.325,0.361-0.658,0.636-1.009,0.822c-0.349,0.191-0.686,0.282-1.014,0.282  c-0.405,0-0.705-0.129-0.913-0.396c-0.201-0.266-0.305-0.658-0.305-1.189v-7.422h1.744v6.809c0,0.211,0.037,0.362,0.107,0.457  c0.077,0.095,0.196,0.141,0.358,0.141c0.128,0,0.292-0.062,0.488-0.188c0.197-0.125,0.375-0.283,0.542-0.475v-6.744h1.744v8.878  H30.958z M24.916,38.6v10.284h-1.968V38.6h-2.034v-1.748h6.036V38.6H24.916z M32.994,32.978c0-0.001,12.08,0.018,13.514,1.45  c1.439,1.435,1.455,8.514,1.455,8.555c0,0-0.012,7.117-1.455,8.556C45.074,52.969,32.994,53,32.994,53s-12.079-0.031-13.516-1.462  c-1.438-1.435-1.441-8.502-1.441-8.556c0-0.041,0.004-7.12,1.441-8.555C20.916,32.996,32.994,32.977,32.994,32.978z M42.52,29.255  h-1.966v-1.08c-0.358,0.397-0.736,0.703-1.13,0.909c-0.392,0.208-0.771,0.312-1.14,0.312c-0.458,0-0.797-0.146-1.027-0.437  c-0.229-0.291-0.345-0.727-0.345-1.311v-8.172h1.962v7.497c0,0.231,0.045,0.399,0.127,0.502c0.08,0.104,0.216,0.156,0.399,0.156  c0.143,0,0.327-0.069,0.548-0.206c0.22-0.137,0.423-0.312,0.605-0.527v-7.422h1.966V29.255z M31.847,27.588  c0.139,0.147,0.339,0.219,0.6,0.219c0.266,0,0.476-0.075,0.634-0.223c0.157-0.152,0.235-0.358,0.235-0.618v-5.327  c0-0.214-0.08-0.387-0.241-0.519c-0.16-0.131-0.37-0.196-0.628-0.196c-0.241,0-0.435,0.065-0.586,0.196  c-0.148,0.132-0.225,0.305-0.225,0.519v5.327C31.636,27.233,31.708,27.439,31.847,27.588z M30.408,19.903  c0.528-0.449,1.241-0.674,2.132-0.674c0.812,0,1.48,0.237,2.001,0.711c0.517,0.473,0.777,1.083,0.777,1.828v5.051  c0,0.836-0.255,1.491-0.762,1.968c-0.513,0.476-1.212,0.714-2.106,0.714c-0.858,0-1.547-0.246-2.064-0.736  c-0.513-0.492-0.772-1.152-0.772-1.983v-5.068C29.613,20.954,29.877,20.351,30.408,19.903z M24.262,16h-2.229l2.634,8.003v5.252  h2.213v-5.5L29.454,16h-2.25l-1.366,5.298h-0.139L24.262,16z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30  S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://github.com/frvillegas" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://www.linkedin.com/in/fernando-rodriguez-villegas-0b39601aa/" target="_blank" rel="noopener" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv4 ph3 ph4-ns">
+        
+          <div class="f2 f1-subheadline-l fw2 white-90 mb0 lh-title">Math Life</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Math Notes
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+      
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/math/math-notes/elliptic-curves/&amp;title=" class="ananke-social-link linkedin no-underline" aria-label="share on LinkedIn">
+        
+        <span class="icon"> <svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+        
+      </a>
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1"></h1>
+      
+      <p class="tracked">
+        By <strong>Fernando Rodriguez Villegas</strong>
+      </p>
+      
+      
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><ul class="pa0">
+  
+</ul><p>type:: [[project]]
+kind:: [[Math]]
+project:: [[HGM]]
+collaborators:: [[Martin Mereb]], [[Giulia Gugiatti]]</p>
+<pre><code>- ![hgm-elliptic-surface-notes-Jan-2023.pdf](../assets/hgm-elliptic-surface-notes-Jan-2023_1726560542161_0.pdf)
+  ![hgm-surfaces-08-24.pdf](../assets/hgm-surfaces-08-24_1726560408264_0.pdf)
+</code></pre>
+<ul>
+<li>type:: [[note]]
+kind:: [[Math]]
+title:: Resultant of cyclotomic polynomials
+author:: [[Fernando Rodriguez Villegas]]
+with:: [[Martin Mereb]], [[Giulia Gugiatti]]
+project:: [[HGM]]
+tags:: [[Integral representations]]
+date:: [[Oct 23rd, 2024]]
+<ul>
+<li>Discussion on elliptic surface paper with [[Martin Mereb]] and [[Giulia Gugiatti]]. Consider the integrality representation issue for higher rank? Cases with a [[Torelli]] type theorem. E.g. look at genus two curves. We already don&rsquo;t know if all [[HGM]]&rsquo;s with Hodge vector $$(2,2)$$ correspond to curves (or at least abelian surfaces).
+I recall a paper on calculation of the gcd of [[cyclotomic polynomial]]s. It is this paper by [[Tom Apostol]]
+[[@RESULTANTS OF CYCLOTOMIC POLYNOMIALS]]
+((6719340a-84af-4287-879d-5b3670857fb4))
+((67193426-f694-4c5e-9289-71578e66c946))
+I remember the result as more messy. But it looks quite nice actually.</li>
+</ul>
+</li>
+<li>type:: [[note]]
+kind:: [[Math]]
+title:: Integral representations with gamma vector $$[-6,-1,-1,2,3,3]$$ 1
+author:: [[Fernando Rodriguez Villegas]]
+project:: [[HGM]]
+tags:: [[Integral representations]], [[hyperelliptic curve]],[[Prym variety]]
+date:: [[Sep 17th, 2024]]
+<ul>
+<li>
+<p>Looking for all integral versions of the monodromy representation of the </p>
+$$[-6,-1,-1,2,3,3]$$
+<p> case. The Levelt representation is:</p>
+<pre tabindex="0"><code>? hv=[[0, -1; 1, 1], [1, -2; 0, 1], [-1, 1; -1, 0]]
+</code></pre><p>Let&rsquo;s take a generic 2x2 matrix</p>
+<pre tabindex="0"><code>? U=[a,b;c,d];
+</code></pre><p>and conjugate</p>
+<pre tabindex="0"><code>? vector(3,i,U*hv[i]/U)*(a*d-b*c)
+[[c*a + (-c + d)*b, -a^2 + b*a - b^2; c^2 - d*c + d^2,(-c + d)*a - d*b], 
+[(2*c + d)*a - c*b, -2*a^2; 2*c^2, (-2*c + d)*a - c*b], 
+[(-c - d)*a - d*b, a^2 + b*a + b^2; -c^2 - d*c - d^2, 
+c*a + (c + d)*b]]
+</code></pre><p>Let us consider the scheme determined by all of these polynomials.
+Over </p>
+$${\mathbb F}_2$$
+<p> it has no points. But it does have points over </p>
+$${\mathbb F}_4$$
+<pre tabindex="0"><code>&gt; K&lt;z&gt;:=GF(4);
+&gt; P&lt;a,b,c,d&gt;:=ProjectiveSpace(K,3);
+&gt; X:=Scheme(P,[c*a + (-c + d)*b, -a^2 + b*a - b^2, c^2 - d*c + d^2, 
+(-c + d)*a - d*b, (2*c + d)*a - c*b, -2*a^2, 2*c^2, 
+(-2*c + d)*a - c*b, (-c - d)*a - d*b, a^2 + b*a + b^2, 
+-c^2 - d*c - d^2, c*a + (c + d)*b]);
+&gt; Points(X);                                                                                         
+{@ (0 : 0 : z : 1), (0 : 0 : z^2 : 1), (z : 1 : z : 1),
+ (z^2 : 1 : z^2 : 1), (z^2 : z : z : 1), 
+(1 : z: z^2 : 1), (1 : z^2 : z : 1), (z : z^2 : z^2 : 1),
+ (z : 1 : 0 : 0), (z^2 : 1 : 0 : 0) @}
+</code></pre></li>
+<li>
+<p>The point is that if conjugating by </p>
+$$U$$
+<p> we get integral matrices then all of the polynomials must vanish modulo </p>
+$$\det U$$
+<p>. Since the scheme has no points over </p>
+$${\mathbb F}_2$$
+<p> there is, in particular, no </p>
+$$U$$
+<p> of determinant </p>
+$$2$$
+<p> over </p>
+$$\mathbb Z$$
+<p> that works. But there are such </p>
+$$U$$
+<p>&rsquo;s over any ring that surjects to </p>
+$${\mathbb F}_4$$
+<p>. For example, the ring can be </p>
+$${\mathbb Z}[\zeta_3]$$
+<p> and we can take
+</p>
+$$
+	  U:=
+	  \left(
+	  \begin{matrix}
+	  1&\zeta_3\\
+	  0& 2
+	  \end{matrix}
+	  \right)
+	  $$
+<p>
+The elliptic curve </p>
+$$E_t$$
+<p> has Kodaira symbols </p>
+$$IV^*, I_2, II$$
+<p> at </p>
+$$[0, 1, \infty]$$
+<p> respectively.</p>
+<p>Note [[@hgm-integrality-24 Oct 2024]] (Sent to [[Benedict Gross]] [[Oct 24th, 2024]])</p>
+<p>We can compute this by the following dirty method relying on [[GP]]&rsquo;s <code>elllocalred</code></p>
+<pre tabindex="0"><code>    ? f= x^3 - 3*t^3*x + (t^5 + t^4)
+    ? e=ellinit([0,polcoeff(f,2),0,polcoeff(f,1),polcoeff(f,0)]);
+    ? kod(t0,p,e)=e0=ellinit(subst(e,t,t0));elllocalred(e0,p)
+    ? kod(101*7/11,101,e)
+    [2, -4, [1/11, 0, 0, 0], 3]
+    ? kod(1-127*9/11,127,e)
+    [1, 6, [1/11, 0, 0, 0], 2]
+    ? kod(1/127*9/11,127,e)
+    [2, 2, [1/1397, 0, 0, 0], 1]
+</code></pre><p>For the other elliptic curve </p>
+$$D_t$$
+<p> we get Kodaira symbols </p>
+$$IV^*, I_1, IV$$
+<p> at </p>
+$$[0, 1, \infty]$$
+<p> respectively.</p>
+<p>Using <a href="https://frvmath.zulipchat.com/#narrow/stream/443947-gp/topic/Code/near/471193369">hgmcurve</a> compute an Euler curve associated to the gamma vector </p>
+$$[-6,-1,-1,2,3,3]$$
+<p>. (The default is to twist by subtracting </p>
+$$\beta_2$$
+<p> from all parameters).</p>
+<pre tabindex="0"><code>? hgmcurve([[1/6,-1/6],[1/3,-1/3])
+[1/6, 1/2, 1/2, 5/6]
+</code></pre><p>The genera of the corresponding curves are (take </p>
+$$t=11$$
+<p> as a random choice)</p>
+<pre tabindex="0"><code>&gt; A&lt;x,y&gt;:=AffineSpace(Rationals(),2);
+&gt; C2:=Curve(A,y^2-x^3*(1-x)^3*(1-11*x));
+&gt; C3:=Curve(A,y^3-x^3*(1-x)^3*(1-11*x));
+&gt; C6:=Curve(A,y^6-x^3*(1-x)^3*(1-11*x));
+&gt; Genus(C2);
+1
+&gt; Genus(C3);
+0
+&gt; Genus(C6);
+3
+</code></pre><p>Hence the new part of the Jacobian </p>
+$$A$$
+<p> of this Euler curve (quotient by the Jacobians of </p>
+$$C_d$$
+<p> with </p>
+$$d\mid 6$$
+<p>) has dimension two . The curve </p>
+$$C_2$$
+<p> is clearly isomorphic to the [[Legendre family]] of elliptic curves.</p>
+</li>
+<li>
+<p>The curve </p>
+$$C_6$$
+<p> is actually [[hyperelliptic]]. MAGMA gives the equation</p>
+<pre tabindex="0"><code>y^2=(-2*t + 4)*x^8 + (-5*t + 16)*x^7 + (-6*t + 33)*x^6 
++ (-4*t + 43)*x^5 + (-t + 37)*x^4 + 21*x^3 + 7*x^2 + x
+</code></pre><p>The degree </p>
+$$8$$
+<p> polynomial factors as</p>
+<pre tabindex="0"><code>x*(x+1)*(2*x+1)*(x^2+x+1)*((t - 2)*x^3 - 3*x^2 - 3*x - 1)
+</code></pre><p>of discriminant</p>
+<pre tabindex="0"><code>3^6*t^6*(t-1)^4
+</code></pre><p>Computing with [[MAGMA]] the decomposition of the endomorphism algebra of the Jacobian of the genus three curve. (Again we take </p>
+$$t=11$$
+<p> as a random specialization.) Following the manual somewhat <a href="http://magma.maths.usyd.edu.au/magma/handbook/text/1571#18138">CrvHyp_Find_Rational_Isogeny</a></p>
+<pre tabindex="0"><code>&gt; K&lt;x&gt; := PolynomialRing(RationalField());
+&gt; C&lt;i&gt; := ComplexField(100);
+&gt; KC&lt;xc&gt; := PolynomialRing(C);
+&gt; f:= -18*x^8 - 39*x^7 - 33*x^6 - x^5 + 26*x^4 + 21*x^3 + 7*x^2 + x;
+&gt; fC := Evaluate(f,xc);  
+&gt; A:=AnalyticJacobian(fC);
+&gt; R:=EndomorphismRing(A);
+&gt; R1:=ChangeRing(R,GF(13));
+&gt; S:=SimpleQuotientAlgebras(R1);
+&gt; S;
+rec&lt;recformat&lt;SimpleQuotients: SeqEnum, DegreesOverCenters: SeqEnum, 
+DegreesOfCenters: SeqEnum, OrdersOfCenters: SeqEnum&gt; | 
+    SimpleQuotients := [
+        Mapping from: Free associative algebra of rank 2 over GF(13) to Matrix 
+            Algebra of degree 2 with 2 generators over GF(13),
+        Mapping from: Free associative algebra of rank 2 over GF(13) to Matrix 
+            Algebra of degree 1 with 2 generators over GF(13)
+    ],
+    DegreesOverCenters := [ 2, 1 ],
+    DegreesOfCenters := [ 1, 1 ],
+    OrdersOfCenters := [ 13, 13 ]&gt;
+&gt; sq:=S`SimpleQuotients;
+[
+    Mapping from: Free associative algebra of rank 2 over GF(13) to Matrix 
+    Algebra of degree 2 with 2 generators over GF(13),
+    Mapping from: Free associative algebra of rank 2 over GF(13) to Matrix 
+    Algebra of degree 1 with 2 generators over GF(13)
+]
+&gt; A1:=Image(sq[1]);
+&gt; A2:=Image(sq[2]);
+</code></pre><p>The algebra </p>
+$$A_1$$
+<p> has two generators with relations</p>
+<pre tabindex="0"><code>&gt; A1.1^2;   
+[ 1  0]
+[ 0  1]
+&gt; A1.2^2;
+[ 1  0]
+[ 0  1]
+&gt; (A1.1*A1.2)^3;
+[12  0]
+[ 0 12]
+</code></pre><p>More precisely</p>
+<pre tabindex="0"><code>&gt; u:=A1.1*A1.2;   
+&gt; v:=A1.1; 
+&gt; v*u*v eq u^(-1);
+true
+</code></pre><p>So </p>
+$$u,v$$
+<p> generate a copy of </p>
+$$S_3$$
+<p> and </p>
+$$A_1$$
+<p> is the algebra in </p>
+$$2\times2$$
+<p> matrices it generates. </p>
+$$A_2$$
+<p> is just the ground field. This is consistent with the Jacobian of </p>
+$$C_6$$
+<p> splitting up to isogeny as
+</p>
+$$
+	  L_t\oplus E_t \oplus E_t',
+	  $$
+<p>
+where </p>
+$$L_t$$
+<p> is the [[Legendre family]], </p>
+$$E_t$$
+<p> is the elliptic curve giving the [[HGM]] of parameters
+</p>
+$$
+	  \alpha=(1/6,-1/6), \qquad \beta=(1/3,-1/3)
+	  $$
+<p>
+and </p>
+$$E_t'$$
+<p> is its quadratic twist by </p>
+$$\sqrt{-3}$$
+<p>. Namely, </p>
+$$A_1$$
+<p> is the endomorphism algebra of
+</p>
+$$
+	  E_t \oplus E_t'\sim E_t\otimes {\mathbb Q}(\zeta_3)
+	  $$
+<p>
+and </p>
+$$A_2$$
+<p> that of </p>
+$$L_t$$
+<p>.
+Added [[Oct 26th, 2024]]: maybe the elliptic curves </p>
+$$E_t,E_t'$$
+<p>  are twisted, see the monodromy of the differential equations <a href="logseq://graph/FRV-Math?block-id=6719e110-97cb-4464-b214-56d73eb14145">below</a>. And the choice of Euler curve somehow has </p>
+$$t=0,1$$
+<p> switched.</p>
+</li>
+<li>
+<p>Using <a href="https://frvmath.zulipchat.com/#narrow/stream/457343-sage/topic/TraceOfFrobenius/near/471459742">TraceOfFrobenius</a> in sage following  [[Ariel Pacetti]]. Here </p>
+$$t=2$$
+<p> .</p>
+<pre tabindex="0"><code>sage: E=EllipticCurve([0,0,0,-3*2^3,2^4*(2+1)]);
+sage: for p in prime_range(3,100):[p,E.ap(p)+kronecker(-3,p)*E.ap(p),TraceOfFrobenius(2,p,1,3,3,2,0,6)*kronecker(-1,p)]
+[3, 0, 0]
+[5, 0, 0]
+[7, -6, -6]
+[11, 0, 0]
+[13, -6, -6]
+[17, 0, 0]
+[19, 6, 6]
+[23, 0, 0]
+[29, 0, 0]
+[31, 0, 0]
+[37, 14, 14]
+[41, 0, 0]
+[43, 24, 24]
+[47, 0, 0]
+[53, 0, 0]
+[59, 0, 0]
+[61, -2, -2]
+[67, 6, 6]
+[71, 0, 0]
+[73, -30, -30]
+[79, -18, -18]
+[83, 0, 0]
+[89, 0, 0]
+[97, 18, 18]
+</code></pre></li>
+<li>
+<p>Continuining with the Euler curve calculation in MAGMA.</p>
+<pre tabindex="0"><code> &gt; R:=EndomorphismRing(A);
+ &gt; R;
+Matrix Algebra of degree 6 with 2 generators over Integer Ring
+&gt; R.1;
+[ 0  1  0  0  0  0]
+[ 1  0  0  0  0  0]
+[-1  1  1  0  0  0]
+[ 0  3  0  0  1 -1]
+[-3  0  0  1  0  1]
+[ 0  0  0  0  0  1]
+&gt; R.2;
+[ 0  0  1  0 -1  2]
+[-1  0  0  1  0  0]
+[ 2 -2 -1 -2  0  0]
+[ 0  1  1  0 -1  2]
+[-1  0 -1  0  0 -2]
+[-1  1  0  1  0 -1]
+&gt; Dimension(R);
+5
+</code></pre><p>Compute the center of the endomorphism algebra</p>
+<pre tabindex="0"><code>&gt; Center(R);
+Matrix Algebra of degree 6 and dimension 2 over Integer Ring
+&gt; Z:=Center(R);
+&gt; Z.1;
+[1 0 0 0 0 0]
+[0 1 0 0 0 0]
+[0 0 1 0 0 0]
+[0 0 0 1 0 0]
+[0 0 0 0 1 0]
+[0 0 0 0 0 1]
+&gt; Z.2;
+[ 011001]
+[ 011001]
+[ 0 -7 -4 -1 -10]
+[ 000000]
+[ 00 -311 -7]
+[ 03011 -4]
+</code></pre><p>Over </p>
+$$\mathbb Q$$
+<p> .</p>
+<pre tabindex="0"><code>&gt; Rq:=ChangeRing(R,Rationals());
+&gt; Zq:=Center(Rq);
+&gt; W:=2/3*Zq.2-Zq.1;
+&gt; W;
+[ -1 2/3 2/3 0 0 2/3]
+[0-1/3 2/3 0 0 2/3]
+[0 -14/3 -11/3-2/3-2/3 0]
+[0 0 0-1 0 0]
+[0 0-2 2/3-1/3 -14/3]
+[0 2 0 2/3 2/3 -11/3]
+&gt; W^2;
+[ 1 -8/3 -8/300 -8/3]
+[ 0 -5/3 -8/300 -8/3]
+[ 0 56/3 35/38/38/30]
+[ 000100]
+[ 008 -8/3 -5/3 56/3]
+[ 0 -80 -8/3 -8/3 35/3]
+&gt; W:=-2/3*Zq.2-Zq.1;
+&gt; W^2;
+[1 0 0 0 0 0]
+[0 1 0 0 0 0]
+[0 0 1 0 0 0]
+[0 0 0 1 0 0]
+[0 0 0 0 1 0]
+[0 0 0 0 0 1]
+&gt; Factorization(CharacteristicPolynomial(W));
+[
+&lt;x - 1, 2&gt;,
+&lt;x + 1, 4&gt;
+]
+</code></pre><p>Idempotents and corresponding subalgebras</p>
+<pre tabindex="0"><code>&gt; W1:=Zq.2/(-3);
+&gt; W2:=Zq.1-W1;
+&gt; W1^2 eq W1;
+true
+&gt; W2^2 eq W2;
+true
+&gt; Rq1:=sub&lt;Rq|[Rq.1*W1,Rq.2*W1]&gt;;
+&gt; Rq2:=sub&lt;Rq|[Rq.1*W2,Rq.2*W2]&gt;;
+&gt; IsCommutative(Rq1);
+true
+&gt; IsCommutative(Rq2);
+false
+&gt; Factorization(CharacteristicPolynomial(Rq2.1));
+[
+&lt;x - 1, 2&gt;,
+&lt;x, 2&gt;,
+&lt;x + 1, 2&gt;
+]
+&gt; Factorization(CharacteristicPolynomial(Rq2.2));
+[
+&lt;x - 1, 2&gt;,
+&lt;x, 2&gt;,
+&lt;x + 1, 2&gt;
+]
+&gt; Kernel(Rq2.1);
+Vector space of degree 6, dimension 2 over Rational Field
+Echelonized basis:
+( 0101/31/3 -4/3)
+( 001 -1/3 -1/37/3)
+&gt; Kernel(Rq2.2);
+Vector space of degree 6, dimension 2 over Rational Field
+Echelonized basis:
+( 0101/31/3 -4/3)
+( 001 -1/3 -1/37/3)
+</code></pre></li>
+<li>
+<p>Using computeomega we find the differential eqns satisfied by standard holomorphic differentials on the hyperelliptic curve </p>
+$$C_6$$
+<p>
+id:: 6719e110-97cb-4464-b214-56d73eb14145</p>
+<pre tabindex="0"><code>? h0=(-2*t + 4)*x^8 + (-5*t + 16)*x^7 + (-6*t + 33)*x^6 + (-4*t + 43)*x^5 + (-t + 37)*x^4 + 21*x^3 + 7*x^2 + x;
+? v1=lindep(computeomega(h0,6,1))
+[-15, -480*t + 168, -1000*t^2 + 872*t - 96, -448*t^3 + 640*t^2 - 192*t, -48*t^4 + 96*t^3 - 48*t^2, 0, 0]~
+? v2=lindep(computeomega(h0,4,1))
+[-15, -480*t + 168, -1000*t^2 + 872*t - 96, -448*t^3 + 640*t^2 - 192*t, -48*t^4 + 96*t^3 - 48*t^2]~
+? lindep(computeomega(h0,4,2))
+[-5, -28*t + 12, -12*t^2 + 12*t, 0, 0]~
+</code></pre><p>So we got lucky and the differentials
+</p>
+$$
+	  	  \frac{x^k}y dx
+	  $$
+<p>
+already satisfy smaller order differential equations. We compute the corresponding local exponents.</p>
+<pre tabindex="0"><code>? L1=sum(i=1,#v1,v1[i]*y^(i-1));L=subst(L,t,x);
+? diffexponstd(L1)
+[[0, 0, 1, 1], [-1/3, 0, 0, 1], [1/2, 1/2, 5/6, 3/2]]
+? [-5, -28*t + 12, -12*t^2 + 12*t, 0, 0]
+[-5, -28*t + 12, -12*t^2 + 12*t, 0, 0]
+? L2=sum(i=1,#v2,v2[i]*y^(i-1));L=subst(L,t,x);
+-12*y^2*x^2 + (12*y^2 - 28*y)*x + (12*y - 5)
+? diffexponstd(L2)
+[[0, 0], [-1/3, 0], [1/2, 5/6]]
+</code></pre><p>These almost but do not quite match the twist of </p>
+$$[1/6,-1/6],[1/3,-1/3]$$
+<p> by some fraction </p>
+$$i/6$$
+<p> with </p>
+$$t=0,1$$
+<p> switched.</p>
+<pre tabindex="0"><code>? [[1/6-1/6,-1/6-1/6],[1/3-1/6,-1/3-1/6]]
+[[0, -1/3], [1/6, -1/2]]
+? [[1/6+1/6,-1/6+1/6],[1/3+1/6,1/3+1/6]]
+[[1/3, 0], [1/2, -1/6]]
+</code></pre><p>Try linear combinations that give elliptic integrals. Modify [[computeomega]] slightly to accept a general holomorphic form</p>
+<pre tabindex="0"><code>? computeomega1(P,n,h=1)=my(v);v=[h/y];for(i=1,n,v=concat(v,DO(v[i],P)));v
+</code></pre><p>Then run over a box.</p>
+<pre tabindex="0"><code>? forvec(u=vector(3,i,[-5,5]),if(content(u)==1,z=lindep(computeomega1(h0,2,u*[1,x,x^2]~))~;if(z,print(u,&#34;   &#34;,z,&#34;   &#34;,diffexponv(z)))))
+[-1, -2, -1]   [1, (20*t - 12), (12*t^2 - 12*t)]   [[0, 0], [0, 1/3], [1/6, 1/2]]
+[0, -1, -1]   [-1, (-8*t + 4), (-4*t^2 + 4*t)]   [[0, 0], [0, 0], [1/2, 1/2]]
+[0, 0, -1]   [5, (28*t - 12), (12*t^2 - 12*t)]   [[0, 0], [-1/3, 0], [1/2, 5/6]]
+[0, 0, 1]   [-5, (-28*t + 12), (-12*t^2 + 12*t)]   [[0, 0], [-1/3, 0], [1/2, 5/6]]
+[0, 1, 1]   [1, (8*t - 4), (4*t^2 - 4*t)]   [[0, 0], [0, 0], [1/2, 1/2]]
+[1, 2, 1]   [-1, (-20*t + 12), (-12*t^2 + 12*t)]   [[0, 0], [0, 1/3], [1/6, 1/2]]
+</code></pre><p>So we now see the three elliptic differentials on </p>
+$$C_6$$
+<p>. This [[@Hyperelliptic Integrals to Elliptic Integrals]] deals with precisely finding elliptic integrals on a hyperelliptic curve. Not great but worth having a look. This kind of thing was considered a fair amount in the 1800&rsquo;s. I&rsquo;ll see if I can chase some references.</p>
+</li>
+<li>
+<p>Checking the automorphism group of </p>
+$$C_6$$
+<pre tabindex="0"><code>&gt; A&lt;x,y&gt;:=AffineSpace(Rationals(),2);
+&gt; C6:=Curve(A,y^6-x^3*(1-x)^3*(1-2^13*x));
+&gt; pv:=PrimesInInterval(7,50);  
+&gt;  gv:=[AutomorphismGroup(ChangeRing(C6,GF(p))): p in pv];                
+&gt; [Order(g): g in gv];                                    
+[ 336, 8, 24, 4, 6, 8, 4, 6, 48, 4, 12, 4 ]
+&gt; IdentifyGroup(PermutationGroup(gv[1]));
+&lt;336, 209&gt;
+</code></pre><p>The reason for the choice </p>
+$$t=2^{13}$$
+<p> is that</p>
+<pre tabindex="0"><code>? factor(2^13-1)
+[8191 1]
+</code></pre><p>Hence the only primes of bad reduction are </p>
+$$2$$
+<p> and </p>
+$$8191$$
+<p> .
+The group could then be </p>
+$$C_2\times GL_3(\mathbb {F}_2)$$
+<p> of order </p>
+$$336$$
+<p> . This group has three independent involutions. So this must be like in the paper  [[@Hyperelliptic genus 3 curves with involutions and a Prym map]] and a Prym map should be relevant. In particular, there should indeed be quotients of </p>
+$$C_6$$
+<p> of genus two.</p>
+<pre tabindex="0"><code>&gt; G:=AutomorphismGroup(ChangeRing(C6,GF(7)));
+&gt; IdentifyGroup(PermutationGroup(G));
+&lt;336, 209&gt;
+&gt; G1,phi,z:=MatrixRepresentation(G);
+&gt; IsIrreducible(G1);
+true
+&gt; psi:=Inverse(phi);
+&gt; sgp:=Subgroups(G1);
+&gt; #sgp;
+40
+&gt; [Order(h`subgroup): h in sgp];
+[ 1, 2, 2, 2, 3, 7, 4, 4, 4, 4, 4, 4, 4, 6, 6, 6, 14, 21, 
+8, 8, 8, 8, 8, 8, 8, 12, 12, 12, 42, 16, 24, 24, 24, 24,
+24, 24, 48, 48, 168, 336 ]
+&gt; sgpv:=[g`subgroup: g in sgp];
+&gt; ev:=[g: g in sgpv |[Order(g),Exponent(g)] eq [8,2]];
+&gt; I:=ev[1];
+&gt; inv:=[x : x in I| not(x eq Identity(I))];
+&gt; uv:=[AutomorphismGroup(C,[psi(v)]): v in inv];
+&gt; [Genus(CurveQuotient(u)) : u in uv];
+MatrixGroup&lt;3, GF(7) |
+  Matrix(GF(7), 3, 3, \[ 2, 5, 4, 6, 2, 1, 4, 2, 2 ]) &gt;
+MatrixGroup&lt;3, GF(7) |
+  Matrix(GF(7), 3, 3, \[ 2, 6, 1, 5, 2, 4, 2, 4, 2 ]) &gt;
+MatrixGroup&lt;3, GF(7) |
+  Matrix(GF(7), 3, 3, \[ 2, 3, 2, 3, 2, 2, 1, 1, 2 ]) &gt;
+MatrixGroup&lt;3, GF(7) |
+  ScalarMatrix(GF(7), 3, 6) &gt;
+[ 1, 1, 1, 0, 2, 2, 2 ]
+</code></pre></li>
+<li>
+<p>Decomposing </p>
+$$J(C_6)$$
+<p>
+id:: 6719e2d7-574a-4131-a00c-df049efb68e6</p>
+<p>Since </p>
+$$C_6$$
+<p> has three independent involutions (maybe not see this <a href="logseq://graph/FRV-Math?block-id=671c7d4c-7552-41b2-8995-0f182c0d7dbb">note</a>) we are indeed in the situation of [[@Hyperelliptic genus 3 curves with involutions and a Prym map]].</p>
+<p>They give the moduli space as a two-parameter family of
+genus three curves
+</p>
+$$
+	   X_{s,t}:\qquad y^2=(x^4+2(1-2s)x^2+1)(x^4+2(1-2t)x^2+1)
+	  $$
+<p>
+with ramification locus the zeros of
+</p>
+$$
+	   \Delta:=t(t-1)s(s-1)(s-t).
+	  $$
+<p>
+This family is a double cover of the family of elliptic curves
+</p>
+$$
+	   E_{s,t}:\qquad X_{s,t}:\qquad y^2=(x^24+2(1-2s)x+1)(x^2+2(1-2t)x+1)
+	  $$
+<p>
+with the same ramification locus </p>
+$$\Delta=0$$
+<p> .</p>
+<pre tabindex="0"><code>? f=(x^2+2*(1-2*s)*x+1)*(x^2+2*(1-2*t)*x+1);
+? g=jacobian(f)
+x^3 + ((16*t - 8)*s + (-8*t + 6))*x^2 + (16*s^2 + (32*t - 32)*s + (16*t^2 - 32*t + 12))*x + (32*s^2 - 32*s + (32*t^2 - 32*t + 8))
+? e=ellinit([0,polcoeff(g,2),0,polcoeff(g,1),polcoeff(g,0)]);
+? factor(e[12])
+[t - 1 1]
+- [    t 1]
+- [    s 1]
+[s - 1 1]
+[s - t 4]
+? kod(t0,p,e)=e0=ellinit(subst(e,t,t0));elllocalred(e0,p);
+? kod(101*13^2/23*19,101,e1)
+[1, 5, [1/23, 0, 0, 0], 1]
+? kod(1-101*13^2/23*19,101,e1)
+[1, 5, [1/23, 0, 0, 0], 1]
+? kod(11-101*13^2/23*19,101,e1)
+[1, 8, [1/23, 0, 0, 0], 4]
+? kod(1/101*13^2/23*19,101,e1)
+[2, -1, [1/2323, 0, 0, 0], 4]
+? v=vector(5,i,e[i])
+[0, (16*t - 8)*s + (-8*t + 6), 0, 16*s^2 + (32*t - 32)*s + (16*t^2 - 32*t + 12), 32*s^2 - 32*s + (32*t^2 - 32*t + 8)]
+</code></pre><p>The jacobian of </p>
+$$E_{s,t}$$
+<p> is
+</p>
+$$
+	   y^2=x^3+(16t - 8s -8t + 6)x^2+(16s^2 + 32st - 32s + 16t^2 - 32t + 12)x+ 32s^2 - 32s + 32t^2 - 32t + 8
+	  $$
+</li>
+<li>
+<p>General case </p>
+$$[-2N,-1,-1,2,N,N]$$
+<p>
+Take </p>
+$$N$$
+<p> an odd prime</p>
+<pre tabindex="0"><code>? fu(N)=v=[vector(N-1,i,i/N),vector(N-1,i,i/N+1/2)];w=hgmgamma0(v[1],v[2]);[w,hgmdata(w)]
+? fu(3)
+[[-6, -1, -1, 2, 3, 3], [[1, 1], [1/3, 2/3], [1/6, 5/6], [[0, 0, 0, 0], [-1, 0, 1, 1], [1, 0, 0, 1], [0, 0, -1, 1], [0, -1, 1, 0], [0, 1, 0, 0]]]]
+? fu(5)
+[[-10, -1, -1, 2, 5, 5], [[2, 2], [1/5, 2/5, 3/5, 4/5], [1/10, 3/10, 7/10, 9/10], [[0, 0, 0, 0], [-1, 0, 1, 1], [1, 0, 1, 0], [0, 0, 1, -2], [0, -1, 0, 1], [0, 1, 0, 0]]]]
+? fu(7)
+[[-14, -1, -1, 2, 7, 7], [[3, 3], [1/7, 2/7, 3/7, 4/7, 5/7, 6/7], [1/14, 3/14, 5/14, 9/14, 11/14, 13/14], [[0, 0, 0, 0], [-1, 0, 1, 1], [1, 0, 1, 2], [0, 0, 1, -2], [0, -1, 0, 1], [0, 1, 0, 0]]]]
+</code></pre><p>The corresponding polytope has width </p>
+$$1$$
+<p> so we can reduce to a curve </p>
+$$C$$
+<p> , which seems to have genus </p>
+$$N-1$$
+<p> , whereas the motive has rank </p>
+$$N-1$$
+<p> . Probably we have something similar to what happens for </p>
+$$N=3$$
+<p> with the Jacobian of </p>
+$$C$$
+<p> splitting as two abelian varieties of dimension </p>
+$$N-1$$
+<p> .
+For </p>
+$$N=5$$
+<p> we have</p>
+<pre tabindex="0"><code>&gt; D:=Polytope([[0, 0, 0, 0], [-1, 0, 1, 1], [1, 0, 1, 0], [0, 0, 1, -2], [0, -1, 0, 1], [0, 1, 0, 0]]);
+&gt; Width(D);
+1 {
+  (0, 0, 1, 0),
+  (0, 0, -1, 0)
+}
+&gt; EhrhartDeltaVector(D);
+[ 1, 3, 6, 2, 0 ]
+</code></pre><p>Get the GKZ equation with </p>
+$$u=1$$
+<pre tabindex="0"><code>? v=[[0, 0, 0, 0], [-1, 0, 1, 1], [1, 0, 1, 0], [0, 0, 1, -2], [0, -1, 0, 1], [0, 1, 0, 0]];
+? pol=vec2pol(v,[x1,x2,x3,x4])
+x4^2*x3*x2*x1^2 + (x4^2*x2^2 + (x3 + x4^2)*x2 + x4^3)*x1 + x4^3*x3*x2
+? polmultdeg(pol,[x1,x2,x3,x4])
+[2, 2, 1, 3]
+? [polcoeff(pol0,x3),polcoeff(pol,1,x3)]
+[(x4^2*x2^2 + x4^2*x2 + x4^3)*x1, x4^2*x2*x1^2 + x2*x1 + x4^3*x2]
+</code></pre><p>Get the curve cut out by the two polynomials</p>
+<pre tabindex="0"><code>&gt; A&lt;x1,x2,x4&gt;:=AffineSpace(Rationals(),3);
+&gt; C:=Curve(A,[(x4^2*x2^2 + x4^2*x2 + x4^3)*x1, x4^2*x2*x1^2 + x2*x1 + x4^3*x2]);
+&gt; N:=IrreducibleComponents(C);
+&gt; #N;
+4
+&gt; C:=Curve(N[1]);
+&gt; Genus(C);
+4
+</code></pre></li>
+<li>
+<p>Testing Euler factors</p>
+<pre tabindex="0"><code>? polrecognizep(hgmfrob(2,[1/5, 2/5, 3/5, 4/5], [1/10, 3/10, 7/10, 9/10],7))*49
+ x^4 + 2*x^3 + 2*x^2 + 14*x + 49
+? polrecognizep(hgmfrob(2,[1/5, 2/5, 3/5, 4/5], [1/10, 3/10, 7/10, 9/10],11)*11^2)
+ x^4 - x^3 + x^2 - 11*x + 121
+</code></pre><p>Compare to MAGMA</p>
+<pre tabindex="0"><code>&gt; r&lt;x&gt;:=PolynomialRing(Rationals());
+&gt; function HEeulfac(f,p);
+function&gt;  P&lt;x&gt; := PolynomialRing(RationalField());
+function&gt;  C:=HyperellipticCurve([f,0]);
+function&gt;  C:=MinimalWeierstrassModel(C);J:=Jacobian(C);
+function&gt;  return Factorization(EulerFactor(J,GF(p))); end
+function&gt; function;
+&gt; HEeulfac(x^5 + 5*x^4 - 10*x^3 + 10*x^2 - 5*x + 1,7);
+[
+    &lt;49*x^4 + 14*x^3 + 2*x^2 + 2*x + 1, 1&gt;
+]
+1
+&gt; HEeulfac(x^5 + 5*x^4 - 10*x^3 + 10*x^2 - 5*x + 1,11);
+[
+    &lt;121*x^4 - 11*x^3 + x^2 - x + 1, 1&gt;
+</code></pre></li>
+</ul>
+</li>
+<li>type:: [[note]]
+kind:: [[Math]]
+title:: Reduction of hyperelliptic curves to elliptic
+author:: [[Fernando Rodriguez Villegas]]
+project:: [[HGM]]
+tags::
+date:: [[Oct 25th, 2024]]
+collapsed:: true
+<ul>
+<li>
+<p>There is a long history of this type of question starting with Jacobi. This thesis from 1857 (Hutchinson a student of [[Oscar Bolza]] in Chicago) [[@On the reduction of hyperelliptic functions (p=2) to elliptic functions, by a transformation of the second degree &hellip;]] works out the genus two case reduction by degree two. Other work on this: [[@Ueber die Reduction hyperelliptischer Integrale auf elliptische]]</p>
+<p>This paper works out the reduction of degree 2 and 3 in genus 3.
+[[@On the Reduction of Hyperelliptic Integrals (p =3) to Eltiptic Integrals by Transformations of the Second and Third Degrees.]]
+((671b4904-f3c1-495e-8616-14824efdf582))
+((671b490d-15eb-4b9f-997f-3a5325642d41))
+Our case should correspond to this row on his table
+<img src="../assets/Screenshot_2024-10-25_at_09.42.08_1729842166227_0.png" alt="Screenshot 2024-10-25 at 09.42.08.png">
+<img src="../assets/Screenshot_2024-10-25_at_09.41.57_1729842175752_0.png" alt="Screenshot 2024-10-25 at 09.41.57.png"></p>
+</li>
+</ul>
+</li>
+<li>id:: 671c7d4c-7552-41b2-8995-0f182c0d7dbb
+type:: [[note]]
+kind:: [[Math]]
+title:: Integral representations with gamma vector $$[-6,-1,-1,2,3,3]$$ 2
+author:: [[Fernando Rodriguez Villegas]]
+project:: [[HGM]]
+tags::
+date:: [[Oct 26th, 2024]]
+<ul>
+<li>
+<p>The degree </p>
+$$8$$
+<p> polynomial becomes quite simple after changes of variable</p>
+<pre tabindex="0"><code>? h0
+(-2*t + 4)*x^8 + (-5*t + 16)*x^7 + (-6*t + 33)*x^6 + (-4*t + 43)*x^5 + (-t + 37)*x^4 + 21*x^3 + 7*x^2 + x
+? h=subst(h0,x,1/x)*x^8
+x^7 + 7*x^6 + 21*x^5 + (-t + 37)*x^4 + (-4*t + 43)*x^3 + (-6*t + 33)*x^2 + (-5*t + 16)*x + (-2*t + 4)
+? h=subst(h,x,x-1)
+x^7 + (-t + 2)*x^4 + (-t + 1)*x
+</code></pre><p>Now we can make the change of variables
+</p>
+$$
+	  (x,y)\mapsto ((1-t)^{1/6}x, (1-t)^{7/12}y)
+	  $$
+<p>
+and get the curve
+</p>
+$$
+	  C:\qquad y^2=x(x^6+ax^3+1), \qquad \qquad a=(2-t)/(1-t)^{1/2}.
+	  $$
+<p>
+This curve has the involution
+</p>
+$$
+	  \iota:\quad (x,y)\mapsto (1/x,y/x^4).
+	  $$
+<p>
+We now find an equation for the quotient curve </p>
+$$E:=C/\langle\iota\rangle$$
+<p>.</p>
+<p>Two rational functions fixed by </p>
+$$\iota$$
+<p> are: </p>
+$$x_1:=x+1/x$$
+<p> and </p>
+$$y_1:=y(1+1/x^4)$$
+<p>. We have
+</p>
+$$
+	  y_1^2=y^2(1+1/x^4)^2=(x^{14} + ax^{11} + 2x^{10} + x^8 + 2ax^7 + x^6 + 2x^4 + ax^3 + 1)/x^7.
+	  $$
+<p>
+We write the righthand side as a polynomial </p>
+$$h_1(x_1)$$
+<p> and find
+</p>
+$$
+	  h_1(x)=x^7 - 7x^5 + ax^4 + 16x^3 - 4ax^2 - 12x + 4a
+	  $$
+<p>Here we used the following [[GP]] code</p>
+<pre tabindex="0"><code>\\ Write symmetric Laurent polynomial in x &lt;--&gt; 1/x as a polynomial in
+\\ x+1/x
+
+pold(pol)=
+{
+        local(z,k,f);
+
+        if(pol == subst(pol,x,1/x),
+
+             until(pol == 0,
+
+                       k=poldegree(pol);
+                       z=polcoeff(pol,k);
+
+                       f+=z*x^k;
+                       pol-=z*(x+1/x)^k);
+                return(f),
+                return(pol))
+;}
+
+\\ Version of Chebyshev polynomials
+
+cheb(N)=pold(x^N+1/x^N);
+</code></pre><p>In fact, </p>
+$$h_1$$
+<p> factors as
+</p>
+$$
+	  h_1(x)=(x^2 - 2)^2(x^3 - 3x + a).
+	  $$
+<p>
+So </p>
+$$E$$
+<p> is the elliptic curve
+</p>
+$$
+	  E: \qquad y^2=x^3 - 3x + a
+	  $$
+<p>
+I followed the similar calculations in this note [[@aut3g2]]
+((671c850c-0709-47c6-82bb-44c936897091))
+There is another quotient of </p>
+$$C$$
+<p> obtained as the quotient </p>
+$$D:=C/\langle\rho\iota\rangle$$
+<p>, where </p>
+$$\rho$$
+<p> is the hyperelliptic involution. Fixed functions are </p>
+$$x_2:=x+1/x,y_2:=y(1-1/x^4)$$
+<p>. We have
+</p>
+$$
+	  y_2^2=x(x^6+ax^3+1)(1-1/x^4)^2
+	  =(x^{14} + ax^{11} - 2x^{10} + x^8 - 2ax^7 + x^6 - 2x^4 + ax^3 + 1)/x^7
+	  $$
+<p>
+Writing the righthand side as </p>
+$$h_2(x)$$
+<p> we find
+</p>
+$$
+	  h_2(x)=x^7 - 7x^5 + ax^4 + 12x^3 - 4ax^2,
+	  $$
+<p>
+which factors as:
+</p>
+$$
+	  h_2(x)=x^2(x-2)(x+2)(x^3 - 3x + a).
+	  $$
+<p>
+Hence </p>
+$$D$$
+<p> is a curve of genus two with equation
+</p>
+$$
+	  D:\qquad y^2=(x-2)(x+2)(x^3 - 3x + a).
+	  $$
+<p>
+Probably this reduction works here:
+((671caf69-11c9-4f01-8387-4ce21c6a2b8a))</p>
+<p>We first set </p>
+$$a=2(1-2u)$$
+<p> above so that the singularities are </p>
+$$u=0,1,\infty$$
+<p>. Normalize</p>
+<pre tabindex="0"><code>? g=(x^2-a)*(8*x^3-6*a*x-b);
+? g=subst(g,x,x/2)*4
+x^5 - 7*a*x^3 - b*x^2 + 12*a^2*x + 4*b*a
+? factor(substvec(g,[a,b],[1,4*u-2]))
+[                 x - 2 1]
+[                 x + 2 1]
+[x^3 - 3*x + (-4*u + 2) 1]
+</code></pre><p>This example is just straight from [[Charles Hermite]]&rsquo;s paper [[@Sur un exemple de réduction d&rsquo;intégrales abéliennes, aux fonctions elliptiques]]
+((671cc3ce-518d-4e0a-bfcc-a9042026cc93))</p>
+</li>
+<li>
+<p>We then get degree three maps to the following elliptic curves
+</p>
+$$
+	  E_1: \qquad y^2=x^3 -3x -4u + 2, \qquad \qquad 
+	  E_2: \qquad y^2=x^3 + (-4u+ 2)x^2 - 4x + 16u - 8
+	  $$
+<p>
+The curve </p>
+$$E_1$$
+<p> is isomorphic to </p>
+$$E$$
+<p> we found above.</p>
+<pre tabindex="0"><code>? a=1;b=4*u-2;
+? f1=(2*a*x-b)*(x^2-a);f2=x^3-3*a*x-b;
+? f1=subst(4*f1,x,x/2)
+? e1=ellinit([0,polcoeff(f1,2),0,polcoeff(f1,1),polcoeff(f1,0)]);
+? e2=ellinit([0,polcoeff(f2,2),0,polcoeff(f2,1),polcoeff(f2,0)]);
+? d1=e1[12];
+? factor(content(d1))
+[2 16]
+? factor(d1)
+[u - 1 2]
+[    u 2]
+? d2=e2[12];
+? factor(content(d2))
+[2 8]
+[3 3]
+? factor(d2)
+[u - 1 1]
+[    u 1]
+</code></pre><p>These families have the following [[Picard-Fuchs]] equations</p>
+<pre tabindex="0"><code>\\ Set t for u for calculating
+
+? v1=lindep(computeomega(f1,2))
+[-1, -8*t + 4, -4*t^2 + 4*t]~
+? diffexponstdv(v1)
+[[0, 0], [0, 0], [1/2, 1/2]]
+? v2=lindep(computeomega(f2,2))
+[5, 72*t - 36, 36*t^2 - 36*t]~
+? diffexponstdv(v2)
+[[0, 0], [0, 0], [1/6, 5/6]]
+</code></pre><p>It seems we don&rsquo;t really have the case of three independent involutions as suggested in the previous <a href="logseq://graph/FRV-Math?block-id=6719e2d7-574a-4131-a00c-df049efb68e6">note</a></p>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      <div id="commento"></div>
+<script src="https://giscus.app/client.js"
+        data-repo="frvillegas/frvillegas.github.io"
+        data-repo-id="R_kgDOMQouMQ"
+        data-category="Comments"
+        data-category-id="DIC_kwDOMQouMc4Cgme0"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="transparent_dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  Math Life 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+    
+    <a href="https://www.instagram.com/frvillegas/" target="_blank" rel="noopener" class="instagram ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Instagram link" aria-label="follow on Instagram——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.271,26.578v-0.006c0.502,0,1.005,0.01,1.508-0.002  c0.646-0.017,1.172-0.57,1.172-1.217c0-0.963,0-1.927,0-2.89c0-0.691-0.547-1.24-1.236-1.241c-0.961,0-1.922-0.001-2.883,0  c-0.688,0.001-1.236,0.552-1.236,1.243c-0.001,0.955-0.004,1.91,0.003,2.865c0.001,0.143,0.028,0.291,0.073,0.426  c0.173,0.508,0.639,0.82,1.209,0.823C41.344,26.579,41.808,26.578,42.271,26.578z M33,27.817c-3.384-0.002-6.135,2.721-6.182,6.089  c-0.049,3.46,2.72,6.201,6.04,6.272c3.454,0.074,6.248-2.686,6.321-6.043C39.254,30.675,36.462,27.815,33,27.817z M21.046,31.116  v0.082c0,4.515-0.001,9.03,0,13.545c0,0.649,0.562,1.208,1.212,1.208c7.16,0.001,14.319,0.001,21.479,0  c0.656,0,1.215-0.557,1.215-1.212c0.001-4.509,0-9.02,0-13.528v-0.094h-2.912c0.411,1.313,0.537,2.651,0.376,4.014  c-0.161,1.363-0.601,2.631-1.316,3.803s-1.644,2.145-2.779,2.918c-2.944,2.006-6.821,2.182-9.946,0.428  c-1.579-0.885-2.819-2.12-3.685-3.713c-1.289-2.373-1.495-4.865-0.739-7.451C22.983,31.116,22.021,31.116,21.046,31.116z   M45.205,49.255c0.159-0.026,0.318-0.049,0.475-0.083c1.246-0.265,2.264-1.304,2.508-2.557c0.025-0.137,0.045-0.273,0.067-0.409  V21.794c-0.021-0.133-0.04-0.268-0.065-0.401c-0.268-1.367-1.396-2.428-2.78-2.618c-0.058-0.007-0.113-0.02-0.17-0.03H20.761  c-0.147,0.027-0.296,0.047-0.441,0.08c-1.352,0.308-2.352,1.396-2.545,2.766c-0.008,0.057-0.02,0.114-0.029,0.171V46.24  c0.028,0.154,0.05,0.311,0.085,0.465c0.299,1.322,1.427,2.347,2.77,2.52c0.064,0.008,0.13,0.021,0.195,0.03H45.205z M33,64  C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://www.youtube.com/@FernandoRodriguez-Villegas" target="_blank" rel="noopener" class="youtube ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="YouTube link" aria-label="follow on YouTube——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.527,41.34c-0.278,0-0.478,0.078-0.6,0.244  c-0.121,0.156-0.18,0.424-0.18,0.796v0.896h1.543V42.38c0-0.372-0.062-0.64-0.185-0.796C42.989,41.418,42.792,41.34,42.527,41.34z   M36.509,41.309c0.234,0,0.417,0.076,0.544,0.23c0.123,0.155,0.185,0.383,0.185,0.682v4.584c0,0.286-0.053,0.487-0.153,0.611  c-0.1,0.127-0.256,0.189-0.47,0.189c-0.148,0-0.287-0.033-0.421-0.096c-0.135-0.062-0.274-0.171-0.415-0.313v-5.531  c0.119-0.122,0.239-0.213,0.36-0.271C36.26,41.335,36.383,41.309,36.509,41.309z M41.748,44.658v1.672  c0,0.468,0.057,0.792,0.17,0.974c0.118,0.181,0.313,0.269,0.592,0.269c0.289,0,0.491-0.076,0.606-0.229  c0.114-0.153,0.175-0.489,0.175-1.013v-0.405h1.795v0.456c0,0.911-0.217,1.596-0.657,2.059c-0.435,0.459-1.089,0.687-1.958,0.687  c-0.781,0-1.398-0.242-1.847-0.731c-0.448-0.486-0.676-1.157-0.676-2.014v-3.986c0-0.768,0.249-1.398,0.742-1.882  c0.493-0.484,1.128-0.727,1.911-0.727c0.799,0,1.413,0.225,1.843,0.674c0.429,0.448,0.642,1.093,0.642,1.935v2.264H41.748z   M38.623,48.495c-0.271,0.336-0.669,0.501-1.187,0.501c-0.343,0-0.646-0.062-0.912-0.192c-0.267-0.129-0.519-0.327-0.746-0.601  v0.681h-1.764V36.852h1.764v3.875c0.237-0.27,0.485-0.478,0.748-0.616c0.267-0.143,0.534-0.212,0.805-0.212  c0.554,0,0.975,0.189,1.265,0.565c0.294,0.379,0.438,0.933,0.438,1.66v4.926C39.034,47.678,38.897,48.159,38.623,48.495z   M30.958,48.884v-0.976c-0.325,0.361-0.658,0.636-1.009,0.822c-0.349,0.191-0.686,0.282-1.014,0.282  c-0.405,0-0.705-0.129-0.913-0.396c-0.201-0.266-0.305-0.658-0.305-1.189v-7.422h1.744v6.809c0,0.211,0.037,0.362,0.107,0.457  c0.077,0.095,0.196,0.141,0.358,0.141c0.128,0,0.292-0.062,0.488-0.188c0.197-0.125,0.375-0.283,0.542-0.475v-6.744h1.744v8.878  H30.958z M24.916,38.6v10.284h-1.968V38.6h-2.034v-1.748h6.036V38.6H24.916z M32.994,32.978c0-0.001,12.08,0.018,13.514,1.45  c1.439,1.435,1.455,8.514,1.455,8.555c0,0-0.012,7.117-1.455,8.556C45.074,52.969,32.994,53,32.994,53s-12.079-0.031-13.516-1.462  c-1.438-1.435-1.441-8.502-1.441-8.556c0-0.041,0.004-7.12,1.441-8.555C20.916,32.996,32.994,32.977,32.994,32.978z M42.52,29.255  h-1.966v-1.08c-0.358,0.397-0.736,0.703-1.13,0.909c-0.392,0.208-0.771,0.312-1.14,0.312c-0.458,0-0.797-0.146-1.027-0.437  c-0.229-0.291-0.345-0.727-0.345-1.311v-8.172h1.962v7.497c0,0.231,0.045,0.399,0.127,0.502c0.08,0.104,0.216,0.156,0.399,0.156  c0.143,0,0.327-0.069,0.548-0.206c0.22-0.137,0.423-0.312,0.605-0.527v-7.422h1.966V29.255z M31.847,27.588  c0.139,0.147,0.339,0.219,0.6,0.219c0.266,0,0.476-0.075,0.634-0.223c0.157-0.152,0.235-0.358,0.235-0.618v-5.327  c0-0.214-0.08-0.387-0.241-0.519c-0.16-0.131-0.37-0.196-0.628-0.196c-0.241,0-0.435,0.065-0.586,0.196  c-0.148,0.132-0.225,0.305-0.225,0.519v5.327C31.636,27.233,31.708,27.439,31.847,27.588z M30.408,19.903  c0.528-0.449,1.241-0.674,2.132-0.674c0.812,0,1.48,0.237,2.001,0.711c0.517,0.473,0.777,1.083,0.777,1.828v5.051  c0,0.836-0.255,1.491-0.762,1.968c-0.513,0.476-1.212,0.714-2.106,0.714c-0.858,0-1.547-0.246-2.064-0.736  c-0.513-0.492-0.772-1.152-0.772-1.983v-5.068C29.613,20.954,29.877,20.351,30.408,19.903z M24.262,16h-2.229l2.634,8.003v5.252  h2.213v-5.5L29.454,16h-2.25l-1.366,5.298h-0.139L24.262,16z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30  S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://github.com/frvillegas" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://www.linkedin.com/in/fernando-rodriguez-villegas-0b39601aa/" target="_blank" rel="noopener" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

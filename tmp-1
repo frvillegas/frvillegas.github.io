@@ -1,0 +1,709 @@
+type:: [[project]]
+kind:: [[Math]]
+project:: [[HGM]]
+collaborators:: [[Martin Mereb]], [[Giulia Gugiatti]]
+![hgm-elliptic-surface-notes-Jan-2023.pdf](../assets/hgm-elliptic-surface-notes-Jan-2023_1726560542161_0.pdf)
+![hgm-surfaces-08-24.pdf](../assets/hgm-surfaces-08-24_1726560408264_0.pdf)
+ Discuss [[Euler curve]] for elliptic HGM's
+ CM points on the elliptic HGM's
+
+	- type:: [[note]]
+	  kind:: [[Math]]
+	  title:: Resultant of [[cyclotomic polynomial]]s
+	  author:: [[Fernando Rodriguez Villegas]]
+	  with:: [[Martin Mereb]], [[Giulia Gugiatti]]
+	  project:: [[HGM]]
+	  tags:: [[Integral representations]]
+	  date:: [[Oct 23rd, 2024]]
+	  collapsed:: true
+		- Discussion on elliptic surface paper with [[Martin Mereb]] and [[Giulia Gugiatti]]. Consider the integrality representation issue for higher rank? Cases with a [[Torelli]] type theorem. E.g. look at genus two curves. We already don't know if all [[HGM]]'s with Hodge vector $(2,2)$ correspond to curves (or at least abelian surfaces).
+		  I recall a paper on calculation of the gcd of [[cyclotomic polynomial]]s. It is this paper by [[Tom Apostol]]
+		  [[@RESULTANTS OF CYCLOTOMIC POLYNOMIALS]]
+		  ((6719340a-84af-4287-879d-5b3670857fb4))
+		  ((67193426-f694-4c5e-9289-71578e66c946))
+		  I remember the result as more messy. But it looks quite nice actually.
+	- type:: [[note]]
+	  kind:: [[Math]]
+	  title:: Integral representations with gamma vector $[-6,-1,-1,2,3,3]$ 1
+	  author:: [[Fernando Rodriguez Villegas]]
+	  project:: [[HGM]]
+	  tags:: [[Integral representations]], [[hyperelliptic curve]],[[Prym variety]]
+	  date:: [[Sep 17th, 2024]]
+		- Looking for all integral versions of the monodromy representation of the $[-6,-1,-1,2,3,3]$ case. The Levelt representation is:
+		  ```
+		  ? hv=[[0, -1; 1, 1], [1, -2; 0, 1], [-1, 1; -1, 0]]
+		  ```
+		  Let's take a generic 2x2 matrix
+		  ```
+		  ? U=[a,b;c,d];
+		  ```
+		  and conjugate
+		  ```
+		  ? vector(3,i,U*hv[i]/U)*(a*d-b*c)
+		  [[c*a + (-c + d)*b, -a^2 + b*a - b^2; c^2 - d*c + d^2,(-c + d)*a - d*b], 
+		  [(2*c + d)*a - c*b, -2*a^2; 2*c^2, (-2*c + d)*a - c*b], 
+		  [(-c - d)*a - d*b, a^2 + b*a + b^2; -c^2 - d*c - d^2, 
+		  c*a + (c + d)*b]]
+		  ```
+		  Let us consider the scheme determined by all of these polynomials. 
+		  Over ${\mathbb F}_2$ it has no points. But it does have points over ${\mathbb F}_4$ 
+		  ```
+		  > K<z>:=GF(4);
+		  > P<a,b,c,d>:=ProjectiveSpace(K,3);
+		  > X:=Scheme(P,[c*a + (-c + d)*b, -a^2 + b*a - b^2, c^2 - d*c + d^2, 
+		  (-c + d)*a - d*b, (2*c + d)*a - c*b, -2*a^2, 2*c^2, 
+		  (-2*c + d)*a - c*b, (-c - d)*a - d*b, a^2 + b*a + b^2, 
+		  -c^2 - d*c - d^2, c*a + (c + d)*b]);
+		  > Points(X);                                                                                         
+		  {@ (0 : 0 : z : 1), (0 : 0 : z^2 : 1), (z : 1 : z : 1),
+		   (z^2 : 1 : z^2 : 1), (z^2 : z : z : 1), 
+		  (1 : z: z^2 : 1), (1 : z^2 : z : 1), (z : z^2 : z^2 : 1),
+		   (z : 1 : 0 : 0), (z^2 : 1 : 0 : 0) @}
+		  ```
+		- The point is that if conjugating by $U$ we get integral matrices then all of the polynomials must vanish modulo $\det U$. Since the scheme has no points over ${\mathbb F}_2$ there is, in particular, no $U$ of determinant $2$ over $\mathbb Z$ that works. But there are such $U$'s over any ring that surjects to ${\mathbb F}_4$. For example, the ring can be ${\mathbb Z}[\zeta_3]$ and we can take 
+		  $$
+		  U:=
+		  \left(
+		  \begin{matrix}
+		  1&\zeta_3\\
+		  0& 2
+		  \end{matrix}
+		  \right)
+		  $$
+		  The elliptic curve $E_t$ has Kodaira symbols $IV^*, I_2, II$ at $[0, 1, \infty]$ respectively.
+		  
+		  Note [[@hgm-integrality-24 Oct 2024]] (Sent to [[Benedict Gross]] [[Oct 24th, 2024]])
+		  
+		  We can compute this by the following dirty method relying on [[GP]]'s `elllocalred`
+		  ```
+		      ? f= x^3 - 3*t^3*x + (t^5 + t^4)
+		      ? e=ellinit([0,polcoeff(f,2),0,polcoeff(f,1),polcoeff(f,0)]);
+		      ? kod(t0,p,e)=e0=ellinit(subst(e,t,t0));elllocalred(e0,p)
+		      ? kod(101*7/11,101,e)
+		      [2, -4, [1/11, 0, 0, 0], 3]
+		      ? kod(1-127*9/11,127,e)
+		      [1, 6, [1/11, 0, 0, 0], 2]
+		      ? kod(1/127*9/11,127,e)
+		      [2, 2, [1/1397, 0, 0, 0], 1]
+		  ```
+		  For the other elliptic curve $D_t$ we get Kodaira symbols $IV^*, I_1, IV$ at $[0, 1, \infty]$ respectively.
+		  
+		  Using [[hgmcurve]] compute an Euler curve associated to the gamma vector $[-6,-1,-1,2,3,3]$. (The default is to twist by subtracting $\beta_2$ from all parameters).
+		  ```
+		  ? hgmcurve([[1/6,-1/6],[1/3,-1/3]])
+		  [1/6, 1/2, 1/2, 5/6]
+		  ```
+		  The genera of the corresponding curves are (take $t=11$ as a random choice)
+		  ```
+		  > A<x,y>:=AffineSpace(Rationals(),2);
+		  > C2:=Curve(A,y^2-x^3*(1-x)^3*(1-11*x));
+		  > C3:=Curve(A,y^3-x^3*(1-x)^3*(1-11*x));
+		  > C6:=Curve(A,y^6-x^3*(1-x)^3*(1-11*x));
+		  > Genus(C2);
+		  1
+		  > Genus(C3);
+		  0
+		  > Genus(C6);
+		  3
+		  ```
+		  Hence the new part of the Jacobian $A$ of this Euler curve (quotient by the Jacobians of $C_d$ with $d\mid 6$) has dimension two . The curve $C_2$ is clearly isomorphic to the [[Legendre family]] of elliptic curves.
+		- The curve $C_6$ is actually [[hyperelliptic]]. MAGMA gives the equation
+		  ```
+		  y^2=(-2*t + 4)*x^8 + (-5*t + 16)*x^7 + (-6*t + 33)*x^6 
+		  + (-4*t + 43)*x^5 + (-t + 37)*x^4 + 21*x^3 + 7*x^2 + x
+		  ```
+		  The degree $8$ polynomial factors as
+		  ```
+		  x*(x+1)*(2*x+1)*(x^2+x+1)*((t - 2)*x^3 - 3*x^2 - 3*x - 1)
+		  ```
+		  of discriminant
+		  ```
+		  3^6*t^6*(t-1)^4
+		  ```
+		  Computing with [[MAGMA]] the decomposition of the endomorphism algebra of the Jacobian of the genus three curve. (Again we take $t=11$ as a random specialization.) Following the manual somewhat [CrvHyp_Find_Rational_Isogeny](http://magma.maths.usyd.edu.au/magma/handbook/text/1571#18138)
+		  
+		  ```
+		  > K<x> := PolynomialRing(RationalField());
+		  > C<i> := ComplexField(100);
+		  > KC<xc> := PolynomialRing(C);
+		  > f:= -18*x^8 - 39*x^7 - 33*x^6 - x^5 + 26*x^4 + 21*x^3 + 7*x^2 + x;
+		  > fC := Evaluate(f,xc);  
+		  > A:=AnalyticJacobian(fC);
+		  > R:=EndomorphismRing(A);
+		  > R1:=ChangeRing(R,GF(13));
+		  > S:=SimpleQuotientAlgebras(R1);
+		  > S;
+		  rec<recformat<SimpleQuotients: SeqEnum, DegreesOverCenters: SeqEnum, 
+		  DegreesOfCenters: SeqEnum, OrdersOfCenters: SeqEnum> | 
+		      SimpleQuotients := [
+		          Mapping from: Free associative algebra of rank 2 over GF(13) to Matrix 
+		              Algebra of degree 2 with 2 generators over GF(13),
+		          Mapping from: Free associative algebra of rank 2 over GF(13) to Matrix 
+		              Algebra of degree 1 with 2 generators over GF(13)
+		      ],
+		      DegreesOverCenters := [ 2, 1 ],
+		      DegreesOfCenters := [ 1, 1 ],
+		      OrdersOfCenters := [ 13, 13 ]>
+		  > sq:=S`SimpleQuotients;
+		  [
+		      Mapping from: Free associative algebra of rank 2 over GF(13) to Matrix 
+		      Algebra of degree 2 with 2 generators over GF(13),
+		      Mapping from: Free associative algebra of rank 2 over GF(13) to Matrix 
+		      Algebra of degree 1 with 2 generators over GF(13)
+		  ]
+		  > A1:=Image(sq[1]);
+		  > A2:=Image(sq[2]);
+		  ```
+		  The algebra $A_1$ has two generators with relations
+		  ```
+		  > A1.1^2;   
+		  [ 1  0]
+		  [ 0  1]
+		  > A1.2^2;
+		  [ 1  0]
+		  [ 0  1]
+		  > (A1.1*A1.2)^3;
+		  [12  0]
+		  [ 0 12]
+		  ```
+		  More precisely
+		  ```
+		  > u:=A1.1*A1.2;   
+		  > v:=A1.1; 
+		  > v*u*v eq u^(-1);
+		  true
+		  ```
+		  So $u,v$ generate a copy of $S_3$ and $A_1$ is the algebra in $2\times2$ matrices it generates. $A_2$ is just the ground field. This is consistent with the Jacobian of $C_6$ splitting up to isogeny as
+		  $$
+		  L_t\oplus E_t \oplus E_t',
+		  $$
+		  where $L_t$ is the [[Legendre family]], $E_t$ is the elliptic curve giving the [[HGM]] of parameters 
+		  $$
+		  \alpha=(1/6,-1/6), \qquad \beta=(1/3,-1/3)
+		  $$
+		  and $E_t'$ is its quadratic twist by $\sqrt{-3}$. Namely, $A_1$ is the endomorphism algebra of 
+		  $$
+		  E_t \oplus E_t'\sim E_t\otimes {\mathbb Q}(\zeta_3)
+		  $$
+		  and $A_2$ that of $L_t$. 
+		  Added [[Oct 26th, 2024]]: maybe the elliptic curves $E_t,E_t'$  are twisted, see the monodromy of the differential equations [below](logseq://graph/FRV-Math?block-id=6719e110-97cb-4464-b214-56d73eb14145). And the choice of Euler curve somehow has $t=0,1$ switched.
+		- Using [TraceOfFrobenius](https://frvmath.zulipchat.com/#narrow/stream/457343-sage/topic/TraceOfFrobenius/near/471459742) in sage following  [[Ariel Pacetti]]. Here $t=2$ .
+		  ```
+		  sage: E=EllipticCurve([0,0,0,-3*2^3,2^4*(2+1)]);
+		  sage: for p in prime_range(3,100):[p,E.ap(p)+kronecker(-3,p)*E.ap(p),TraceOfFrobenius(2,p,1,3,3,2,0,6)*kronecker(-1,p)]
+		  [3, 0, 0]
+		  [5, 0, 0]
+		  [7, -6, -6]
+		  [11, 0, 0]
+		  [13, -6, -6]
+		  [17, 0, 0]
+		  [19, 6, 6]
+		  [23, 0, 0]
+		  [29, 0, 0]
+		  [31, 0, 0]
+		  [37, 14, 14]
+		  [41, 0, 0]
+		  [43, 24, 24]
+		  [47, 0, 0]
+		  [53, 0, 0]
+		  [59, 0, 0]
+		  [61, -2, -2]
+		  [67, 6, 6]
+		  [71, 0, 0]
+		  [73, -30, -30]
+		  [79, -18, -18]
+		  [83, 0, 0]
+		  [89, 0, 0]
+		  [97, 18, 18]
+		  ```
+		- Continuining with the Euler curve calculation in MAGMA.
+		  ```
+		   > R:=EndomorphismRing(A);
+		   > R;
+		  Matrix Algebra of degree 6 with 2 generators over Integer Ring
+		  > R.1;
+		  [ 0  1  0  0  0  0]
+		  [ 1  0  0  0  0  0]
+		  [-1  1  1  0  0  0]
+		  [ 0  3  0  0  1 -1]
+		  [-3  0  0  1  0  1]
+		  [ 0  0  0  0  0  1]
+		  > R.2;
+		  [ 0  0  1  0 -1  2]
+		  [-1  0  0  1  0  0]
+		  [ 2 -2 -1 -2  0  0]
+		  [ 0  1  1  0 -1  2]
+		  [-1  0 -1  0  0 -2]
+		  [-1  1  0  1  0 -1]
+		  > Dimension(R);
+		  5
+		  ```
+		  Compute the center of the endomorphism algebra
+		  ```
+		  > Center(R);
+		  Matrix Algebra of degree 6 and dimension 2 over Integer Ring
+		  > Z:=Center(R);
+		  > Z.1;
+		  [1 0 0 0 0 0]
+		  [0 1 0 0 0 0]
+		  [0 0 1 0 0 0]
+		  [0 0 0 1 0 0]
+		  [0 0 0 0 1 0]
+		  [0 0 0 0 0 1]
+		  > Z.2;
+		  [ 011001]
+		  [ 011001]
+		  [ 0 -7 -4 -1 -10]
+		  [ 000000]
+		  [ 00 -311 -7]
+		  [ 03011 -4]
+		  ```
+		  Over $\mathbb Q$ .
+		  ```
+		  > Rq:=ChangeRing(R,Rationals());
+		  > Zq:=Center(Rq);
+		  > W:=2/3*Zq.2-Zq.1;
+		  > W;
+		  [ -1 2/3 2/3 0 0 2/3]
+		  [0-1/3 2/3 0 0 2/3]
+		  [0 -14/3 -11/3-2/3-2/3 0]
+		  [0 0 0-1 0 0]
+		  [0 0-2 2/3-1/3 -14/3]
+		  [0 2 0 2/3 2/3 -11/3]
+		  > W^2;
+		  [ 1 -8/3 -8/300 -8/3]
+		  [ 0 -5/3 -8/300 -8/3]
+		  [ 0 56/3 35/38/38/30]
+		  [ 000100]
+		  [ 008 -8/3 -5/3 56/3]
+		  [ 0 -80 -8/3 -8/3 35/3]
+		  > W:=-2/3*Zq.2-Zq.1;
+		  > W^2;
+		  [1 0 0 0 0 0]
+		  [0 1 0 0 0 0]
+		  [0 0 1 0 0 0]
+		  [0 0 0 1 0 0]
+		  [0 0 0 0 1 0]
+		  [0 0 0 0 0 1]
+		  > Factorization(CharacteristicPolynomial(W));
+		  [
+		  <x - 1, 2>,
+		  <x + 1, 4>
+		  ]
+		  ```
+		  Idempotents and corresponding subalgebras
+		  ```
+		  > W1:=Zq.2/(-3);
+		  > W2:=Zq.1-W1;
+		  > W1^2 eq W1;
+		  true
+		  > W2^2 eq W2;
+		  true
+		  > Rq1:=sub<Rq|[Rq.1*W1,Rq.2*W1]>;
+		  > Rq2:=sub<Rq|[Rq.1*W2,Rq.2*W2]>;
+		  > IsCommutative(Rq1);
+		  true
+		  > IsCommutative(Rq2);
+		  false
+		  > Factorization(CharacteristicPolynomial(Rq2.1));
+		  [
+		  <x - 1, 2>,
+		  <x, 2>,
+		  <x + 1, 2>
+		  ]
+		  > Factorization(CharacteristicPolynomial(Rq2.2));
+		  [
+		  <x - 1, 2>,
+		  <x, 2>,
+		  <x + 1, 2>
+		  ]
+		  > Kernel(Rq2.1);
+		  Vector space of degree 6, dimension 2 over Rational Field
+		  Echelonized basis:
+		  ( 0101/31/3 -4/3)
+		  ( 001 -1/3 -1/37/3)
+		  > Kernel(Rq2.2);
+		  Vector space of degree 6, dimension 2 over Rational Field
+		  Echelonized basis:
+		  ( 0101/31/3 -4/3)
+		  ( 001 -1/3 -1/37/3)
+		  ```
+		- Using computeomega we find the differential eqns satisfied by standard holomorphic differentials on the hyperelliptic curve $C_6$
+		  id:: 6719e110-97cb-4464-b214-56d73eb14145
+		  ```
+		  ? h0=(-2*t + 4)*x^8 + (-5*t + 16)*x^7 + (-6*t + 33)*x^6 + (-4*t + 43)*x^5 + (-t + 37)*x^4 + 21*x^3 + 7*x^2 + x;
+		  ? v1=lindep(computeomega(h0,6,1))
+		  [-15, -480*t + 168, -1000*t^2 + 872*t - 96, -448*t^3 + 640*t^2 - 192*t, -48*t^4 + 96*t^3 - 48*t^2, 0, 0]~
+		  ? v2=lindep(computeomega(h0,4,1))
+		  [-15, -480*t + 168, -1000*t^2 + 872*t - 96, -448*t^3 + 640*t^2 - 192*t, -48*t^4 + 96*t^3 - 48*t^2]~
+		  ? lindep(computeomega(h0,4,2))
+		  [-5, -28*t + 12, -12*t^2 + 12*t, 0, 0]~
+		  ```
+		  So we got lucky and the differentials 
+		  $$
+		  	  \frac{x^k}y dx
+		  $$
+		  already satisfy smaller order differential equations. We compute the corresponding local exponents.
+		  ```
+		  ? L1=sum(i=1,#v1,v1[i]*y^(i-1));L=subst(L,t,x);
+		  ? diffexponstd(L1)
+		  [[0, 0, 1, 1], [-1/3, 0, 0, 1], [1/2, 1/2, 5/6, 3/2]]
+		  ? [-5, -28*t + 12, -12*t^2 + 12*t, 0, 0]
+		  [-5, -28*t + 12, -12*t^2 + 12*t, 0, 0]
+		  ? L2=sum(i=1,#v2,v2[i]*y^(i-1));L=subst(L,t,x);
+		  -12*y^2*x^2 + (12*y^2 - 28*y)*x + (12*y - 5)
+		  ? diffexponstd(L2)
+		  [[0, 0], [-1/3, 0], [1/2, 5/6]]
+		  ```
+		  These almost match but not quite  the twist of $[1/6,-1/6],[1/3,-1/3]$ by some fraction $i/6$ with $t=0,1$ switched.
+		  ```
+		  ? [[1/6-1/6,-1/6-1/6],[1/3-1/6,-1/3-1/6]]
+		  [[0, -1/3], [1/6, -1/2]]
+		  ? [[1/6+1/6,-1/6+1/6],[1/3+1/6,1/3+1/6]]
+		  [[1/3, 0], [1/2, -1/6]]
+		  ```
+		  Try linear combinations that give elliptic integrals. Modify [[computeomega]] slightly to accept a general holomorphic form
+		  ```
+		  ? computeomega1(P,n,h=1)=my(v);v=[h/y];for(i=1,n,v=concat(v,DO(v[i],P)));v
+		  ```
+		  Then run over a box.
+		  ```
+		  ? forvec(u=vector(3,i,[-5,5]),if(content(u)==1,z=lindep(computeomega1(h0,2,u*[1,x,x^2]~))~;if(z,print(u,"   ",z,"   ",diffexponv(z)))))
+		  [-1, -2, -1]   [1, (20*t - 12), (12*t^2 - 12*t)]   [[0, 0], [0, 1/3], [1/6, 1/2]]
+		  [0, -1, -1]   [-1, (-8*t + 4), (-4*t^2 + 4*t)]   [[0, 0], [0, 0], [1/2, 1/2]]
+		  [0, 0, -1]   [5, (28*t - 12), (12*t^2 - 12*t)]   [[0, 0], [-1/3, 0], [1/2, 5/6]]
+		  [0, 0, 1]   [-5, (-28*t + 12), (-12*t^2 + 12*t)]   [[0, 0], [-1/3, 0], [1/2, 5/6]]
+		  [0, 1, 1]   [1, (8*t - 4), (4*t^2 - 4*t)]   [[0, 0], [0, 0], [1/2, 1/2]]
+		  [1, 2, 1]   [-1, (-20*t + 12), (-12*t^2 + 12*t)]   [[0, 0], [0, 1/3], [1/6, 1/2]]
+		  ```
+		  So we now see the three elliptic differentials on $C_6$. This [[@Hyperelliptic Integrals to Elliptic Integrals]] deals with precisely finding elliptic integrals on a hyperelliptic curve. Not great but worth having a look. This kind of thing was considered a fair amount in the 1800's. I'll see if I can chase some references.
+		- Checking the automorphism group of $C_6$
+		  ```
+		  > A<x,y>:=AffineSpace(Rationals(),2);
+		  > C6:=Curve(A,y^6-x^3*(1-x)^3*(1-2^13*x));
+		  > pv:=PrimesInInterval(7,50);  
+		  >  gv:=[AutomorphismGroup(ChangeRing(C6,GF(p))): p in pv];                
+		  > [Order(g): g in gv];                                    
+		  [ 336, 8, 24, 4, 6, 8, 4, 6, 48, 4, 12, 4 ]
+		  > IdentifyGroup(PermutationGroup(gv[1]));
+		  <336, 209>
+		  ```
+		  The reason for the choice $t=2^{13}$ is that
+		  ```
+		  ? factor(2^13-1)
+		  [8191 1]
+		  ```
+		  Hence the only primes of bad reduction are $2$ and $8191$ .
+		  The group could then be $C_2\times GL_3(\mathbb {F}_2)$ of order $336$ . This group has three independent involutions. So this must be like in the paper  [[@Hyperelliptic genus 3 curves with involutions and a Prym map]] and a Prym map should be relevant. In particular, there should indeed be quotients of $C_6$ of genus two.
+		  ```
+		  > G:=AutomorphismGroup(ChangeRing(C6,GF(7)));
+		  > IdentifyGroup(PermutationGroup(G));
+		  <336, 209>
+		  > G1,phi,z:=MatrixRepresentation(G);
+		  > IsIrreducible(G1);
+		  true
+		  > psi:=Inverse(phi);
+		  > sgp:=Subgroups(G1);
+		  > #sgp;
+		  40
+		  > [Order(h`subgroup): h in sgp];
+		  [ 1, 2, 2, 2, 3, 7, 4, 4, 4, 4, 4, 4, 4, 6, 6, 6, 14, 21, 
+		  8, 8, 8, 8, 8, 8, 8, 12, 12, 12, 42, 16, 24, 24, 24, 24,
+		  24, 24, 48, 48, 168, 336 ]
+		  > sgpv:=[g`subgroup: g in sgp];
+		  > ev:=[g: g in sgpv |[Order(g),Exponent(g)] eq [8,2]];
+		  > I:=ev[1];
+		  > inv:=[x : x in I| not(x eq Identity(I))];
+		  > uv:=[AutomorphismGroup(C,[psi(v)]): v in inv];
+		  > [Genus(CurveQuotient(u)) : u in uv];
+		  MatrixGroup<3, GF(7) |
+		    Matrix(GF(7), 3, 3, \[ 2, 5, 4, 6, 2, 1, 4, 2, 2 ]) >
+		  MatrixGroup<3, GF(7) |
+		    Matrix(GF(7), 3, 3, \[ 2, 6, 1, 5, 2, 4, 2, 4, 2 ]) >
+		  MatrixGroup<3, GF(7) |
+		    Matrix(GF(7), 3, 3, \[ 2, 3, 2, 3, 2, 2, 1, 1, 2 ]) >
+		  MatrixGroup<3, GF(7) |
+		    ScalarMatrix(GF(7), 3, 6) >
+		  [ 1, 1, 1, 0, 2, 2, 2 ]
+		  ```
+		- Decomposing $J(C_6)$
+		  id:: 6719e2d7-574a-4131-a00c-df049efb68e6
+		  
+		  Since $C_6$ has three independent involutions (maybe not see this [note](logseq://graph/FRV-Math?block-id=671c7d4c-7552-41b2-8995-0f182c0d7dbb)) we are indeed in the situation of [[@Hyperelliptic genus 3 curves with involutions and a Prym map]]. 
+		  
+		  They give the moduli space as a two-parameter family of
+		  genus three curves
+		  $$
+		   X_{s,t}:\qquad y^2=(x^4+2(1-2s)x^2+1)(x^4+2(1-2t)x^2+1)
+		  $$
+		  with ramification locus the zeros of 
+		  $$
+		   \Delta:=t(t-1)s(s-1)(s-t).
+		  $$
+		  This family is a double cover of the family of elliptic curves
+		  $$
+		   E_{s,t}:\qquad X_{s,t}:\qquad y^2=(x^24+2(1-2s)x+1)(x^2+2(1-2t)x+1)
+		  $$
+		  with the same ramification locus $\Delta=0$ .
+		  ```
+		  ? f=(x^2+2*(1-2*s)*x+1)*(x^2+2*(1-2*t)*x+1);
+		  ? g=jacobian(f)
+		  x^3 + ((16*t - 8)*s + (-8*t + 6))*x^2 + (16*s^2 + (32*t - 32)*s + (16*t^2 - 32*t + 12))*x + (32*s^2 - 32*s + (32*t^2 - 32*t + 8))
+		  ? e=ellinit([0,polcoeff(g,2),0,polcoeff(g,1),polcoeff(g,0)]);
+		  ? factor(e[12])
+		  [t - 1 1]
+		  - [    t 1]
+		  - [    s 1]
+		  [s - 1 1]
+		  [s - t 4]
+		  ? kod(t0,p,e)=e0=ellinit(subst(e,t,t0));elllocalred(e0,p);
+		  ? kod(101*13^2/23*19,101,e1)
+		  [1, 5, [1/23, 0, 0, 0], 1]
+		  ? kod(1-101*13^2/23*19,101,e1)
+		  [1, 5, [1/23, 0, 0, 0], 1]
+		  ? kod(11-101*13^2/23*19,101,e1)
+		  [1, 8, [1/23, 0, 0, 0], 4]
+		  ? kod(1/101*13^2/23*19,101,e1)
+		  [2, -1, [1/2323, 0, 0, 0], 4]
+		  ? v=vector(5,i,e[i])
+		  [0, (16*t - 8)*s + (-8*t + 6), 0, 16*s^2 + (32*t - 32)*s + (16*t^2 - 32*t + 12), 32*s^2 - 32*s + (32*t^2 - 32*t + 8)]
+		  ```
+		  The jacobian of $E_{s,t}$ is
+		  $$
+		   y^2=x^3+(16t - 8s -8t + 6)x^2+(16s^2 + 32st - 32s + 16t^2 - 32t + 12)x+ 32s^2 - 32s + 32t^2 - 32t + 8
+		  $$
+		- General case $[-2N,-1,-1,2,N,N]$
+		  Take $N$ an odd prime
+		  ```
+		  ? fu(N)=v=[vector(N-1,i,i/N),vector(N-1,i,i/N+1/2)];w=hgmgamma0(v[1],v[2]);[w,hgmdata(w)]
+		  ? fu(3)
+		  [[-6, -1, -1, 2, 3, 3], [[1, 1], [1/3, 2/3], [1/6, 5/6], [[0, 0, 0, 0], [-1, 0, 1, 1], [1, 0, 0, 1], [0, 0, -1, 1], [0, -1, 1, 0], [0, 1, 0, 0]]]]
+		  ? fu(5)
+		  [[-10, -1, -1, 2, 5, 5], [[2, 2], [1/5, 2/5, 3/5, 4/5], [1/10, 3/10, 7/10, 9/10], [[0, 0, 0, 0], [-1, 0, 1, 1], [1, 0, 1, 0], [0, 0, 1, -2], [0, -1, 0, 1], [0, 1, 0, 0]]]]
+		  ? fu(7)
+		  [[-14, -1, -1, 2, 7, 7], [[3, 3], [1/7, 2/7, 3/7, 4/7, 5/7, 6/7], [1/14, 3/14, 5/14, 9/14, 11/14, 13/14], [[0, 0, 0, 0], [-1, 0, 1, 1], [1, 0, 1, 2], [0, 0, 1, -2], [0, -1, 0, 1], [0, 1, 0, 0]]]]
+		  ```
+		  The corresponding polytope has width $1$ so we can reduce to a curve $C$ , which seems to have genus $N-1$ , whereas the motive has rank $N-1$ . Probably we have something similar to what happens for $N=3$ with the Jacobian of $C$ splitting as two abelian varieties of dimension $N-1$ .
+		  For $N=5$ we have
+		  ```
+		  > D:=Polytope([[0, 0, 0, 0], [-1, 0, 1, 1], [1, 0, 1, 0], [0, 0, 1, -2], [0, -1, 0, 1], [0, 1, 0, 0]]);
+		  > Width(D);
+		  1 {
+		    (0, 0, 1, 0),
+		    (0, 0, -1, 0)
+		  }
+		  > EhrhartDeltaVector(D);
+		  [ 1, 3, 6, 2, 0 ]
+		  ```
+		  Get the GKZ equation with $u=1$
+		  ```
+		  ? v=[[0, 0, 0, 0], [-1, 0, 1, 1], [1, 0, 1, 0], [0, 0, 1, -2], [0, -1, 0, 1], [0, 1, 0, 0]];
+		  ? pol=vec2pol(v,[x1,x2,x3,x4])
+		  x4^2*x3*x2*x1^2 + (x4^2*x2^2 + (x3 + x4^2)*x2 + x4^3)*x1 + x4^3*x3*x2
+		  ? polmultdeg(pol,[x1,x2,x3,x4])
+		  [2, 2, 1, 3]
+		  ? [polcoeff(pol0,x3),polcoeff(pol,1,x3)]
+		  [(x4^2*x2^2 + x4^2*x2 + x4^3)*x1, x4^2*x2*x1^2 + x2*x1 + x4^3*x2]
+		  ```
+		  Get the curve cut out by the two polynomials
+		  ```
+		  > A<x1,x2,x4>:=AffineSpace(Rationals(),3);
+		  > C:=Curve(A,[(x4^2*x2^2 + x4^2*x2 + x4^3)*x1, x4^2*x2*x1^2 + x2*x1 + x4^3*x2]);
+		  > N:=IrreducibleComponents(C);
+		  > #N;
+		  4
+		  > C:=Curve(N[1]);
+		  > Genus(C);
+		  4
+		  ```
+		- Testing Euler factors
+		  ```
+		  ? polrecognizep(hgmfrob(2,[1/5, 2/5, 3/5, 4/5], [1/10, 3/10, 7/10, 9/10],7))*49
+		   x^4 + 2*x^3 + 2*x^2 + 14*x + 49
+		  ? polrecognizep(hgmfrob(2,[1/5, 2/5, 3/5, 4/5], [1/10, 3/10, 7/10, 9/10],11)*11^2)
+		   x^4 - x^3 + x^2 - 11*x + 121
+		  ```
+		  Compare to MAGMA
+		  ```
+		  > r<x>:=PolynomialRing(Rationals());
+		  > function HEeulfac(f,p);
+		  function>  P<x> := PolynomialRing(RationalField());
+		  function>  C:=HyperellipticCurve([f,0]);
+		  function>  C:=MinimalWeierstrassModel(C);J:=Jacobian(C);
+		  function>  return Factorization(EulerFactor(J,GF(p))); end
+		  function> function;
+		  > HEeulfac(x^5 + 5*x^4 - 10*x^3 + 10*x^2 - 5*x + 1,7);
+		  [
+		      <49*x^4 + 14*x^3 + 2*x^2 + 2*x + 1, 1>
+		  ]
+		  1
+		  > HEeulfac(x^5 + 5*x^4 - 10*x^3 + 10*x^2 - 5*x + 1,11);
+		  [
+		      <121*x^4 - 11*x^3 + x^2 - x + 1, 1>
+		  ```
+	- type:: [[note]]
+	  kind:: [[Math]]
+	  title:: Reduction of hyperelliptic curves to elliptic
+	  author:: [[Fernando Rodriguez Villegas]]
+	  project:: [[HGM]]
+	  tags:: 
+	  date:: [[Oct 25th, 2024]]
+	  collapsed:: true
+		- There is a long history of this type of question starting with Jacobi. This thesis from 1857 (Hutchinson a student of [[Oscar Bolza]] in Chicago) [[@On the reduction of hyperelliptic functions (p=2) to elliptic functions, by a transformation of the second degree ...]] works out the genus two case reduction by degree two. Other work on this: [[@Ueber die Reduction hyperelliptischer Integrale auf elliptische]] 
+		  
+		   This paper works out the reduction of degree 2 and 3 in genus 3.
+		  [[@On the Reduction of Hyperelliptic Integrals (p =3) to Eltiptic Integrals by Transformations of the Second and Third Degrees.]]
+		  ((671b4904-f3c1-495e-8616-14824efdf582))
+		  ((671b490d-15eb-4b9f-997f-3a5325642d41))
+		  Our case should correspond to this row on his table
+		  ![Screenshot 2024-10-25 at 09.42.08.png](../assets/Screenshot_2024-10-25_at_09.42.08_1729842166227_0.png)
+		  ![Screenshot 2024-10-25 at 09.41.57.png](../assets/Screenshot_2024-10-25_at_09.41.57_1729842175752_0.png)
+	- id:: 671c7d4c-7552-41b2-8995-0f182c0d7dbb
+	  type:: [[note]]
+	  kind:: [[Math]]
+	  title:: Integral representations with gamma vector $[-6,-1,-1,2,3,3]$ 2
+	  author:: [[Fernando Rodriguez Villegas]]
+	  project:: [[HGM]]
+	  tags::
+	  date:: [[Oct 26th, 2024]]
+	  collapsed:: true
+		- The degree $8$ polynomial becomes quite simple after changes of variable
+		  ```
+		  ? h0
+		  (-2*t + 4)*x^8 + (-5*t + 16)*x^7 + (-6*t + 33)*x^6 + (-4*t + 43)*x^5 + (-t + 37)*x^4 + 21*x^3 + 7*x^2 + x
+		  ? h=subst(h0,x,1/x)*x^8
+		  x^7 + 7*x^6 + 21*x^5 + (-t + 37)*x^4 + (-4*t + 43)*x^3 + (-6*t + 33)*x^2 + (-5*t + 16)*x + (-2*t + 4)
+		  ? h=subst(h,x,x-1)
+		  x^7 + (-t + 2)*x^4 + (-t + 1)*x
+		  ```
+		  Now we can make the change of variables
+		   $$
+		  (x,y)\mapsto ((1-t)^{1/6}x, (1-t)^{7/12}y)
+		  $$
+		  and get the curve
+		  $$
+		  C:\qquad y^2=x(x^6+ax^3+1), \qquad \qquad a=(2-t)/(1-t)^{1/2}.
+		  $$
+		  This curve has the involution
+		  $$
+		  \iota:\quad (x,y)\mapsto (1/x,y/x^4).
+		  $$
+		  We now find an equation for the quotient curve $E:=C/\langle\iota\rangle$.
+		  
+		  Two rational functions fixed by $\iota$ are: $x_1:=x+1/x$ and $y_1:=y(1+1/x^4)$. We have
+		  $$
+		  y_1^2=y^2(1+1/x^4)^2=(x^{14} + ax^{11} + 2x^{10} + x^8 + 2ax^7 + x^6 + 2x^4 + ax^3 + 1)/x^7.
+		  $$
+		  We write the righthand side as a polynomial $h_1(x_1)$ and find
+		  $$
+		  h_1(x)=x^7 - 7x^5 + ax^4 + 16x^3 - 4ax^2 - 12x + 4a
+		  $$
+		  
+		  Here we used the following [[GP]] code
+		  ```
+		  \\ Write symmetric Laurent polynomial in x <--> 1/x as a polynomial in
+		  \\ x+1/x
+		  
+		  pold(pol)=
+		  {
+		          local(z,k,f);
+		  
+		          if(pol == subst(pol,x,1/x),
+		  
+		               until(pol == 0,
+		  
+		                         k=poldegree(pol);
+		                         z=polcoeff(pol,k);
+		  
+		                         f+=z*x^k;
+		                         pol-=z*(x+1/x)^k);
+		                  return(f),
+		                  return(pol))
+		  ;}
+		  
+		  \\ Version of Chebyshev polynomials
+		  
+		  cheb(N)=pold(x^N+1/x^N);
+		  ```
+		  In fact, $h_1$ factors as 
+		  $$
+		  h_1(x)=(x^2 - 2)^2(x^3 - 3x + a).
+		  $$
+		  So $E$ is the elliptic curve
+		  $$
+		  E: \qquad y^2=x^3 - 3x + a
+		  $$
+		  I followed the similar calculations in this note [[@aut3g2]]
+		  ((671c850c-0709-47c6-82bb-44c936897091))
+		  There is another quotient of $C$ obtained as the quotient $D:=C/\langle\rho\iota\rangle$, where $\rho$ is the hyperelliptic involution. Fixed functions are $x_2:=x+1/x,y_2:=y(1-1/x^4)$. We have
+		  $$
+		  y_2^2=x(x^6+ax^3+1)(1-1/x^4)^2
+		  =(x^{14} + ax^{11} - 2x^{10} + x^8 - 2ax^7 + x^6 - 2x^4 + ax^3 + 1)/x^7
+		  $$
+		  Writing the righthand side as $h_2(x)$ we find
+		  $$
+		  h_2(x)=x^7 - 7x^5 + ax^4 + 12x^3 - 4ax^2,
+		  $$
+		  which factors as:
+		  $$
+		  h_2(x)=x^2(x-2)(x+2)(x^3 - 3x + a).
+		  $$
+		  Hence $D$ is a curve of genus two with equation
+		  $$
+		  D:\qquad y^2=(x-2)(x+2)(x^3 - 3x + a).
+		  $$
+		  Probably this reduction works here:
+		  ((671caf69-11c9-4f01-8387-4ce21c6a2b8a))
+		  
+		  We first set $a=2(1-2u)$ above so that the singularities are $u=0,1,\infty$. Normalize
+		  ```
+		  ? g=(x^2-a)*(8*x^3-6*a*x-b);
+		  ? g=subst(g,x,x/2)*4
+		  x^5 - 7*a*x^3 - b*x^2 + 12*a^2*x + 4*b*a
+		  ? factor(substvec(g,[a,b],[1,4*u-2]))
+		  [                 x - 2 1]
+		  [                 x + 2 1]
+		  [x^3 - 3*x + (-4*u + 2) 1]
+		  ```
+		  This example is just straight from [[Charles Hermite]]'s paper [[@Sur un exemple de réduction d'intégrales abéliennes, aux fonctions elliptiques]]
+		  ((671cc3ce-518d-4e0a-bfcc-a9042026cc93))
+		- We then get degree three maps to the following elliptic curves
+		  $$
+		  E_1: \qquad y^2=x^3 -3x -4u + 2, \qquad \qquad 
+		  E_2: \qquad y^2=x^3 + (-4u+ 2)x^2 - 4x + 16u - 8
+		  $$
+		  The curve $E_1$ is isomorphic to $E$ we found above.
+		  ```
+		  ? a=1;b=4*u-2;
+		  ? f1=(2*a*x-b)*(x^2-a);f2=x^3-3*a*x-b;
+		  ? f1=subst(4*f1,x,x/2)
+		  ? e1=ellinit([0,polcoeff(f1,2),0,polcoeff(f1,1),polcoeff(f1,0)]);
+		  ? e2=ellinit([0,polcoeff(f2,2),0,polcoeff(f2,1),polcoeff(f2,0)]);
+		  ? d1=e1[12];
+		  ? factor(content(d1))
+		  [2 16]
+		  ? factor(d1)
+		  [u - 1 2]
+		  [    u 2]
+		  ? d2=e2[12];
+		  ? factor(content(d2))
+		  [2 8]
+		  [3 3]
+		  ? factor(d2)
+		  [u - 1 1]
+		  [    u 1]
+		  ```
+		  These families have the following [[Picard-Fuchs]] equations
+		  ```
+		  \\ Set t for u for calculating
+		  
+		  ? v1=lindep(computeomega(f1,2))
+		  [-1, -8*t + 4, -4*t^2 + 4*t]~
+		  ? diffexponstdv(v1)
+		  [[0, 0], [0, 0], [1/2, 1/2]]
+		  ? v2=lindep(computeomega(f2,2))
+		  [5, 72*t - 36, 36*t^2 - 36*t]~
+		  ? diffexponstdv(v2)
+		  [[0, 0], [0, 0], [1/6, 5/6]]
+		  ```
+		  It seems we don't really have the case of three independent involutions as suggested in the previous [note](logseq://graph/FRV-Math?block-id=6719e2d7-574a-4131-a00c-df049efb68e6)
