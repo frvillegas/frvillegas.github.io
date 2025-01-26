@@ -3,7 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-11-15T10:00:09+02:00</lastmod>
+    <lastmod>2025-01-26T10:00:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/food/</loc>
+    <lastmod>2025-01-26T10:00:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/writing/how-to-eat-a-maritozzo/</loc>
+    <lastmod>2025-01-26T10:00:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-01-26T10:00:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-01-26T10:00:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/writing/</loc>
+    <lastmod>2025-01-26T10:00:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/writing/</loc>
+    <lastmod>2025-01-26T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/cooking/</loc>
     <lastmod>2024-11-15T10:00:09+02:00</lastmod>
@@ -11,16 +29,10 @@
     <loc>http://localhost:1313/cooking/</loc>
     <lastmod>2024-11-15T10:00:09+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-15T10:00:09+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/cooking/mushrooms-blue-cheese/</loc>
     <lastmod>2024-11-15T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/pasta/</loc>
-    <lastmod>2024-11-15T10:00:09+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-11-15T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/cooking/pasta-verde/</loc>
@@ -75,12 +87,6 @@
     <lastmod>2024-09-18T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writing/two-nights-at-cattinara/</loc>
-    <lastmod>2024-09-18T10:00:09+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/writing/</loc>
-    <lastmod>2024-09-18T10:00:09+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/writing/</loc>
     <lastmod>2024-09-18T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/photography/mfo/</loc>

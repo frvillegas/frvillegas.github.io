@@ -3,6 +3,7 @@ title: "Cooking"
 omit_header_text: true
 description: ""
 summary-with-image: true
+featured_image: "/images/cooking.jpeg"
 theme_version: '2.8.2'
 ---
 

@@ -4,7 +4,7 @@ omit_header_text: true
 description: ""
 showtoc: true
 cascade:
-featured_image: '/images/siteimages/math-life.jpg'
+featured_image: '/images/writing.jpeg'
 ---
 
 I started a [blog](https://frvillegas.wordpress.com/) on Wordpress in

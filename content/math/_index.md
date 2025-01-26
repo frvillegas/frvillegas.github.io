@@ -1,11 +1,8 @@
 ---
 title: "Math"
-#featured_image: "/images/Gauss-10-mark.jpg"
-#featured_image: '/images/siteimages/math-life.jpg'
+featured_image: "/images/math.jpeg"
 omit_header_text: true
 description: ""
-#layout: "main-list"
-type: "list-page"
 ---
 
 This section contains all things related to Mathematics.

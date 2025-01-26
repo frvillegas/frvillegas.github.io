@@ -403,6 +403,30 @@
     "volume": "88"
   },
   {
+    "URL": "https://arxiv.org/pdf/math/0612666",
+    "author": [
+      {
+        "family": "Rodriguez-Villegas",
+        "given": "Fernando"
+      }
+    ],
+    "collection-title": "Lecture notes in comput. sci.",
+    "container-title": "Algorithmic number theory (Leiden, 2000)",
+    "id": "MR1850629",
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "page": "505-513",
+    "publisher": "Springer, Berlin",
+    "title": "Explicit models of genus 2 curves with split CM",
+    "type": "chapter",
+    "volume": "1838"
+  },
+  {
     "URL": "pdf/frv-1047477112",
     "author": [
       {
@@ -811,7 +835,7 @@
     "volume": "198"
   },
   {
-    "URL": "https://arxiv.org/pdf/0701362",
+    "URL": "https://arxiv.org/pdf/math/0701362",
     "author": [
       {
         "family": "Rodriguez Villegas",
