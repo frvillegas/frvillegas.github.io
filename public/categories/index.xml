@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Math Life</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Nov 2024 10:00:09 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jan 2025 10:00:09 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writing</title>
+      <link>http://localhost:1313/categories/writing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/writing/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Cooking</title>
       <link>http://localhost:1313/categories/cooking/</link>
@@ -27,13 +34,6 @@
       <link>http://localhost:1313/categories/photography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/photography/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Writing</title>
-      <link>http://localhost:1313/categories/writing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/writing/</guid>
       <description></description>
     </item>
     <item>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Travel on Math Life</title>
+    <link>http://localhost:1313/tags/travel/</link>
+    <description>Recent content in Travel on Math Life</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Jan 2025 10:00:09 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/travel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Belluno</title>
+      <link>http://localhost:1313/writing/belluno/</link>
+      <pubDate>Sun, 26 Jan 2025 10:00:09 +0200</pubDate>
+      <guid>http://localhost:1313/writing/belluno/</guid>
+      <description>En Belluno para el famoso PET. Casi cuatro horas de tren desde Trieste. Lindo paisaje de montaña, nieve en las cimas a lo lejos.&#xA;Belluno bonita en el sol brillante y el aire límpido. Claramente del Veneto, extraño Venezia en las montañas. Piazza dei Martiri antes fuera delle mura de la ciudad. Un cono de nieve sucia a la sombra de unos árboles en la plaza. Piazza arcuata, edificios en curva a 92 m de la muralla, dos metros mas que el alcance de los arcabuses de lacépoca.</description>
+    </item>
+  </channel>
+</rss>
