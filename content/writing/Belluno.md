@@ -8,7 +8,7 @@ tags: ["Travel"]
 categories: ["Writing"]
 ---
 
-En Belluno para el famoso PET. Casi cuatro horas de tren desde
+En Belluno para el bendito PET. Casi cuatro horas de tren desde
 Trieste. Lindo paisaje de montaña, nieve en las cimas a lo lejos.
 
 Belluno bonita en el sol brillante y el aire límpido. Claramente del
@@ -21,7 +21,7 @@ camarón pero mas grande y del Adriatico), panna cotta con coulis de
 *lamponi*, café.
 
 En la oficina de turismo agarré un mapa de Belluno y un
-folleto. Pregunté como llegar al hospital y me dijeron que  tome la línea rosa de bus, cerca de la estación, algo sobre el semáforo. Me llamo la atención que  fuera un punto de referencia el semáforo. Pero al cruzar la calle esperé como hacían todos, no *jay walking here*, y tomó horas. Perdí un bus que  igual se llenó de chicos que  salían del
+folleto. Pregunté como llegar al hospital y me dijeron que  tome la línea rosa de bus, cerca de la estación, algo sobre el semáforo. Me llamo la atención que  fuera un punto de referencia el semáforo. Pero al cruzar la calle esperé como hacían todos, *no jay walking here*, y tomó horas. Perdí un bus que  igual se llenó de chicos que  salían del
 colegio. Los vi subir de a montones desde lejos, del otro lado del
 semáforo. El próximo bus era en media hora. Decidí esperar.
 
@@ -47,7 +47,7 @@ provincia, 5000 alumnos, 30 buses, todo los dias.
 Llama alguien y escucho toda la conversación, quiere arreglar para
 mañana, quizás también va al hospital, tiene algún appointment. Le
 pregunta si era el taxista de Belluno, si recuerda q lo llevó hace
-unos dias. Si recuerda dice, quien sabe pienso ahora. Quizás sea
+unos dias. Si, recuerda dice, quien sabe pienso ahora. Quizás sea
 efectivamente el único taxista de Belluno de hecho.  El que  llamó
 parecía nervioso que  no estuviera el taxi mañana, la conversación mucho mas larga de lo necesario. El taxista cortés pero ya quería colgar.
 
@@ -70,7 +70,7 @@ Espero a que  el fármaco se distribuya por el cuerpo. Me pide el
 enfermero una cortesía, que  cuando haga pis lo haga sentado. Me
 preguntaba porque, algo sobre la presión en la vejiga? En realidad,
 teniendo pis radioactivo mejor que  no vaya por todos lados, sobretodo
-los de estos hombres con problemas de próstata y control de la vejiga
+el de estos hombres con problemas de próstata y control de la vejiga
 dudoso.
 
 El médico me pregunta donde queda mi casa cuando chequea donde vivo,
@@ -96,6 +96,6 @@ problemas técnicos.
 
 Tengo tiempo de llegar a uno de los últimos trenes (con dos cambios)
 que llega a Trieste cerca de las 11pm. Saliendo del hospital llamo al
-taxista que no contesta. Decido caminar a la estación que resulto
+taxista que no contesta. Decido caminar a la estación que resultó
 estar a solo a cinco minutos.
   

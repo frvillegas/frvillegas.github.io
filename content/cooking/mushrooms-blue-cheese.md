@@ -10,7 +10,8 @@ categories = ['Cooking']
 I am not sure where I got this from. I do remember my aunt, the writer
 Alicia Plante, back in Buenos Aires, mentioning a recipe of baked fish
 with blue cheese that I prepared a few times. In the US I adapted it
-using big mushrooms instead of fish. But maybe I got the idea somewhere. 
+using big mushrooms instead of fish. But maybe I got the idea
+somewhere else. 
 
 
 # 1
