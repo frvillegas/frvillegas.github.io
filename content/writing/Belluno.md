@@ -28,7 +28,7 @@ semáforo. El próximo bus era en media hora. Decidí esperar.
 De golpe empezaron a llegar cientos de adolescentes que  caminaban hacia la estación. Algunos quedaron en la parada donde yo estaba. Como
 bandadas de pájaros, caminando con determinación, en grupos, algunos
 fumando o vaping, algunas mechas de pelo azul o verde, grupos de
-muchachos en gran sintonía de testosterona. Pensaba en como seria cada
+muchachos en gran sintonía de testosterona. Pensaba en como sería cada
 uno, los populares, los *bullyers*, queriendo marcar su territorio,
 queriendo pertenecer.
 
@@ -46,8 +46,8 @@ provincia, 5000 alumnos, 30 buses, todo los dias.
 
 Llama alguien y escucho toda la conversación, quiere arreglar para
 mañana, quizás también va al hospital, tiene algún appointment. Le
-pregunta si era el taxista de Belluno, si recuerda q lo llevó hace
-unos dias. Si, recuerda dice, quien sabe pienso ahora. Quizás sea
+pregunta si era el taxista de Belluno, si recuerda que lo llevó hace
+unos dias. Si, recuerda, dice, quien sabe pienso ahora. Quizás sea
 efectivamente el único taxista de Belluno de hecho.  El que  llamó
 parecía nervioso que  no estuviera el taxi mañana, la conversación mucho mas larga de lo necesario. El taxista cortés pero ya quería colgar.
 
@@ -97,5 +97,5 @@ problemas técnicos.
 Tengo tiempo de llegar a uno de los últimos trenes (con dos cambios)
 que llega a Trieste cerca de las 11pm. Saliendo del hospital llamo al
 taxista que no contesta. Decido caminar a la estación que resultó
-estar a solo a cinco minutos.
+estar a solo cinco minutos.
   

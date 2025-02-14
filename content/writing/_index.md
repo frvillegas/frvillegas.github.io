@@ -23,5 +23,8 @@ site. Below you can find some the short posts I wrote for the blog
 that I feel are worth keeping. The earliest of these posts is [Dancing
 Numbers]({{< relref "dancing-numbers" >}} "").
 
+I am also adding the occasional bits of writing I have been working on
+since. 
+
 
 
