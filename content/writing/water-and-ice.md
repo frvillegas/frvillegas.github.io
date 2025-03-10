@@ -51,7 +51,7 @@ llueva o truene, barro o polvo.
 Siempre que la pelota no flote.
 
 
-Borges de jóven en musculosa tomando mate.
+Borges de joven en musculosa tomando mate.
 
 Lee su poema:
 

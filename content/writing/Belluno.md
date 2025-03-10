@@ -21,7 +21,11 @@ camarón pero mas grande y del Adriatico), panna cotta con coulis de
 *lamponi*, café.
 
 En la oficina de turismo agarré un mapa de Belluno y un
-folleto. Pregunté como llegar al hospital y me dijeron que  tome la línea rosa de bus, cerca de la estación, algo sobre el semáforo. Me llamo la atención que  fuera un punto de referencia el semáforo. Pero al cruzar la calle esperé como hacían todos, *no jay walking here*, y tomó horas. Perdí un bus que  igual se llenó de chicos que  salían del
+folleto. Pregunté como llegar al hospital y me dijeron que tome la
+línea *rossa* de bus, cerca de la estación, algo sobre el semáforo. Me
+llamo la atención que fuera un punto de referencia el semáforo. Pero
+al cruzar la calle esperé como hacían todos, *no jay walking here*, y
+tomó horas. Perdí un bus que igual se llenó de chicos que salían del
 colegio. Los vi subir de a montones desde lejos, del otro lado del
 semáforo. El próximo bus era en media hora. Decidí esperar.
 
@@ -56,12 +60,12 @@ a que  arranque la *machinetta*. Le digo que lo llamaría al salir del
 hospital para la vuelta.
 
 Los buses los había notado al bajar del tren. Pensé que  serían para
-turistas, excursiones, habiendo tantas montanas. Todos estacionados en
+turistas, excursiones, habiendo tantas montañas. Todos estacionados en
 un gran espacio saliendo de la estación. Espacio rodeado de negocios que me hacían acordar a estaciones de bus de Argentina, la de Retiro o
 Necochea. Un ambiente algo misterioso, negocios que  no tienen que  hacer mucho esfuerzo apara atraer clientes. Ya están ahí.
 
-Me preguntan solo la altura y el peso, ni siquiera que  muestre la
-tessera sanitaria. Espero que  me inyecten el fármaco. Suero en la
+Me preguntan solo la altura y el peso, ni siquiera que muestre la
+*tessera sanitaria*. Espero que me inyecten el fármaco. Suero en la
 vena. Radio Montecarlo, la radio italiana, un clásico.
 
 Todo el mundo muy amable. El enfermero me dice al ponerme la sonda: *Voi di Trieste avete una marcia in più.* No se en reacción a que  exactamente, algo que  hice o dije al arremangarme la camisa y el sweater. Vivillos urbanos?
@@ -91,7 +95,7 @@ ojos amarillos, la casa en la playa, la olla con el gumbo.
 Gran discusión de como me mandan los resultados. El medico ofrece
 hacer el *referto* cuando termine el examen si tengo la paciencia de
 esperar. Espero. No tarda mas de media hora y esta entre sorprendido y
-aliviado que grabar las imágenes en el diskette fue rápido y sin
+aliviado que grabar las imágenes en el CD fue rápido y sin
 problemas técnicos.
 
 Tengo tiempo de llegar a uno de los últimos trenes (con dos cambios)

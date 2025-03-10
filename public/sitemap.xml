@@ -3,19 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-02-14T10:00:09+02:00</lastmod>
+    <lastmod>2025-03-10T10:00:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/cooking/</loc>
+    <lastmod>2025-03-10T10:00:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/cooking/</loc>
+    <lastmod>2025-03-10T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-02-14T10:00:09+02:00</lastmod>
+    <lastmod>2025-03-10T10:00:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/cooking/scoplit-pesto/</loc>
+    <lastmod>2025-03-10T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writing/water-and-ice/</loc>
-    <lastmod>2025-02-14T10:00:09+02:00</lastmod>
+    <lastmod>2025-02-13T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/writing/</loc>
-    <lastmod>2025-02-14T10:00:09+02:00</lastmod>
+    <lastmod>2025-02-13T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writing/</loc>
-    <lastmod>2025-02-14T10:00:09+02:00</lastmod>
+    <lastmod>2025-02-13T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writing/belluno/</loc>
     <lastmod>2025-02-04T10:00:09+02:00</lastmod>
@@ -31,12 +40,6 @@
   </url><url>
     <loc>http://localhost:1313/writing/how-to-eat-a-maritozzo/</loc>
     <lastmod>2025-01-26T10:00:09+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/cooking/</loc>
-    <lastmod>2024-11-15T10:00:09+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/cooking/</loc>
-    <lastmod>2024-11-15T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/cooking/mushrooms-blue-cheese/</loc>
     <lastmod>2024-11-15T10:00:09+02:00</lastmod>
