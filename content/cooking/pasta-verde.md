@@ -16,12 +16,12 @@ the various steps follow those for cooking a risotto.
 
 # 1
 Start preparing about an hour in advance a thick broth to use to
-cook the pasta. Include carrots is small cubes, some chopped greens
+cook the pasta. Include carrots in small cubes, some chopped greens
 (cicoria, leek greens, etc.). The crucial ingredients are: a few
 tablespoons of cooked chickpeas (from a can) and a few pieces of dry
-sourdough bread. These will give the broth and later the pasta its
-creamy texture as well as adding to the flavor. Let it cook for
-45'-60' in total.
+sourdough bread, crust and all. These will give the broth and later
+the pasta its creamy texture as well as adding to the flavor. Let it
+cook for 45'-60' in total.
 
 {{< figure src="/images/pasta-verde-1.jpg" >}}
 

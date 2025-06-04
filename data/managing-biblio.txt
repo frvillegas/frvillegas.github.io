@@ -1,3 +1,4 @@
-Edit the *.bib file and then run the command below
+Edit the *.bib file and then run the command below to convert it to
+json which is what the hugo software uses for the website
 
 pandoc frv-bibliography.bib -t csljson -o bibliography.json 

@@ -37,14 +37,14 @@ delicate and I prefer to just make a pesto.
 Another, delicate and interesting herb I bought at the market
 (grazie [Matteo](https://www.ortofelicebio.com/)!)
 is *erba
-stella* (*Plantago coronopus* in Latin, *minutina* or *Buckshorn
+stella* (*Plantago coronopus* in Latin, *minutina* or *buckshorn
 Plantain* in English).
 
 {{< figure src="/images/erba-stella.jpg" >}}
 {{< figure src="/images/440px-Plantago_coronopus_Sturm64.jpg" >}}
 
 Both scoplit and minutina are native to Europe, northern Africa and
-parts of Asia, though it has been introduced in many other areas.
+parts of Asia, though they have been introduced in many other areas.
 
 Looking at the photos of these plants in the wild I will admit that
 not that long ago I would have never imagined eating them (*del baldío
