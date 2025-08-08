@@ -32,7 +32,7 @@ Right after Arthur’s pass the train goes through the Otira tunnel. a 8.5 km in
 
 The town existence owns a lot to the building of this tunnel and the running of the trains. One thing I learned about trains is that in the age of steam locomotives they had to be turned around as they couldn’t really push a train backwards. How did they do this? With a turntable. You can still see the one in Arthur’s pass.
 
-{{< figure src="/images/nz-2-5.webp">}}
+{{< figure src="/images/nz-2-5.jpg">}}
 
 My only regret from my visit is not to have sent a letter from Arthur’s pass.
 

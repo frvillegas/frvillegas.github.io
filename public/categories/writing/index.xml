@@ -6,8 +6,22 @@
     <description>Recent content in Writing on Math Life</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Feb 2025 10:00:09 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jul 2025 10:00:09 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Zealand II: Arthur&#39;s Pass</title>
+      <link>http://localhost:1313/writing/new-zealand-2/</link>
+      <pubDate>Sun, 27 Jul 2025 10:00:09 +0200</pubDate>
+      <guid>http://localhost:1313/writing/new-zealand-2/</guid>
+      <description>New Zealand is a wild place.&#xA;As far as we know humans only settled in New Zealand in the 13th century AD. They were Polynesians who came in canoes from small Pacific islands far away to the East. There were no land mammals except for some small bats. The Polynesians brought with them rats and dogs and various crops, some of which grew in New Zealand and became staple foods (including, famously, kūmara, the sweet potato, a major historical puzzle).</description>
+    </item>
+    <item>
+      <title>New Zealand I: Christchurch</title>
+      <link>http://localhost:1313/writing/new-zealand-1/</link>
+      <pubDate>Sun, 20 Jul 2025 10:00:09 +0200</pubDate>
+      <guid>http://localhost:1313/writing/new-zealand-1/</guid>
+      <description>It’s now about two weeks since I arrived in Christchurch, New Zealand. I am here as an Erskine Fellow teaching the first half of an undergraduate course on Coding Theory at the University of Canterbury.&#xA;The city is quite large and very spread out. It reminds me in different ways of both the UK and the US. Not having a car is fairly limiting though the bus system is good. Everyone gives a big “Thank you!</description>
+    </item>
     <item>
       <title>Water and Ice</title>
       <link>http://localhost:1313/writing/water-and-ice/</link>
