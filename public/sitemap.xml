@@ -17,10 +17,31 @@
     <loc>http://localhost:1313/writing/</loc>
     <lastmod>2025-11-01T10:00:09+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/writing/new-zealand-2/</loc>
-    <lastmod>2025-07-27T10:00:09+02:00</lastmod>
+    <loc>http://localhost:1313/categories/math/</loc>
+    <lastmod>2025-10-27T12:36:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/math/</loc>
+    <lastmod>2025-10-27T12:36:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/motives/</loc>
+    <lastmod>2025-10-27T12:36:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ramanujan/</loc>
+    <lastmod>2025-10-27T12:36:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/math/research-talks/2025-uruguay/</loc>
+    <lastmod>2025-10-27T12:36:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/research-talk/</loc>
+    <lastmod>2025-10-27T12:36:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/math/research-talks/</loc>
+    <lastmod>2025-10-27T12:36:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-10-27T12:36:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/writing/new-zealand-2/</loc>
     <lastmod>2025-07-27T10:00:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/travel/</loc>
@@ -75,9 +96,6 @@
     <lastmod>2024-10-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/math/</loc>
-    <lastmod>2024-10-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/math/</loc>
     <lastmod>2024-10-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/math-notes/</loc>
@@ -138,9 +156,6 @@
     <lastmod>2024-07-19T12:36:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/math/hgm/hgm/</loc>
-    <lastmod>2024-07-19T12:36:09+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/math/</loc>
     <lastmod>2024-07-19T12:36:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writing/hamilton/</loc>
@@ -213,12 +228,6 @@
     <lastmod>2019-06-17T12:36:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/math/research-talks/duke-conf/</loc>
-    <lastmod>2019-06-17T12:36:09+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/research-talk/</loc>
-    <lastmod>2019-06-17T12:36:09+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/math/research-talks/</loc>
     <lastmod>2019-06-17T12:36:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/zurich/</loc>

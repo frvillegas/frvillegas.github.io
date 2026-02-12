@@ -6,8 +6,15 @@
     <description>Recent content in Math on Math Life</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Jul 2024 12:36:09 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 27 Oct 2025 12:36:09 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ramanujan Motives</title>
+      <link>http://localhost:1313/math/research-talks/2025-uruguay/</link>
+      <pubDate>Mon, 27 Oct 2025 12:36:09 +0200</pubDate>
+      <guid>http://localhost:1313/math/research-talks/2025-uruguay/</guid>
+      <description>These are the slides of my (online) talk at the 2025 meeting &amp;ldquo;VIII Encuentro Regional de Teoría de Números&amp;rdquo; held at La Rocha, Uruguay.</description>
+    </item>
     <item>
       <title>HGM</title>
       <link>http://localhost:1313/math/hgm/hgm/</link>
